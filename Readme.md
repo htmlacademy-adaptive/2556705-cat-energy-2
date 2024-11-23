@@ -1,7 +1,8 @@
 # Личный проект «Кэт энерджи»
 
 * Студент: [Ваня Кириллов](https://up.htmlacademy.ru/adaptive-individual/2/user/2556705).
-* Наставник: `Неизвестно`.
+* Наставник: Оксана Вайнруб https://htmlacademy.ru/profile/id166797
+* Сайт Мой сайт Cat Energy https://github.com/Ivan-Kirillov/2556705-cat-energy-2.git
 
 ---
 
