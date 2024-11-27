@@ -17,7 +17,11 @@
       <div class="container">
         <nav class="navigation">
           <a class="navigation__logo logo" href="index.html">
-            <img class="logo__pic" src="images/logo-cat-energy-pic.svg" width="33" height="38" alt="Логотип Cat-Energy">
+            <picture>
+              <source media="(min-width: 1440px)" width="70" height="59"  type="image/svg+xml" srcset="images/logo-pic-desktop.svg">
+              <source media="(min-width: 768px)" width="60" height="50" type="image/svg+xml" srcset="images/logo-pic-tablet.svg">
+              <img class="logo__pic" src="images/logo-pic-mobile.svg" width="33" height="38" alt="Логотип Cat-Energy">
+            </picture>
           </a>
           <a class="navigation__logo logo" href="index.html">
             <img class="logo__text" src="images/logo-cat-energy-text.svg" width="101" height="18" alt="Энергия для котов">
@@ -60,7 +64,11 @@
           <button class="hero__button button" type="button">
             Подобрать программу
           </button>
-          <img class="hero__image" src="images/cat-food.png" width="280" height="270" alt="Полезное питание для котов">
+          <picture>
+            <source media="(min-width: 1440px)" srcset="images/cat-food-desktop@1x.png 1x, images/cat-food-desktop@2x.png 2x" width="552" height="499" type="image/png">
+            <source media="(min-width: 768px)" srcset="images/cat-food-tablet@1x.png 1x, images/cat-food-tablet@2x.png 2x" type="image/png">
+            <img class="hero__image" src="images/cat-food-mobile@1x.png 1x" srcset="images/cat-food-mobile@2x.png" width="280" height="270" alt="Полезное питание для котов">
+          </picture>
         </div>
       </section>
       <section class="programs">
@@ -157,9 +165,16 @@
             15 000 РУБ.
           </span>
         </div>
+        <!-- ! Cat-picturies -->
         <div class="example-demo demo">
-          <img src="images/cat-card-1.png" width="140" height="256" alt="cat-card-1">
-          <img src="images/cat-card-2.png" width="280" height="256" alt="cat-card-2">
+          <picture>
+            <source media="(min-width: 768px)" srcset="images/cat-fat-tablet@1x.png 1x, images/cat-fat-tablet@2x.png 2x" width="560" height="512" type="image/png">
+            <img src="images/cat-fat-mobile@1x.png 1x" srcset="images/cat-fat-mobile@2x.png 2x" width="280" height="256" alt="Упитанная кошка">
+          </picture>
+          <picture>
+            <source media="(min-width: 768px)" srcset="images/cat-thin-tablet@1x.png 1x, images/cat-thin-tablet@2x.png 2x" width="560" height="512" type="image/png">
+            <img src="images/cat-thin-mobile@1x.png 1x" srcset="images/cat-thin-mobile@2x.png 2x" width="280" height="256" alt="Худая кошка">
+          </picture>
           <button class="tumbler" type="button" aria-label="Тумблер"></button>
         </div>
       </section>
