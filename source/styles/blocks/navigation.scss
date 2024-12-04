@@ -1,7 +1,13 @@
 .navigation{
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   list-style-type: none;
+}
+
+.navigation__wrapper{
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 20px;
 }
 
 .navigation__logo{
@@ -17,14 +23,26 @@
 .navigation__list{
   padding: 0;
   margin: 0;
-  //display: flex; для tablet и desktop
-  display: none;
+  display: flex;
+  flex-direction: column;
   list-style-type: none;
 }
 
 .navigation__item{
-  margin: auto;
-  margin-right: 33px;
+  position: relative;
+  align-self: center;
+  margin-top: 22px;
+  margin-bottom: 24px;
+  width: 100%;
+}
+
+.navigation__item::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  bottom: 42px;
+  left: 0;
+  border-top: 1px solid #E6E6E6;
 }
 
 .navigation__item--current{
@@ -37,7 +55,7 @@
   margin: 0 auto;
 }
 
-.navigation__item--current::before{
+/*.navigation__item--current::before{
   position: absolute;
   content: "";
   width: 100%;
@@ -47,4 +65,5 @@
   background-color: #68B738;
   z-index: 1;
 }
+*/
 
