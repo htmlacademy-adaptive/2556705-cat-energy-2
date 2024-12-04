@@ -7,6 +7,7 @@
 
 
 body{
+  margin: 0;
   font-family: $primary-font;
   font-style: normal;
   font-size: 16px;
@@ -14,6 +15,18 @@ body{
   font-weight: 400;
   color: $basic-black;
   background-color: $basic-white;
+}
+
+.button{
+  padding: 10px;
+  font-family: $primary-font;
+  font-size: 16px;
+  line-height: 20px;
+  color: $basic-white;
+  text-align: center;
+  text-transform: uppercase;
+  border: none;
+  background-color: #68B738;
 }
 
 

@@ -1,0 +1,37 @@
+.hero{
+  min-width: 320px;
+  padding: 26px 20px;
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  background: url('/images/green-patern-mobile.png') top center no-repeat,
+  url('/images/cat-bg-mobile.png') top center no-repeat;
+}
+
+.hero__title{
+  margin: 0;
+  margin-bottom: 25px;
+  font-size: 26px;
+  line-height: 26px;
+}
+
+.hero__description{
+  margin: 0;
+  margin-bottom: 29px;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.hero__image{
+  margin: 0;
+  text-align: center;
+}
+
+.hero__button{
+  order: 1;
+}
+
+
+
+
