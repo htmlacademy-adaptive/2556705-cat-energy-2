@@ -1,5 +1,6 @@
 .programs{
   padding: 20px;
+  margin: 20px;
   font-size: 14px;
   line-height: 18px;
 }
@@ -52,6 +53,8 @@
 }
 
 .programs__link{
+  display: inline-block;
+  margin-top: 15px
   color: $basic-black;
   font-size: 16px;
   line-height: 16px;
@@ -63,9 +66,10 @@
   margin-bottom: 0;
 }
 
-// Instrutions!!!
+// ! Instrutions!!!
 .instructions{
-  padding: 0 20px;
+  padding: 0;
+  margin: 0 20px 50px 20px;
   font-size: 14px;
   line-height: 18px;
 }
@@ -89,7 +93,7 @@ margin-bottom: 20px;
 }
 
 .instructions__item:last-of-type{
-  margin-bottom: 0;
+  margin-bottom: 50px;
 }
 
 .instructions__item::before{
@@ -102,11 +106,77 @@ margin-bottom: 20px;
   background-color: $basic-green-bg;
 }
 
-
 .instructions__description{
   margin: 0;
   font-family: $secondary-font;
+  color: $basic-grey-font;
 }
+
+// ! example!!!
+.example{
+  padding: 25px 20px 40px 20px;
+  font-size: 14px;
+  line-height: 18px;
+  color: $basic-grey-font;
+}
+
+.example__title{
+  margin-bottom: 40px;
+  font-size: 36px;
+  line-height: 40px;
+}
+
+.example__description{
+  margin-bottom: 20px;
+  font-family: $secondary-font;
+}
+
+.example-list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  margin-bottom: 20px;
+}
+
+.example-list__item{
+  display: flex;
+  flex-direction: column;
+}
+
+.example-list__content{
+  padding: 15px 20px 18px 20px;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  border: 1px solid #000000;
+}
+
+.example-list__caption{
+  margin-top: -10px;
+  padding: 0 14px;
+  font-family: $secondary-font;
+  font-size: 12px;
+  line-height: 12px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
