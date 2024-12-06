@@ -1,0 +1,18 @@
+// ! address
+.address{
+  display: flex;
+  padding: 26px 20px;
+  color: #111111;
+}
+
+.address__title{
+  margin: 0;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.address__street{
+  font-family: $secondary-font;
+  font-size: 14px;
+  color: $basic-grey-font;
+}

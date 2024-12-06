@@ -1,0 +1,50 @@
+// ! example-statistics
+.example-statistics{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+.example-statistics__list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+  list-style-type: none;
+}
+
+.example-statistics__item{
+  display: flex;
+  flex-direction: column;
+  min-width: 124px;
+  text-align: center;
+}
+
+.example-statistics__content{
+  padding: 15px 20px 18px 20px;
+  font-size: 24px;
+  line-height: 24px;
+  text-transform: uppercase;
+  border: 1px solid #cdcdcd;
+  color: $basic-black;
+}
+
+.example-statistics__caption{
+  margin: 0 auto;
+  width: 87;
+  margin-top: -30px;
+  padding: 0 14px;
+  font-family: $secondary-font;
+  font-size: 12px;
+  line-height: 12px;
+  text-align: center;
+  background-color: #EAEAEA;
+}
+
+.example-statistics__footer{
+  display: flex;
+  line-height: 20px;
+  margin: 0 auto;
+}
