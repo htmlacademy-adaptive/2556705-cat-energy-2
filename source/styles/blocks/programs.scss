@@ -120,51 +120,133 @@ margin-bottom: 20px;
   color: $basic-grey-font;
 }
 
-.example__title{
+// example-introduce
+.example-introduce{
+  padding-bottom: 20px;
+}
+
+.example-introduce__title{
   margin-bottom: 40px;
   font-size: 36px;
   line-height: 40px;
 }
 
-.example__description{
-  margin-bottom: 20px;
+.example-introduce__description{
   font-family: $secondary-font;
 }
 
-.example-list{
+.example-statistics{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+.example-statistics__list{
   display: flex;
   flex-wrap: wrap;
   gap: 32px;
+  margin: 0;
   margin-bottom: 20px;
+  padding: 0;
+  list-style-type: none;
 }
 
-.example-list__item{
+.example-statistics__item{
   display: flex;
   flex-direction: column;
+  min-width: 124px;
 }
 
-.example-list__content{
+.example-statistics__content{
   padding: 15px 20px 18px 20px;
   font-size: 24px;
   line-height: 24px;
-  text-align: center;
+  text-transform: uppercase;
   border: 1px solid #cdcdcd;
+  color: $basic-black;
 }
 
-.example-list__caption{
+.example-statistics__caption{
+  min-width: 87;
   margin-top: -10px;
   padding: 0 14px;
   font-family: $secondary-font;
   font-size: 12px;
   line-height: 12px;
+  text-align: center; 
+}
+
+.example-statistics__footer{
+  display: flex;
+  line-height: 20px;
   text-align: center;
 }
 
+// address !!
+.address{
+  display: flex;
+  padding: 26px 20px;
+  color: #111111;
+}
 
+.address__street{
+  font-family: $secondary-font;
+  font-size: 14px;
+  color: $basic-grey-font;
+}
 
+// footer !!
+.footer{
+  display: flex;
+  flex-direction: column
+  padding: 40px 20px;
+  text-align: center;
+}
 
+.footer-logo{
+  display: block;
+  padding-bottom: 20px;
+}
 
+.footer-social__list{
+  position: relative;
+  display: flex;
+  margin: 0;
+  padding: 20px 0;
+  list-style-type: none;
+}
 
+.footer-social__list::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  bottom: 42px;
+  left: 0;
+  border-top: 1px solid #D9D9D9;
+}
+
+.footer-social__list::after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  top: 42px;
+  left: 0;
+  border-bottom: 1px solid #D9D9D9;
+}
+
+.footer-copyright{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  font-family: $secondary-font;
+  font-size: 16px;
+  text-decoration: none;
+  color: #444444;
+}
+
+.footer-copyright__name{
+  margin: auto 0;
+}
 
 
 
