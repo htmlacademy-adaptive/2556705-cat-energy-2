@@ -19,14 +19,37 @@
   background-color: #F2F2F2;
 }
 
+.programs__item:last-of-type{
+  margin-bottom: 0;
+}
+
 .programs__item::before{
   content: "";
   position: absolute;
   width: 50px;
   height: 50px;
-  border-radius: 50%;;
+  border-radius: 50%;
+  top: 24px;
   left: 20px;
   background-color: $basic-green-bg;
+}
+
+.programs__item::after{
+  content: "";
+  position: absolute;
+  width: 36px;
+  height: 53px;
+  left: 27px;
+  top: 21px;
+  background-image: url("/icons/cat-sit.svg");
+}
+
+.programs__item:nth-of-type(2)::after{
+  width: 67px;
+  height: 28px;
+  left: 13px;
+  top: 35px;
+  background-image: url("/icons/cat-go.svg");
 }
 
 .programs__subtitle{
@@ -53,8 +76,10 @@
 }
 
 .programs__link{
+  position: relative;
   display: inline-block;
   margin-top: 15px;
+  padding: 4px 47px 4px 0;
   color: $basic-black;
   font-size: 16px;
   line-height: 16px;
@@ -62,9 +87,19 @@
   text-decoration: none;
 }
 
-.programs__item:last-of-type{
-  margin-bottom: 0;
+.programs__link::before{
+  content: "";
+  position: absolute;
+  width: 32px;
+  height: 10px;
+  right: 0;
+  top: 7px;
+  background-image: url("/icons/arrow.svg");
 }
+
+
+
+
 
 
 

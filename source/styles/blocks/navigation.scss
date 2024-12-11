@@ -23,6 +23,13 @@
   margin: auto 0;
   width: 24px;
   height: 24px;
+  border: none;
+  background-color: $basic-white;
+  background-image: url("/icons/burger.svg") ;
+}
+
+.navigation__menu-button--close{
+  background-image: url("/icons/cross.svg");
 }
 
 .navigation__list{
