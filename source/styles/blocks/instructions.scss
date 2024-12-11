@@ -21,10 +21,12 @@
 }
 
 .instructions__item{
-position: relative;
-min-height: 60px;
-margin-bottom: 20px;
+  position: relative;
+  min-height: 60px;
+  margin-bottom: 20px;
 }
+
+
 
 .instructions__item:last-of-type{
   margin-bottom: 0;
@@ -39,6 +41,47 @@ margin-bottom: 20px;
   top: 0;
   background-color: $basic-green-bg;
 }
+
+.instructions__item--leaf::after{
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 32px;
+  left: 15px;
+  top: 14px;
+  background-image: url("/icons/leaf.svg");
+}
+
+.instructions__item--powder::after{
+  content: "";
+  position: absolute;
+  width: 26px;
+  height: 29px;
+  left: 17px;
+  top: 16px;
+  background-image: url("/icons/powder.svg");
+}
+
+.instructions__item--fork-spoon::after{
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 30px;
+  left: 18px;
+  top: 15px;
+  background-image: url("/icons/fork-spoon.svg");
+}
+
+.instructions__item--clock::after{
+  content: "";
+  position: absolute;
+  width: 26px;
+  height: 31px;
+  left: 18px;
+  top: 15px;
+  background-image: url("/icons/clock.svg");
+}
+
 
 .instructions__description{
   margin: 0;

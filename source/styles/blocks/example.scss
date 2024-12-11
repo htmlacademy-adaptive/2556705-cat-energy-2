@@ -74,3 +74,26 @@
   line-height: 20px;
   margin: 0 auto;
 }
+
+.tumbler{
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #666666;
+  background-color: $basic-white;
+}
+
+.tumbler::before{
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 18px;
+  left: 6px;
+  top: 9px;
+  mask-image: url("/icons/double-arrows.svg");
+  background-color: #666666;
+}
+
+
