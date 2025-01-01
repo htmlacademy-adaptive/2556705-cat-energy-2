@@ -75,9 +75,29 @@
   margin: 0 auto;
 }
 
-.tumbler{
+.example__demo{
   position: relative;
+  display: flex;
+  max-width: 280px;
+}
+
+.cat-fat{
+  width: 140px;
+  object-fit: cover;
+  object-position: left;
+}
+
+.cat-small{
+  width: 140px;
+  object-fit: cover;
+  object-position: right;
+}
+
+.tumbler{
+  position: absolute;
   display: inline-block;
+  top: 108px;
+  left: 120px;
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -95,5 +115,19 @@
   mask-image: url("/icons/double-arrows.svg");
   background-color: #666666;
 }
+
+.example__demo::after{
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 256px;
+  background-color: #666666;
+  top: 0;
+  left: 138px;
+}
+
+
+
+
 
 
