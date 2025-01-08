@@ -1,18 +1,27 @@
 .hero{
-  padding: 26px 20px 20px ;
+  padding: 0 30px ;
   text-align: center;
   color: #ffffff;
   display: flex;
   flex-direction: column;
   background: url('/images/green-patern-mobile.png') top center no-repeat,
   url('/images/cat-bg-mobile.png') top center no-repeat;
+  @media (min-width: $tablet-widht){
+    background: none;
+    color: $basic-black;
+    text-align: start;
+  }
 }
 
 .hero__title{
-  margin: 0;
-  margin-bottom: 25px;
+  margin: 26px 0;
   font-size: 26px;
   line-height: 26px;
+  @media (min-width: $tablet-widht){
+    margin: 0 0 40px 90px;
+    font-size: 60px;
+    line-height: 60px;
+  }
 }
 
 .hero__description{
@@ -20,18 +29,38 @@
   margin-bottom: 29px;
   font-size: 14px;
   line-height: 14px;
+  @media (min-width: $tablet-widht){
+    margin-bottom: 50px;
+    margin-left: 90px;
+    font-size: 20px;
+    line-height: 20px;
+  }
 }
 
 .hero__image{
   margin: 0;
   text-align: center;
+  @media (min-width: $tablet-widht){
+    margin-top: -73px;
+  }
 }
 
 .hero__button{
   max-width: 320px;
   margin: 0 auto;
-  padding: 10px 63px;
+  padding: 10px 20px;
+  width: 280px;
+  margin-left: -10px;
   order: 1;
+  @media (min-width: $tablet-widht){
+    z-index: 1;
+    width: auto;
+    margin-left: 90px;
+    padding: 14px 26px;
+    order: 0;
+    font-size: 20px;
+    line-height: 26px;
+  }
 }
 
 
