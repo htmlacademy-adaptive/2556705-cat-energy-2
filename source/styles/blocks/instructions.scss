@@ -1,10 +1,25 @@
 //  Instructions
 .instructions{
+  position: relative;
   max-width: 320px;
   margin: 0 auto;
   padding: 0 20px 50px 20px;
   font-size: 14px;
   line-height: 18px;
+  @media (min-width: $tablet-widht) {
+    max-width: 768px;
+    padding: 0 110px 47px 30px;
+    &::before{
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      bottom: 0;
+      left: 0;
+      margin-bottom: 53px;
+      background-color:  #E6E6E6;
+    }
+  }
 }
 
 .instructions__title{
@@ -12,25 +27,49 @@
   margin-bottom: 40px;
   font-size: 36px;
   line-height: 40px;
+  @media (min-width: $tablet-widht) {
+    margin-bottom: 32px;
+    font-size: 60px;
+    line-height: 60px;
+  }
 }
 
 .instructions__list{
   margin: 0;
   padding: 0;
   list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  @media (min-width: $tablet-widht) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 .instructions__item{
   position: relative;
   min-height: 60px;
+  min-width: 320px;
   margin-bottom: 20px;
+  @media (min-width: $tablet-widht) {
+    min-width: 200px;
+    max-width: 250px;
+    min-height: 280px;
+    margin: 0;
+  }
 }
-
-
 
 .instructions__item:last-of-type{
   margin-bottom: 0;
 }
+
+@media (min-width: $tablet-widht){
+  .instructions__item:nth-of-type(2n){
+    margin-left: auto;
+  }
+}
+
 
 .instructions__item::before{
   content: "";
@@ -40,6 +79,10 @@
   left: 0;
   top: 0;
   background-color: $basic-green-bg;
+  @media (min-width: $tablet-widht) {
+    width: 80px;
+    height: 80px;
+  }
 }
 
 .instructions__item--leaf::after{
@@ -50,6 +93,10 @@
   left: 15px;
   top: 14px;
   background-image: url("/icons/leaf.svg");
+  @media (min-width: $tablet-widht) {
+    top: 25px;
+    left: 24px;
+  }
 }
 
 .instructions__item--powder::after{
@@ -60,6 +107,10 @@
   left: 17px;
   top: 16px;
   background-image: url("/icons/powder.svg");
+  @media (min-width: $tablet-widht) {
+    top: 26px;
+    left: 27px;
+  }
 }
 
 .instructions__item--fork-spoon::after{
@@ -70,6 +121,10 @@
   left: 18px;
   top: 15px;
   background-image: url("/icons/fork-spoon.svg");
+  @media (min-width: $tablet-widht) {
+    top: 25px;
+    left: 28px;
+  }
 }
 
 .instructions__item--clock::after{
@@ -80,12 +135,59 @@
   left: 18px;
   top: 15px;
   background-image: url("/icons/clock.svg");
+  @media (min-width: $tablet-widht) {
+    top: 24px;
+    left: 27px;
+  }
 }
 
-
 .instructions__description{
+  max-width: 200px;
   margin: 0;
   margin-left: 80px;
   font-family: $secondary-font;
   color: $basic-grey-font;
+  @media (min-width: $tablet-widht) {
+    max-width: 245px;
+    margin: 0;
+    margin-top: 111px;
+    font-size: 16px;
+    line-height: 24px;
+    &::after{
+      content: "1";
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: -1;
+      margin-top: -40px;
+      margin-left: 121px;
+      font-family: $primary-font;
+      font-size: 280px;
+      line-height: 280px;
+      color: #F2F2F2;
+    }
+  }
 }
+
+
+@media (min-width: $tablet-widht) {
+  .instructions__item:nth-of-type(2) .instructions__description::after{
+    content: "2";
+    margin-left: 112px
+  }
+
+  .instructions__item:nth-of-type(3) .instructions__description::after{
+    content: "3";
+    margin-left: 113px
+  }
+
+  .instructions__item:nth-of-type(4) .instructions__description::after{
+    content: "4";
+    margin-left: 113px
+  }
+}
+
+
+
+
+
