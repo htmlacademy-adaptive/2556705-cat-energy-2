@@ -7,6 +7,58 @@
   text-align: center;
   font-size: 20px;
   text-transform: uppercase;
+  @media (min-width: $tablet-widht) {
+    min-width: $tablet-widht;
+    flex-direction: row;
+
+    .navigation__wrapper{
+      padding: 25px 33px 65px 30px;
+    }
+
+    .navigation__logo{
+      margin-left: 13px;
+    }
+
+    .navigation__menu-button{
+      display: none;
+    }
+
+    .navigation__list{
+      flex-direction: row;
+      margin: 25px 33px 65px auto;
+    }
+
+    .navigation__item{
+      margin: 0;
+      margin-right: 33px;
+      width: auto;
+    }
+
+    .navigation__item:last-of-type{
+      margin-right: 0;
+    }
+
+    .navigation__item::before{
+      display: none;
+    }
+
+    .navigation__link{
+      position: relative;
+      font-size: 18px;
+      line-height: 24px;
+    }
+
+    .navigation__item--current::before{
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      top: 34px;
+      left: 0;
+      background: #68B738;
+    }
+
+  }
 }
 
 .navigation__wrapper{
