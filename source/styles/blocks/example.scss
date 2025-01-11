@@ -7,21 +7,38 @@
   line-height: 18px;
   color: $basic-grey-font;
   background-color: #EAEAEA;
+  @media (min-width: $tablet-widht) {
+    max-width: 768px;
+    background-color: $basic-white;
+  }
 }
 
 // ! example-introduce
 .example__introduce{
   padding-bottom: 20px;
+  @media (min-width: $tablet-widht) {
+    padding-bottom: 55px;
+  }
 }
 
 .example__introduce-title{
   margin-bottom: 40px;
   font-size: 36px;
   line-height: 40px;
+  @media (min-width: $tablet-widht) {
+    margin-bottom: 60px;
+    font-size: 60px;
+    line-height: 60px;
+  }
 }
 
 .example__introduce-description{
   font-family: $secondary-font;
+  @media (min-width: $tablet-widht) {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
 }
 
 // ! example__statistics
