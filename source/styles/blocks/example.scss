@@ -36,6 +36,7 @@
 }
 
 .example__introduce-description{
+  margin: 0;
   font-family: $secondary-font;
   @media (min-width: $tablet-widht) {
     font-size: 16px;
@@ -49,6 +50,11 @@
   display: flex;
   flex-direction: column;
   padding-bottom: 20px;
+  @media (min-width: $tablet-widht) {
+    padding-bottom: 100px;
+    flex-direction: row;
+    align-items: center;
+  }
 }
 
 .example__statistics-list{
@@ -70,6 +76,7 @@
 
 .example__statistics-content{
   width: 124px;
+  margin-top: 0;
   padding-top: 15px;
   padding-bottom: 18px;
   font-size: 24px;
@@ -86,7 +93,7 @@
 }
 
 .example__statistics-caption{
-  width: 87px;
+  max-width: 100px;
   margin: 0 auto;
   margin-top: -30px;
   padding: 0 14px;
@@ -96,7 +103,7 @@
   text-align: center;
   background-color: #EAEAEA;
   @media (min-width: $tablet-widht) {
-    min-width: 124px;
+    max-width: 150px;
     padding: 0 10px;
     margin-top: -40px;
     font-size: 14px;
@@ -108,8 +115,16 @@
 
 .example__statistics-footer{
   display: flex;
-  line-height: 20px;
   margin: 0 auto;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: $basic-black;
+  @media (min-width: $tablet-widht) {
+    flex-direction: column;
+    margin-right: 0;
+    font-size: 20px;
+    text-align: right;
+  }
 }
 
 .example__demo{
