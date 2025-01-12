@@ -9,6 +9,7 @@
   background-color: #EAEAEA;
   @media (min-width: $tablet-widht) {
     max-width: 768px;
+    padding: 0 30px;
     background-color: $basic-white;
   }
 }
@@ -23,8 +24,10 @@
 
 .example__introduce-title{
   margin-bottom: 40px;
+  margin-top: 0;
   font-size: 36px;
   line-height: 40px;
+  color: $basic-black;
   @media (min-width: $tablet-widht) {
     margin-bottom: 60px;
     font-size: 60px;
@@ -66,17 +69,25 @@
 }
 
 .example__statistics-content{
-  padding: 15px 20px 18px 20px;
+  width: 124px;
+  padding-top: 15px;
+  padding-bottom: 18px;
   font-size: 24px;
   line-height: 24px;
   text-transform: uppercase;
   border: 1px solid #cdcdcd;
   color: $basic-black;
+  @media (min-width: $tablet-widht) {
+    width: 162px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    line-height: 37px;
+  }
 }
 
 .example__statistics-caption{
+  width: 87px;
   margin: 0 auto;
-  width: 87;
   margin-top: -30px;
   padding: 0 14px;
   font-family: $secondary-font;
@@ -84,6 +95,15 @@
   line-height: 12px;
   text-align: center;
   background-color: #EAEAEA;
+  @media (min-width: $tablet-widht) {
+    min-width: 124px;
+    padding: 0 10px;
+    margin-top: -40px;
+    font-size: 14px;
+    line-height: 14px;
+    background-color: $basic-white;
+  }
+
 }
 
 .example__statistics-footer{
