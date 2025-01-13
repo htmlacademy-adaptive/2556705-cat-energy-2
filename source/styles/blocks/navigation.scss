@@ -1,4 +1,4 @@
-.navigation{
+.header{
   display: flex;
   flex-direction: column;
   max-width: 320px;
@@ -13,7 +13,7 @@
     }
   }
 
-.navigation__wrapper{
+.header__wrapper{
   display: flex;
   justify-content: space-between;
   padding: 13px 20px;
@@ -22,14 +22,14 @@
   }
 }
 
-.navigation__logo{
+.header__logo{
   margin: auto 0;
   @media (min-width: $tablet-widht){
     margin-left: 13px;
   }
 }
 
-.navigation__menu-button{
+.header__menu-button{
   margin: auto 0;
   width: 24px;
   height: 24px;
@@ -41,11 +41,11 @@
   }
 }
 
-.navigation__menu-button--close{
+.header__menu-button--close{
   background-image: url("/icons/cross.svg");
 }
 
-.navigation__list{
+.header__list{
   padding: 0;
   margin: 0;
   display: flex;
@@ -57,7 +57,7 @@
   }
 }
 
-.navigation__item{
+.header__item{
   position: relative;
   align-self: center;
   margin-top: 22px;
@@ -70,13 +70,13 @@
   }
 }
 
-.navigation__item:last-of-type{
+.header__item:last-of-type{
   @media (min-width: $tablet-widht) {
     margin-right: 0;
   }
 }
 
-.navigation__item::before{
+.header__item::before{
   content: "";
   position: absolute;
   width: 100%;
@@ -90,7 +90,7 @@
 
 
 @media (min-width: $tablet-widht) {
-  .navigation__item--current::before{
+  .header__item--current::before{
     content: "";
     position: absolute;
     width: 100%;
@@ -101,7 +101,7 @@
 }
 }
 
-.navigation__link{
+.header__link{
   color: $basic-black;
   text-decoration: none;
   margin: 0 auto;

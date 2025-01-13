@@ -1,13 +1,12 @@
 .hero{
+  margin: 0 auto;
   padding: 0 30px ;
   text-align: center;
   color: #ffffff;
   display: flex;
   flex-direction: column;
-  background: url('/images/green-patern-mobile.png') top center no-repeat,
-  url('/images/cat-bg-mobile.png') top center no-repeat;
   @media (min-width: $tablet-widht){
-    background: none;
+    max-width: 768px;
     color: $basic-black;
     text-align: start;
   }
@@ -39,6 +38,7 @@
 
 .hero__image{
   margin: 0;
+  margin-top: 20px;
   text-align: center;
   @media (min-width: $tablet-widht){
     margin-top: -73px;
@@ -47,10 +47,9 @@
 
 .hero__button{
   max-width: 320px;
-  margin: 0 auto;
   padding: 10px 20px;
   width: 280px;
-  margin-left: -10px;
+  margin: 0 auto;
   order: 1;
   @media (min-width: $tablet-widht){
     z-index: 1;
