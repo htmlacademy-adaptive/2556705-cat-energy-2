@@ -5,12 +5,18 @@
   @media (min-width: $tablet-widht){
     padding: 0 30px 45px;
   }
+  @media (min-width: $desktop-width) {
+    padding: 0 110px;
+  }
 }
 
 .programs__list{
   margin: 0;
   padding: 0;
   list-style-type: none;
+  @media (min-width: $desktop-width) {
+    display: flex;
+  }
 }
 
 .programs__item{
@@ -30,10 +36,24 @@
     margin-bottom: 30px;
     padding: 77px 45px 53px 52px;
   }
+  @media (min-width: $desktop-width) {
+    max-width: 570px;
+    width: 570px;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    margin-right: 80px;
+  }
 }
 
 .programs__item:last-of-type{
   margin-bottom: 0;
+}
+
+.programs__item:nth-of-type(2n){
+  @media (min-width: $desktop-width) {
+    margin-right: 0;
+  }
 }
 
 .programs__item::before{
@@ -50,6 +70,12 @@
     width: 200px;
     height: 200px;
   }
+  @media (min-width: $desktop-width) {
+    width: 100px;
+    height: 100px;
+    left: 52px;
+    top: 47px;
+  }
 }
 
 .programs__item::after{
@@ -65,6 +91,12 @@
     width: 140px;
     height: 194px;
   }
+  @media (min-width: $desktop-width) {
+    width: 70px;
+    height: 97px;
+    left: 67px;
+    top: 41px;
+  }
 }
 
 .programs__item--cat-go::after{
@@ -79,6 +111,12 @@
     top: 135px;
     width: 270px;
     height: 112px;
+    @media (min-width: $desktop-width) {
+      width: 134px;
+      height: 56px;
+      left: 33px;
+      top: 67px;
+    }
   }
 }
 
@@ -94,6 +132,12 @@
     font-size: 36px;
     line-height: 36px;
   }
+  @media (min-width: $desktop-width) {
+    max-width: 300px;
+    margin-top: 77px;
+    margin-left: 214px;
+    margin-bottom: 73px;
+  }
 }
 
 .programs__description{
@@ -107,6 +151,10 @@
     margin-bottom: 48px;
     font-size: 16px;
     line-height: 24px;
+  }
+  @media (min-width: $desktop-width) {
+    max-width: 457px;
+    margin-left: 52px;
   }
 }
 
@@ -138,6 +186,10 @@
     margin: 0;
     font-size: 20px;
     line-height: 20px;
+  }
+  @media (min-width: $desktop-width) {
+    margin-left: 52px;
+    margin-bottom: 55px;
   }
 }
 
