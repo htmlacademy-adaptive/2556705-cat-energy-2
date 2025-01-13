@@ -9,7 +9,11 @@
   font-size: 20px;
   text-transform: uppercase;
   @media (min-width: $tablet-widht) {
-    min-width: $tablet-widht;
+    max-width: $tablet-widht;
+    flex-direction: row;
+  }
+  @media (min-width: $desktop-width) {
+    max-width: 1440px;
     flex-direction: row;
   }
 }
@@ -27,6 +31,17 @@
   @media (min-width: $tablet-widht){
     display: none;
   }
+  @media (min-width: $desktop-width){
+    display:block;
+    left: auto;
+    right: 0;
+    top: 0;
+    width: 720px;
+    height: 694px;
+    background-size: 1040px 694px;
+    background: url('/images/green-patern-mobile.png') top center/720px 694px no-repeat,
+    url('/images/cat-bg-desktop.png') top left no-repeat;
+  }
 }
 
 
@@ -36,6 +51,9 @@
   padding: 13px 20px;
   @media (min-width: $tablet-widht){
     padding: 25px 33px 65px 30px;
+  }
+  @media (min-width: $desktop-width) {
+    padding: 55px 110px;
   }
 }
 
@@ -77,6 +95,12 @@
     width: 768px;
     flex-direction: row;
     margin: 25px 33px 65px auto;
+    justify-content: flex-end;
+  }
+  @media (min-width: $desktop-width) {
+    margin: 55px 110px;
+    justify-content: flex-end;
+    background: none;
   }
 }
 
@@ -112,8 +136,9 @@
 }
 
 
-@media (min-width: $tablet-widht) {
-  .header__item--current::before{
+
+.header__item--current::before{
+  @media (min-width: $tablet-widht){
     content: "";
     position: absolute;
     width: 100%;
@@ -121,8 +146,13 @@
     top: 34px;
     left: 0;
     background: #68B738;
+  }
+  @media (min-width: $desktop-width) {
+    background: $basic-white;
+  }
 }
-}
+
+
 
 .header__link{
   color: $basic-black;
@@ -132,6 +162,11 @@
     position: relative;
     font-size: 18px;
     line-height: 24px;
+  }
+  @media (min-width: $desktop-width) {
+    font-size: 20px;
+    line-height: 30px;
+    color: $basic-white;
   }
 }
 
