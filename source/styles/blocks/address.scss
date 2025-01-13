@@ -1,20 +1,59 @@
 // ! address
 .address{
   display: flex;
-  max-width: 320px;
+  max-width: 768px;
   margin: 0 auto;
   padding: 26px 20px;
   color: #111111;
+  @media (min-width: $tablet-widht) {
+    padding: 60px 70px;
+  }
 }
 
 .address__title{
+  max-width: 140px;
   margin: 0;
   font-size: 16px;
   text-transform: uppercase;
+  @media (min-width: $tablet-widht) {
+    max-width: 164px;
+    font-size: 20px;
+    line-height: 26px;
+  }
 }
 
-.address__street{
+.address__wrapper{
+  display: flex;
+  flex-direction: column;
+  max-width: 140px;
   font-family: $secondary-font;
   font-size: 14px;
   color: $basic-grey-font;
+  @media (min-width: $tablet-widht) {
+    max-width: 157px;
+    margin-left: auto;
+    justify-content: space-between;
+    font-size: 16px;
+    text-align: end;
+  }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
