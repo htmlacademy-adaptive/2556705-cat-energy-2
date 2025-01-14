@@ -12,6 +12,13 @@
     padding: 0 30px;
     background-color: $basic-white;
   }
+  @media (min-width: $desktop-width) {
+    max-width: 1440px;
+    padding-top: 136px;
+    padding-left: 110px;
+    padding-bottom: 75px;
+    background-color: #F2F2F2;
+  }
 }
 
 // ! example-introduce
@@ -33,6 +40,10 @@
     font-size: 60px;
     line-height: 60px;
   }
+  @media (min-width: $desktop-width) {
+    margin-top: -272px;
+    margin-bottom: 146px;
+  }
 }
 
 .example__introduce-description{
@@ -42,7 +53,9 @@
     font-size: 16px;
     line-height: 24px;
   }
-
+  @media (min-width: $desktop-width) {
+    max-width: 436px;
+  }
 }
 
 // ! example__statistics
@@ -55,6 +68,10 @@
     flex-direction: row;
     align-items: center;
   }
+  @media (min-width: $desktop-width) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
 
 .example__statistics-list{
@@ -65,6 +82,9 @@
   margin-bottom: 20px;
   padding: 0;
   list-style-type: none;
+  @media (min-width: $desktop-width) {
+    margin-bottom: 55px;
+  }
 }
 
 .example__statistics-item{
@@ -110,7 +130,9 @@
     line-height: 14px;
     background-color: $basic-white;
   }
-
+  @media (min-width: $desktop-width) {
+    background: none;
+  }
 }
 
 .example__statistics-footer{
@@ -125,6 +147,18 @@
     font-size: 20px;
     text-align: right;
   }
+  @media (min-width: $desktop-width) {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+  }
+}
+
+.example__statistics-footer-title{
+  @media (min-width: $desktop-width) {
+    max-width: 180px;
+    margin-right: 63px;
+  }
 }
 // ! example__demo
 .example__demo{
@@ -137,6 +171,12 @@
     height: 462px;
     background-color: #EAEAEA;
   }
+  @media (min-width: $desktop-width) {
+    height: 512px;
+    margin-top: -760px;
+    margin-left: 550px;
+    background: none;
+  }
 }
 
 .example__cat-fat{
@@ -147,6 +187,9 @@
     width: 280px;
     margin-top: -151px;
   }
+  @media (min-width: $desktop-width) {
+    margin-top: 0;
+  }
 }
 
 .example__cat-small{
@@ -156,6 +199,9 @@
   @media (min-width: $tablet-widht) {
     width: 280px;
     margin-top: -151px;
+  }
+  @media (min-width: $desktop-width) {
+    margin-top: 0;
   }
 }
 
@@ -174,7 +220,10 @@
     left: 334px;
     margin-top: -151px;
   }
-
+  @media (min-width: $desktop-width) {
+    margin-top: 0;
+    left: 362px;
+  }
 }
 
 .example__tumbler::before{
@@ -200,6 +249,10 @@
     left: 352px;
     height: 512px;
     margin-top: -151px;
+  }
+  @media (min-width: $desktop-width) {
+    margin-top: 0;
+    left: 380px;
   }
 }
 
