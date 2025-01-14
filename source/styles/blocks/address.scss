@@ -9,6 +9,11 @@
     max-width: 768px;
     padding: 60px 70px;
   }
+  @media (min-width: $desktop-width) {
+    max-width: 565px;
+    padding: 60px 80px;
+    background-color: $basic-white;
+  }
 }
 
 .address__title{
@@ -36,6 +41,9 @@
     justify-content: space-between;
     font-size: 16px;
     text-align: end;
+  }
+  @media (min-width: $desktop-width) {
+    text-align: start;
   }
 }
 
