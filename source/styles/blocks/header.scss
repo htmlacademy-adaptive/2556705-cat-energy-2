@@ -19,31 +19,7 @@
   }
 }
 
-.header::before{
-  content: "";
-  position: absolute;
-  width: 318px;
-  height: 302px;
-  left: 1px;
-  top: 65px;
-  background: url('/images/green-patern-mobile.png') top center no-repeat,
-  url('/images/cat-bg-mobile.png') top center no-repeat;
-  z-index: -1;
-  @media (min-width: $tablet-widht){
-    display: none;
-  }
-  @media (min-width: $desktop-width){
-    display:block;
-    left: auto;
-    right: 0;
-    top: 0;
-    width: 720px;
-    height: 694px;
-    background-size: 1040px 694px;
-    background: url('/images/green-patern-mobile.png') top center/720px 694px no-repeat,
-    url('/images/cat-bg-desktop.png') top left no-repeat;
-  }
-}
+
 
 .header__wrapper{
   display: flex;
@@ -90,7 +66,9 @@
   flex-direction: column;
   list-style-type: none;
   background-color: $basic-white;
+  display: none;
   @media (min-width: $tablet-widht) {
+    display:flex;
     position: static;
     width: 768px;
     flex-direction: row;
@@ -151,7 +129,6 @@
     background: $basic-white;
   }
 }
-
 
 
 .header__link{

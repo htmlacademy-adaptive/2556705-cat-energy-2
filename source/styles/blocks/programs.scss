@@ -16,6 +16,7 @@
   list-style-type: none;
   @media (min-width: $desktop-width) {
     display: flex;
+    justify-content: center;
   }
 }
 
