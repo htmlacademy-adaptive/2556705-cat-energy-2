@@ -135,21 +135,38 @@
     width: 632px;
   }
 }
-
+// ! Additional-products__image
 .additional-products__image{
   position: relative;
-  margin: 0 20px;
   width: 280px;
   height: 290px;
+  margin: 0 20px;
   background: url('/images/green-patern-mobile.png') top center no-repeat,
-url('/images/cat-bg-mobile.png') top center no-repeat;
+url("/images/cat-case-mobile@1x.png") top center/ 280px no-repeat;
+@media (min-width: $tablet-widht){
+  width: 707px;
+  height: 200px;
+  margin: 0 30px;
+  background: url('/images/green-patern-mobile.png') top center/ 707px  200px no-repeat,
+  url("/images/cat-case-tablet@1x.png") top center/ 707px  200px no-repeat;
+}
 }
 
 .additional-products__image-description{
   max-width: 161px;
+  width: 161px;
   margin: 0 auto;
   padding-top: 187px;
+  font-family: $secondary-font;
+  text-align: center;
   color: $basic-white;
+  @media (min-width: $tablet-widht){
+    margin: 0;
+    padding: 0;
+    padding-top: 71px;
+    margin-left: 421px;
+    text-align: start;
+  }
 }
 
 .additional-products__image::before{
@@ -157,7 +174,7 @@ url('/images/cat-bg-mobile.png') top center no-repeat;
   position: absolute;
   width: 78px;
   height: 80px;
-  left: 101px;
+  left: 77px;
   top: 59px;
   background-image:  url('/icons/gift.svg');
 }
