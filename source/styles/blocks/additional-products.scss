@@ -14,10 +14,15 @@
   display: flex;
   align-items:flex-start;
   margin-left: 20px;
+  margin-bottom: 36px;
   &::before,
   &::after{
     content: "";
     border-bottom: 2px solid #68B738;
+  }
+  @media (min-width: $tablet-widht){
+    margin-left: 0;
+    margin-bottom: 80px;
   }
 }
 
@@ -41,10 +46,14 @@
 
 .additional-products__title{
   margin: 0;
-  margin-bottom: 36px;
   padding: 0;
   font-size: 24px;
   line-height: 24px;
+  @media (min-width: $tablet-widht){
+    margin: 0;
+    font-size: 32px;
+    line-height: 32px;
+  }
 }
 
 .additional-products__list{
@@ -53,12 +62,32 @@
   padding: 0;
   list-style-type: none;
   border-top: 1px solid #CDCDCD;
+  @media (min-width: $tablet-widht){
+    max-width: 708px;
+    width: 708px;
+    padding: 0;
+    margin: 0 30px;
+    margin-bottom: 70px;
+    border: none;
+  }
 }
 
 .additional-products__item{
   padding-top: 13px;
   padding-bottom: 19px;
   border-bottom: 1px solid #CDCDCD;
+  @media (min-width: $tablet-widht){
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 708px;
+    width: 708px;
+    padding: 26px 38px 28px;
+    border: 1px solid #CDCDCD;
+    border-bottom: none;
+    &:last-of-type{
+      border-bottom: 1px solid #CDCDCD;
+    }
+  }
 }
 
 .additional-products__subtitle{
@@ -69,6 +98,12 @@
   font-weight: 400;
   text-transform: uppercase;
   color: #222222;
+  @media (min-width: $tablet-widht){
+    max-width: 200px;
+    margin-right: auto;
+    font-size: 20px;
+    line-height: 20px;
+  }
 }
 
 .additional-products__content{
@@ -76,12 +111,29 @@
   justify-content: space-between;
   margin-bottom: 15px;
   font-family: $secondary-font;
+  font-size: 14px;
   color: #444444;
+  @media (min-width: $tablet-widht){
+    max-width: 225px;
+    font-size: 16px;
+  }
+}
+
+.additional-products__value{
+  line-height: 14px;
+  @media (min-width: $tablet-widht){
+    line-height: 20px;
+    margin-left: 49px;
+  }
 }
 
 .additional-products__button{
   max-width: 280px;
   width: 280px;
+  @media (min-width: $tablet-widht){
+    max-width: 632px;
+    width: 632px;
+  }
 }
 
 .additional-products__image{
