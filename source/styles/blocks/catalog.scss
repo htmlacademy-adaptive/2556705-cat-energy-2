@@ -6,6 +6,7 @@
   }
   @media (min-width: $desktop-width) {
     max-width: 1440px;
+    margin-bottom: 8px;
   }
 }
 
@@ -79,6 +80,7 @@
     width: 245px;
     margin: 0;
     margin-right: 80px;
+    margin-bottom: 63px;
     &:nth-of-type(4n){
       margin-right: 0;
     }

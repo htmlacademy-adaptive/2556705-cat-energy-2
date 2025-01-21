@@ -8,6 +8,12 @@
     width: 768px;
     padding-top: 14px;
   }
+  @media (min-width: $desktop-width) {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1440px;
+    width: 1440px;
+  }
 }
 
 .additional-products__container{
@@ -21,8 +27,16 @@
     border-bottom: 2px solid #68B738;
   }
   @media (min-width: $tablet-widht){
+    max-width: 768px;
+    width: 768px;
+    align-items: center;
     margin-left: 0;
     margin-bottom: 80px;
+  }
+  @media (min-width: $desktop-width) {
+    max-width: 1440px;
+    width: 1440px;
+    align-items:center
   }
 }
 
@@ -31,6 +45,13 @@
   order: 1;
   margin-left: 40px;
   margin-top: 10px;
+  @media (min-width: $tablet-widht){
+    margin-top: 0;
+  }
+  @media (min-width: $desktop-width) {
+    flex-grow: 14;
+    margin-top: 0;
+  }
 }
 
 .additional-products__container::after{
@@ -39,10 +60,12 @@
     order: -1;
     margin-left: 0;
     margin-right: 40px;
-    margin-top: 10px;
+    margin-top: 0;
+  }
+  @media (min-width: $desktop-width) {
+    margin-top: 0;
   }
 }
-
 
 .additional-products__title{
   margin: 0;
@@ -53,6 +76,10 @@
     margin: 0;
     font-size: 32px;
     line-height: 32px;
+  }
+  @media (min-width: $desktop-width) {
+    font-size: 40px;
+    line-height: 40px;
   }
 }
 
@@ -69,6 +96,12 @@
     margin: 0 30px;
     margin-bottom: 70px;
     border: none;
+  }
+  @media (min-width: $desktop-width) {
+    max-width: 896px;
+    width: 896px;
+    margin: 0 80px 0 110px;
+    border-top: 1px solid #CDCDCD;
   }
 }
 
@@ -88,6 +121,14 @@
       border-bottom: 1px solid #CDCDCD;
     }
   }
+  @media (min-width: $desktop-width) {
+    max-width: 896px;
+    width: 896px;
+    align-items: center;
+    padding: 15px 1px 17px 1px;
+    border: none;
+    border-bottom: 1px solid #CDCDCD;
+  }
 }
 
 .additional-products__subtitle{
@@ -104,6 +145,12 @@
     font-size: 20px;
     line-height: 20px;
   }
+  @media (min-width: $desktop-width) {
+    max-width: 275px;
+    width: 275px;
+    margin: 0;
+    margin-right: 50px;
+  }
 }
 
 .additional-products__content{
@@ -117,6 +164,18 @@
     max-width: 225px;
     font-size: 16px;
   }
+  @media (min-width: $desktop-width) {
+    max-width: none;
+    margin: auto 0;
+  }
+}
+
+.additional-products__measure{
+  @media (min-width: $desktop-width) {
+    max-width: 200px;
+    width: 200px;
+    margin-right: 43px;
+  }
 }
 
 .additional-products__value{
@@ -124,6 +183,12 @@
   @media (min-width: $tablet-widht){
     line-height: 20px;
     margin-left: 49px;
+  }
+  @media (min-width: $desktop-width) {
+    max-width: 42px;
+    width: 42px;
+    margin: 0;
+    margin-right: 30px;
   }
 }
 
@@ -134,7 +199,14 @@
     max-width: 632px;
     width: 632px;
   }
+  @media (min-width: $desktop-width) {
+    max-width: 244px;
+    width: 244px;
+    margin-left: auto;
+  }
 }
+
+
 // ! Additional-products__image
 .additional-products__image{
   position: relative;
@@ -143,13 +215,20 @@
   margin: 0 20px;
   background: url('/images/green-patern-mobile.png') top center no-repeat,
 url("/images/cat-case-mobile@1x.png") top center/ 280px no-repeat;
-@media (min-width: $tablet-widht){
-  width: 707px;
-  height: 200px;
-  margin: 0 30px;
-  background: url('/images/green-patern-mobile.png') top center/ 707px  200px no-repeat,
-  url("/images/cat-case-tablet@1x.png") top center/ 707px  200px no-repeat;
-}
+  @media (min-width: $tablet-widht){
+    width: 707px;
+    height: 200px;
+    margin: 0 30px;
+    background: url('/images/green-patern-mobile.png') top center/ 707px  200px no-repeat,
+    url("/images/cat-case-tablet@1x.png") top center/ 707px  200px no-repeat;
+  }
+  @media (min-width: $desktop-width) {
+    width: 245px;
+    height: 288px;
+    margin: 0;
+    background: url('/images/green-patern-mobile.png') top center/ 245px  288px no-repeat,
+    url("/images/cat-case-desktop@1x.png") top center/ 245px  288px no-repeat;
+  }
 }
 
 .additional-products__image-description{
@@ -167,6 +246,14 @@ url("/images/cat-case-mobile@1x.png") top center/ 280px no-repeat;
     margin-left: 421px;
     text-align: start;
   }
+  @media (min-width: $desktop-width) {
+    max-width: 161px;
+    width: 161px;
+    margin: 0 auto;
+    margin-top: 185px;
+    padding: 0;
+    text-align: center;
+  }
 }
 
 .additional-products__image::before{
@@ -177,6 +264,12 @@ url("/images/cat-case-mobile@1x.png") top center/ 280px no-repeat;
   left: 77px;
   top: 59px;
   background-image:  url('/icons/gift.svg');
+  @media (min-width: $tablet-widht){
+    top: 57px;
+  }
+  @media (min-width: $desktop-width) {
+    top: 59px;
+  }
 }
 
 
