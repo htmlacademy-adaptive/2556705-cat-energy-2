@@ -12,6 +12,7 @@
   <link rel="manifest" href="manifest.webmanifest">
   <script src="scripts/index.js" defer></script>
 </head>
+
 <body class="page__body">
   <!-- ! Header -->
   <header class="header">
@@ -52,132 +53,218 @@
       </li>
     </ul>
   </header>
- <!-- ! Main -->
- <main>
-  <h1 class="selection-programs__title">
-    Подбор программы
-  </h1>
-  <form action="https://echo.htmlacademy.ru/" method="get" class="form">
-    <h2 class="form__title">
+  <!-- ! Main -->
+  <main>
+    <h1 class="selection-programs__title">
+      Подбор программы
+    </h1>
+    <!-- ! Form -->
+    <form class="form" action="https://echo.htmlacademy.ru/" method="get">
+      <p class="form__introduction">
         Заполните анкету, и мы подберем
-программу питания для вашего кота
-    </h2>
-    <fieldset class="form__personalise">
-      <legend>
-        <h3 class="visually-hidden">
-          Личные данные вашего кота
-        </h3>
-      </legend>
-      <ul class="form__personalise-list">
-        <li class="form__personalise-item">
-          <label class="form__personalise-label">
-            Имя:*
-              <input class="form__personalise-input" type="text" name="name"  placeholder="барсик">
-          </label>
-        </li>
-        <li class="parameters-filter-item">
-          <label class="form__personalise-label">
+        программу питания для вашего кота
+      </p>
+      <!-- ! Form-Personalize -->
+      <fieldset class="form__personalise">
+        <legend>
+          <h2 class="visually-hidden">
+            Личные данные вашего кота
+          </h2>
+        </legend>
+        <ul class="form__personalise-list">
+          <li class="form__personalise-item">
+            <label class="form__personalise-label">
+              Имя:*
+              <input class="form__personalise-input" type="text" name="name" placeholder="барсик">
+            </label>
+          </li>
+          <li class="form__personalise-item">
+            <label class="form__personalise-label">
               Вес (кг):*
               <input class="form__personalise-input" type="number" name="weight" placeholder="7">
-          </label>
-        </li>
-        <li class="parameters-filter-item">
-          <label class="form__personalise-label">
+            </label>
+          </li>
+          <li class="form__personalise-item">
+            <label class="form__personalise-label">
               Возраст (лет):
               <input class="form__personalise-input" type="number" name="age" placeholder="7">
-          </label>
-        </li>
-      </ul>
-    </fieldset>
-    <fieldset class="form__goal">
-      <legend>
-        <h3 class="visually-hidden">
-          Цель подбора программы
-        </h3>
-      </legend>
-      <ul class="form__goal-list">
-        <li class="form__goal-item">
-          <label class="control">
-            <input class="visually-hidden control-input" type="radio" name="goal" checked="">
-            <span class="control-mark control-mark-radio"></span>
-            <span class="control-label">
-              Похудение
-            </span>
-          </label>
-        </li>
-        <li class="form__goal-item">
-          <label class="control">
-            <input class="visually-hidden control-input" type="radio" name="goal">
-            <span class="control-mark control-mark-radio"></span>
-            <span class="control-label">
-              Набор массы
-            </span>
-          </label>
-        </li>
-        <li class="form__goal-item">
-          <label class="control">
-            <input class="visually-hidden control-input" type="radio" name="goal">
-            <span class="control-mark control-mark-radio"></span>
-            <span class="control-label">
-              Не знаю (Нужен ваш совет)
-            </span>
-          </label>
-        </li>
-      </ul>
-    </fieldset>
-  </form>
-
-  <!-- ! Adress -->
-  <address class="address">
-    <h2 class="address__title weight-normal">
-      Приглашаем <br> к сотрудничеству дилеров!
-    </h2>
-    <div class="address__wrapper">
-      <div class="address__street">
-        ул. Большая Конюшенная, д. 19/8
+            </label>
+          </li>
+        </ul>
+      </fieldset>
+      <!-- ! Form-Goal -->
+      <fieldset class="form__goal">
+        <legend>
+          <h2 class="visually-hidden">
+            Цель подбора программы
+          </h2>
+        </legend>
+        <ul class="form__goal-list">
+          <li class="form__goal-item">
+            <label class="control">
+              <input class="visually-hidden control-input" type="radio" name="goal" value="weight-loss" checked>
+              <span class="control-mark control-mark-radio"></span>
+              <span class="control-label">
+                Похудение
+              </span>
+            </label>
+          </li>
+          <li class="form__goal-item">
+            <label class="control">
+              <input class="visually-hidden control-input" type="radio" name="goal" value="weight-more">
+              <span class="control-mark control-mark-radio"></span>
+              <span class="control-label">
+                Набор массы
+              </span>
+            </label>
+          </li>
+          <li class="form__goal-item">
+            <label class="control">
+              <input class="visually-hidden control-input" type="radio" name="goal" value="dont-know">
+              <span class="control-mark control-mark-radio"></span>
+              <span class="control-label">
+                Не знаю (Нужен ваш совет)
+              </span>
+            </label>
+          </li>
+        </ul>
+      </fieldset>
+      <!-- ! Form__Contacts -->
+      <fieldset class="form__contacts">
+        <legend>
+          <h2 class="form__contacts-title">
+            Контактные данные (владельца кота)
+          </h2>
+        </legend>
+        <ul class="form__contacts-list">
+          <li class="form__contacts-item">
+            <label class="form__contacts-label">
+              E-mail:*
+              <input class="form__contacts-input" type="email" name="email" placeholder="kuklachev@gmail.com">
+            </label>
+          </li>
+          <li class="form__contacts-item">
+            <label class="form__contacts-label">
+              Телефон:*
+              <input class="form__contacts-input" type="number" name="telephone" placeholder="8 (960) 900-60-90">
+            </label>
+          </li>
+        </ul>
+      </fieldset>
+      <!-- ! Form-Comments -->
+      <fieldset class="form__comments">
+          <legend>
+            <h2 class="form__comments-title">
+              Комментарий
+            </h2>
+          </legend>
+          <textarea class="form__comments-input" name="comments" id="comments">Расскажите обо всех повадках кота</textarea>
+      </fieldset>
+      <!-- ! Form__Additional -->
+      <fieldset class="form__additional">
+        <legend>
+          <h2 class="form__additional-title">
+            Дополнительно
+          </h2>
+        </legend>
+        <ul class="form__additional-list">
+          <li class="form__additional-item">
+            <label class="control">
+              <input class="visually-hidden control-input" type="checkbox" name="sugar" checked>
+              <span class="control-mark control-mark-radio"></span>
+              <span class="control-label">
+                Сахарозаменитель
+              </span>
+            </label>
+          </li>
+          <li class="form__additional-item">
+            <label class="control">
+              <input class="visually-hidden control-input" type="checkbox" name="water">
+              <span class="control-mark control-mark-checkbox"></span>
+              <span class="control-label">
+                Питьевая вода
+              </span>
+            </label>
+          </li>
+          <li class="form__additional-item">
+            <label class="control">
+              <input class="visually-hidden control-input" type="checkbox" name="milk">
+              <span class="control-mark control-mark-checkbox"></span>
+              <span class="control-label">
+                Молоко
+              </span>
+            </label>
+          </li>
+          <li class="form__additional-item">
+            <label class="control">
+              <input class="visually-hidden control-input" type="checkbox" name="vitamins">
+              <span class="control-mark control-mark-checkbox"></span>
+              <span class="control-label">
+                Витамины
+              </span>
+            </label>
+          </li>
+        </ul>
+      </fieldset>
+      <button class="form__button button"   type="submit">
+        Отправить заявку
+      </button>
+      <p class="form__important">
+        * — Обязательные поля
+      </p>
+    </form>
+      <!-- ! Adress -->
+      <address class="address">
+        <h2 class="address__title weight-normal">
+          Приглашаем <br> к сотрудничеству дилеров!
+        </h2>
+        <div class="address__wrapper">
+          <div class="address__street">
+            ул. Большая Конюшенная, д. 19/8
+          </div>
+          <div class="address__city">
+            Санкт-Петербург
+          </div>
+        </div>
+      </address>
+      <div class="map">
+        <img src="images/map.png" width="320" height="362" alt="Адрес магазина на карте">
       </div>
-      <div class="address__city">
-        Санкт-Петербург
-      </div>
-    </div>
-  </address>
-  <div class="map">
-    <img src="images/map.png" width="320" height="362" alt="Адрес магазина на карте">
-  </div>
-</main>
-<!-- ! Footer -->
-<footer class="footer">
-  <a class="footer__logo" href="index.html">
-    <img src="images/logo-cat-energy-text.svg" width="128" height="24" alt="Энергия для котов">
-  </a>
-  <ul class="footer__social-list">
-    <li class="footer__social-item">
-      <a class="footer__social-link footer__social-link--vk" href="#">
-        <span class="visually-hidden">
-          Вконтанке
-        </span>
-      </a>
-    </li>
-    <li class="footer__social-item">
-      <a class="footer__social-link footer__social-link--youtube" href="#">
-        <span class="visually-hidden">
-          Ютюб
-        </span>
-      </a>
-    </li>
-    <li class="footer__social-item">
-      <a class="footer__social-link footer__social-link--telegram" href="#">
-        <span class="visually-hidden">
-          Телеграм
-        </span>
-      </a>
-    </li>
-  </ul>
-  <a class="footer__copyright" href="#">
-    <span class="footer__copyright-name">
-      HTML Academy
-    </span>
-  </a>
-</footer>
+  </main>
+  <!-- ! Footer -->
+  <footer class="footer">
+    <a class="footer__logo" href="index.html">
+      <img src="images/logo-cat-energy-text.svg" width="128" height="24" alt="Энергия для котов">
+    </a>
+    <ul class="footer__social-list">
+      <li class="footer__social-item">
+        <a class="footer__social-link footer__social-link--vk" href="#">
+          <span class="visually-hidden">
+            Вконтанке
+          </span>
+        </a>
+      </li>
+      <li class="footer__social-item">
+        <a class="footer__social-link footer__social-link--youtube" href="#">
+          <span class="visually-hidden">
+            Ютюб
+          </span>
+        </a>
+      </li>
+      <li class="footer__social-item">
+        <a class="footer__social-link footer__social-link--telegram" href="#">
+          <span class="visually-hidden">
+            Телеграм
+          </span>
+        </a>
+      </li>
+    </ul>
+    <a class="footer__copyright" href="#">
+      <span class="footer__copyright-name">
+        HTML Academy
+      </span>
+    </a>
+  </footer>
 </body>
+
 </html>
