@@ -54,82 +54,72 @@
   </header>
  <!-- ! Main -->
  <main>
-  <h1 class="visually-hidden">
-    Страница каталога
+  <h1 class="selection-programs__title">
+    Подбор программы
   </h1>
-  <form action="https://echo.htmlacademy.ru/" method="get" class="form-parameters-filter">
-    <h2 class="title-hide">
-      <span class="visually-hidden">
-        Параметры гостиницы
-      </span>
+  <form action="https://echo.htmlacademy.ru/" method="get" class="form">
+    <h2 class="form__title">
+        Заполните анкету, и мы подберем
+программу питания для вашего кота
     </h2>
-    <fieldset class="field-parameters-filter">
-      <legend class="parameters-filter-legend">
-        <h3 class="parameters-filter-title">
-          Инфраструктура:
+    <fieldset class="form__personalise">
+      <legend>
+        <h3 class="visually-hidden">
+          Личные данные вашего кота
         </h3>
       </legend>
-      <ul class="parameters-filter-list">
-        <li class="parameters-filter-item">
-          <label class="control">
-            <input class="visually-hidden control-input" type="checkbox" name="swimming-pool" checked="">
-            <span class="control-mark"></span>
-            <span class="control-label">
-              Бассейн
-            </span>
+      <ul class="form__personalise-list">
+        <li class="form__personalise-item">
+          <label class="form__personalise-label">
+            Имя:*
+              <input class="form__personalise-input" type="text" name="name"  placeholder="барсик">
           </label>
         </li>
         <li class="parameters-filter-item">
-          <label class="control">
-            <input class="visually-hidden control-input" type="checkbox" name="parking-space" checked="">
-            <span class="control-mark"></span>
-            <span class="control-label">
-              Парковка
-            </span>
+          <label class="form__personalise-label">
+              Вес (кг):*
+              <input class="form__personalise-input" type="number" name="weight" placeholder="7">
           </label>
         </li>
         <li class="parameters-filter-item">
-          <label class="control">
-            <input class="visually-hidden control-input" type="checkbox" name="Wi-Fi">
-            <span class="control-mark"></span>
-            <span class="control-label">
-              Wi-Fi
-            </span>
+          <label class="form__personalise-label">
+              Возраст (лет):
+              <input class="form__personalise-input" type="number" name="age" placeholder="7">
           </label>
         </li>
       </ul>
     </fieldset>
-    <fieldset class="field-parameters-filter">
-      <legend class="legend">
-        <h3 class="parameters-filter-title">
-          Тип Жилья:
+    <fieldset class="form__goal">
+      <legend>
+        <h3 class="visually-hidden">
+          Цель подбора программы
         </h3>
       </legend>
-      <ul class="parameters-filter-list">
-        <li class="parameters-filter-item">
+      <ul class="form__goal-list">
+        <li class="form__goal-item">
           <label class="control">
-            <input class="visually-hidden control-input" type="radio" name="hotel-group" checked="">
+            <input class="visually-hidden control-input" type="radio" name="goal" checked="">
             <span class="control-mark control-mark-radio"></span>
             <span class="control-label">
-              Гостиница
+              Похудение
             </span>
           </label>
         </li>
-        <li class="parameters-filter-item">
+        <li class="form__goal-item">
           <label class="control">
-            <input class="visually-hidden control-input" type="radio" name="hotel-group">
+            <input class="visually-hidden control-input" type="radio" name="goal">
             <span class="control-mark control-mark-radio"></span>
             <span class="control-label">
-              Мотель
+              Набор массы
             </span>
           </label>
         </li>
-        <li class="parameters-filter-item">
+        <li class="form__goal-item">
           <label class="control">
-            <input class="visually-hidden control-input" type="radio" name="hotel-group">
+            <input class="visually-hidden control-input" type="radio" name="goal">
             <span class="control-mark control-mark-radio"></span>
             <span class="control-label">
-              Апартаменты
+              Не знаю (Нужен ваш совет)
             </span>
           </label>
         </li>
