@@ -31,6 +31,7 @@ body{
 }
 
 .label{
+  display: block;
   font-family: $primary-font;
   font-size: 16px;
   line-height: 18px;
@@ -43,6 +44,7 @@ body{
   height: 45px;
   margin-left: 13px;
   padding: 14px 15px 13px 15px;
+  border:  1px solid #E7E7E7;
   font-family: $primary-font;
   font-size: 16px;
   line-height: 18px;
