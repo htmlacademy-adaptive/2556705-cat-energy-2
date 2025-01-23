@@ -24,25 +24,14 @@
 
 .control-input[type="checkbox"]:checked + .control-mark::before,
 .control-input[type="checkbox"]:checked + .control-mark::after{
-  position: absolute;
-  top: 10px;
-  left: 6px;
-  width: 11.5px;
-  height: 1.6px;
-  background-color: #3F5E72;
   content: "";
+  position: absolute;
   display: block;
-}
-
-.control-input[type="checkbox"]:checked + .control-mark::before{
-  transform: rotate(47deg);
-  width: 7px;
-  left: 2.4px;
-  top: 11px
-}
-
-.control-input[type="checkbox"]:checked + .control-mark::after{
-  transform: rotate(-48deg);
+  top: 8px;
+  left: 5px;
+  width: 18px;
+  height: 14px;
+  background-image: url("/icons/arrow-checkbox.svg");
 }
 
 .control-input[type="radio"] + .control-mark{

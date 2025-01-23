@@ -2,6 +2,7 @@
   max-width: 320px;
   width: 320px;
   margin: 0 auto;
+  padding-bottom: 32px;
   line-height: 18px;
 }
 
@@ -17,3 +18,24 @@
   margin: 0 20px 39px;
   font-size: 14px;
 }
+
+.form__button{
+  max-width: 280px;
+  width: 280px;
+  margin-left: 20px;
+  margin-bottom: 21px;
+}
+
+.form__important{
+  max-width: 280px;
+  width: 280px;
+  margin: 0;
+  font-family: $secondary-font;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+}
+
+
+
+
