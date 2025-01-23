@@ -30,6 +30,25 @@ body{
   background-color: #68B738;
 }
 
+.label{
+  font-family: $primary-font;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #444444;
+}
+
+.input-mobile{
+  max-height: 45px;
+  height: 45px;
+  margin-left: 13px;
+  padding: 14px 15px 13px 15px;
+  font-family: $primary-font;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
 .weight-normal{
   font-weight: 400; //атомарный класс
 }

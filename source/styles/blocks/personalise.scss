@@ -1,0 +1,52 @@
+.personalise{
+  padding: 0 20px 24px;
+  border: none;
+}
+
+.personalise-list{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.personalise-item{
+  display: flex;
+  width: 280px;
+  margin-bottom: 14px;
+  &:last-of-type{
+    margin-bottom: 0;
+  }
+}
+
+.personalise-label{
+  margin: auto 0;
+}
+
+.personalise-input{
+  flex-grow: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
