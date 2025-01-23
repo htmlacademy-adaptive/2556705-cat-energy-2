@@ -1,0 +1,38 @@
+.comments{
+  max-width: 320px;
+  padding-left: 20px;
+  padding-bottom: 23px;
+  border: none;
+}
+
+.comments__container{
+  width: 300px;
+  display: flex;
+  margin-bottom: 38px;
+  align-items: center;
+}
+
+.comments__container::before{
+  content: "";
+  margin-top: 10px;
+  flex-grow: 1;
+  order: 1;
+  border-bottom: 2px solid #68B738;
+}
+
+.comments__title{
+  max-width: 187px;
+  margin: 0;
+  font-size: 24px;
+  line-height: 26px;
+}
+
+.comments__input{
+  width: 280px;
+  min-height: 150px;
+  margin: 0;
+}
+
+
+
+

@@ -130,35 +130,35 @@
         </ul>
       </fieldset>
       <!-- ! Form__Contacts -->
-      <fieldset class="contacts contacts">
-        <legend>
-          <h2 class="contacts-title">
+      <fieldset class="form__contacts contacts">
+        <legend class="contacts__container">
+          <h2 class="contacts__title weight-normal">
             Контактные данные (владельца кота)
           </h2>
         </legend>
         <ul class="contacts-list">
           <li class="contacts-item">
-            <label class="contacts-label label">
+            <label class="contacts-label label" for="email">
               E-mail:*
-              <input class="contacts-input input-mobile" type="email" name="email" placeholder="kuklachev@gmail.com">
             </label>
+            <input class="contacts-input input-mobile" id="email" type="email" name="email" placeholder="kuklachev@gmail.com">
           </li>
           <li class="contacts-item">
-            <label class="contacts-label label">
+            <label class="contacts-label label" for="telephone">
               Телефон:*
-              <input class="contacts-input input-mobile" type="number" name="telephone" placeholder="8 (960) 900-60-90">
             </label>
+            <input class="contacts-input input-mobile" id="telephone" type="number" name="telephone" placeholder="8 (960) 900-60-90">
           </li>
         </ul>
       </fieldset>
       <!-- ! Form__Comments -->
       <fieldset class="form__comments comments">
-        <legend>
-          <h2 class="comments-title">
+        <legend class="comments__container">
+          <h2 class="comments__title">
             Комментарий
           </h2>
         </legend>
-        <textarea class="comments-input input-mobile" name="comments" id="comments">Расскажите обо всех повадках кота</textarea>
+        <textarea class="comments__input input-mobile" name="comments" id="comments">Расскажите обо всех повадках кота</textarea>
       </fieldset>
       <!-- ! Form__Additional -->
       <fieldset class="form__additional additional">
