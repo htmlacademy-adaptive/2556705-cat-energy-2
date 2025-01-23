@@ -4,12 +4,24 @@
   margin: 0 auto;
   padding-bottom: 32px;
   line-height: 18px;
+  @media (min-width: $tablet-widht) {
+    max-width: 768px;
+    width: 768px;
+    padding-bottom: 60px;
+    font-size: 20px;
+    line-height: 30px;
+  }
 }
 
 .form__title{
   margin: 27px 20px 37px;
   font-size: 36px;
   line-height: 36px;
+  @media (min-width: $tablet-widht) {
+    margin: 0 70px 54px;
+    font-size: 60px;
+    line-height: 60px;
+  }
 }
 
 .form__description{
@@ -17,6 +29,13 @@
   width: 224px;
   margin: 0 20px 39px;
   font-size: 14px;
+  text-transform: uppercase;
+  @media (min-width: $tablet-widht) {
+    max-width: 320px;
+    width: 320px;
+    margin: 0 70px 66px;
+    font-size: 20px;
+  }
 }
 
 .form__button{

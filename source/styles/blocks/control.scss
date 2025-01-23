@@ -5,7 +5,11 @@
   padding-left: 45px;
   line-height: 24px;
   cursor: pointer;
+  @media (min-width: $tablet-widht) {
+    max-width: 400px;
+    padding-left: 60px;
   }
+}
 
 .control-mark{
   position: absolute;
@@ -16,10 +20,19 @@
   background-color: $basic-white;
   border-radius: 4px;
   border: 1px solid #CDCDCD;
+  @media (min-width: $tablet-widht) {
+
+    width: 40px;
+    height: 40px;
+  }
 }
 
 .control-label{
   padding: 6px 0;
+  @media (min-width: $tablet-widht) {
+    font-size: 20px;
+    line-height: 30px;
+  }
 }
 
 .control-input[type="checkbox"]:checked + .control-mark::before,
@@ -48,6 +61,12 @@
   border-radius: 50%;
   content: "";
   box-sizing: border-box;
+  @media (min-width: $tablet-widht) {
+    top: 10px;
+    left: 10px;
+    width: 18px;
+    height: 18px;
+  }
 }
 
 

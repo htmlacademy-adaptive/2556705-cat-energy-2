@@ -1,8 +1,15 @@
 .goal{
-padding: 28px 20px 19px 20px;
-border: none;
-border-top: 1px solid #D9D9D9;
-border-bottom: 1px solid #D9D9D9;
+  padding: 28px 20px 19px 20px;
+  border: none;
+  border-top: 1px solid #D9D9D9;
+  border-bottom: 1px solid #D9D9D9;
+  @media (min-width: $tablet-widht) {
+    max-width: 628px;
+    margin: 0 auto;
+    margin-bottom: 65px;
+    padding: 23px 27px 27px;
+    border: 1px solid #E7E7E7;
+  }
 }
 
 .goal-list{

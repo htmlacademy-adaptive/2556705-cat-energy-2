@@ -1,6 +1,9 @@
 .personalise{
   padding: 0 20px 24px;
   border: none;
+  @media (min-width: $tablet-widht) {
+    padding: 0 70px 65px;
+  }
 }
 
 .personalise-list{
@@ -16,14 +19,32 @@
   &:last-of-type{
     margin-bottom: 0;
   }
+  @media (min-width: $tablet-widht) {
+    width: 628px;
+    margin-bottom: 20px;
+    &:last-of-type{
+      margin-bottom: 0;
+    }
+  }
 }
 
 .personalise-label{
   margin: auto 0;
+  @media (min-width: $tablet-widht) {
+    font-size: 20px;
+    line-height: 30px;
+  }
 }
 
 .personalise-input{
   flex-grow: 1;
+  @media (min-width: $tablet-widht) {
+    max-height: 52px;
+    height: 52px;
+    padding: 11px 20px;
+    font-size: 20px;
+    line-height: 30px;
+  }
 }
 
 

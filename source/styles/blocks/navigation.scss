@@ -90,7 +90,7 @@
 
 
 @media (min-width: $tablet-widht) {
-  .header__item--current::before{
+  .header__link--current::before{
     content: "";
     position: absolute;
     width: 100%;
