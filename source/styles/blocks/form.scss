@@ -43,9 +43,18 @@
   width: 280px;
   margin-left: 20px;
   margin-bottom: 21px;
+  @media (min-width: $tablet-widht) {
+    max-width: 284px;
+    width: 284px;
+    padding: 14px;
+    margin-right: 60px;
+    font-size: 20px;
+    line-height: 26px;
+  }
 }
 
 .form__important{
+  display: inline-block;
   max-width: 280px;
   width: 280px;
   margin: 0;
@@ -53,6 +62,11 @@
   font-size: 14px;
   line-height: 16px;
   text-align: center;
+  @media (min-width: $tablet-widht) {
+    max-width: 174px;
+    width: 174px;
+    font-size: 16px;
+  }
 }
 
 

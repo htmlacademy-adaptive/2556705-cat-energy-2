@@ -21,7 +21,6 @@
   border-radius: 4px;
   border: 1px solid #CDCDCD;
   @media (min-width: $tablet-widht) {
-
     width: 40px;
     height: 40px;
   }
@@ -45,6 +44,12 @@
   width: 18px;
   height: 14px;
   background-image: url("/icons/arrow-checkbox.svg");
+  @media (min-width: $tablet-widht) {
+    top: 11px;
+    left: 8px;
+    width: 24px;
+    height: 19px;
+  }
 }
 
 .control-input[type="radio"] + .control-mark{
