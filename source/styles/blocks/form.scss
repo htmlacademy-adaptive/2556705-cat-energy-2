@@ -11,6 +11,13 @@
     font-size: 20px;
     line-height: 30px;
   }
+  @media (min-width: $desktop-width) {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1440px;
+    width: 1440px;
+    padding-bottom: 79px;
+  }
 }
 
 .form__title{
@@ -21,6 +28,11 @@
     margin: 0 70px 54px;
     font-size: 60px;
     line-height: 60px;
+  }
+  @media (min-width: $desktop-width) {
+    max-width: 1440px;
+    width: 1400px;
+    margin: 0 110px 55px;
   }
 }
 
@@ -35,6 +47,9 @@
     width: 320px;
     margin: 0 70px 66px;
     font-size: 20px;
+  }
+  @media (min-width: $desktop-width) {
+    margin: 0 800px 66px 110px;
   }
 }
 

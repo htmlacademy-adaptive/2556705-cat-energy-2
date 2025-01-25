@@ -4,6 +4,12 @@
   @media (min-width: $tablet-widht) {
     padding: 0 70px 65px;
   }
+  @media (min-width: $desktop-width) {
+    max-width: 570px;
+    width: 570px;
+    margin: 0 80px 70px 110px;
+    padding: 0;
+  }
 }
 
 .personalise-list{
@@ -25,6 +31,10 @@
     &:last-of-type{
       margin-bottom: 0;
     }
+  }
+  @media (min-width: $desktop-width) {
+    max-width: 570px;
+    width: 570px;
   }
 }
 

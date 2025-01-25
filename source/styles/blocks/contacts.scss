@@ -8,6 +8,10 @@
     width: 768px;
     padding: 0;
   }
+  @media (min-width: $desktop-width) {
+    max-width: 1440px;
+    width: 1440px;
+  }
 }
 
 .contacts__container{
@@ -27,6 +31,10 @@
     margin-left: 0;
     margin-bottom: 76px;
   }
+  @media (min-width: $desktop-width) {
+    max-width: 1440px;
+    width: 1440px;
+  }
 }
 
 .contacts__container::before{
@@ -36,6 +44,9 @@
   margin-top: -25px;
   @media (min-width: $tablet-widht){
     margin-top: 0;
+  }
+  @media (min-width: $desktop-width){
+    flex-grow: 11;
   }
 }
 
@@ -75,6 +86,13 @@
     font-size: 36px;
     line-height: 36px;
   }
+  @media (min-width: $desktop-width){
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1440px;
+    width: 1440px;
+    margin-bottom: 70px;
+  }
 }
 
 .contacts__item{
@@ -91,10 +109,17 @@
       margin-bottom: 0;
     }
   }
+  @media (min-width: $desktop-width){
+    max-width: 572px;
+    margin-bottom: 0;
+  }
 }
 
 .contacts__item--email{
   position: relative;
+  @media (min-width: $desktop-width){
+    margin-right: 81px;
+  }
 }
 
 .contacts__item--email::before{
@@ -135,6 +160,9 @@
     font-size: 20px;
     line-height: 30px;
   }
+  @media (min-width: $desktop-width){
+    margin-top: 10px;
+  }
 }
 
 .contacts__input{
@@ -146,9 +174,6 @@
     line-height: 30px;
   }
 }
-
-
-
 
 
 
