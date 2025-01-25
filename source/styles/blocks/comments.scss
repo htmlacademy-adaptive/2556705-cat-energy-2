@@ -11,6 +11,11 @@
     padding: 0;
     padding-bottom: 65px;
   }
+  @media (min-width: $desktop-width) {
+    max-width: 1440px;
+    width: 1440px;
+    padding-bottom: 70px;
+  }
 }
 
 .comments__container{
@@ -28,6 +33,11 @@
     width: 768px;
     margin-bottom: 87px;
   }
+  @media (min-width: $desktop-width) {
+    max-width: 1440px;
+    width: 1440px;
+    margin-bottom: 78px;
+  }
 }
 
 .comments__container::before{
@@ -36,6 +46,9 @@
   margin-left: 21px;
   flex-grow: 16;
   order: 1;
+  @media (min-width: $desktop-width) {
+    flex-grow: 14;
+  }
 }
 
 .comments__container::after{
@@ -72,6 +85,12 @@
     padding: 11px 20px;
     font-size: 20px;
     line-height: 30px;
+  }
+  @media (min-width: $desktop-width) {
+    max-width: 1220px;
+    width: 1220px;
+    margin-left: 110px;
+    padding: 9px 20px;
   }
 }
 
