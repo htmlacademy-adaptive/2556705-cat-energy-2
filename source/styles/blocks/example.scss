@@ -215,6 +215,24 @@
   border-radius: 50%;
   border: 2px solid #666666;
   background-color: $basic-white;
+  &:hover,
+  &:focus{
+  border: 2px solid #68B738;
+  }
+  &:hover::before,
+  &:focus::before,
+  &:hover::after,
+  &:focus::after{
+    background-color: #68B738;
+  }
+  &:active{
+  border: 2px solid rgba($color: #5EAA2F, $alpha: 0.6);
+
+  }
+  &:active::before,
+  &:active::after{
+    background-color: rgba($color: #5EAA2F, $alpha: 0.6);
+  }
   @media (min-width: $tablet-widht) {
     top: 236px;
     left: 334px;
@@ -222,7 +240,7 @@
   }
   @media (min-width: $desktop-width) {
     margin-top: 0;
-    left: 362px;
+    left: 355px;
   }
 }
 
@@ -237,22 +255,21 @@
   background-color: #666666;
 }
 
-.example__demo::after{
+.example__tumbler::after{
   content: "";
   position: absolute;
   width: 4px;
   height: 256px;
   background-color: #666666;
   top: 0;
-  left: 138px;
+  left: 16px;
+  margin-top: -108px;
   @media (min-width: $tablet-widht) {
-    left: 352px;
     height: 512px;
-    margin-top: -151px;
+    margin-top: -236px;
   }
   @media (min-width: $desktop-width) {
-    margin-top: 0;
-    left: 380px;
+
   }
 }
 

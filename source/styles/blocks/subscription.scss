@@ -113,6 +113,14 @@
   font-size: 20px;
   line-height: 30px;
   color: #444444;
+  &:hover,
+  &:focus,
+  &:active{
+    border:  2px solid #444444;
+  }
+  &:invalid{
+    border:  2px solid #FF8282;
+  }
   @media (min-width: $tablet-widht){
     display: flex;
     max-width: 376px;
