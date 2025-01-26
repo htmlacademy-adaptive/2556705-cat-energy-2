@@ -28,6 +28,14 @@ body{
   text-decoration: none;
   border: none;
   background-color: #68B738;
+  &:hover,
+  &:focus,
+  &:active{
+    background-color: #5EAA2F;
+  }
+  &:active{
+    color: rgba(255, 255, 255, 0.3);
+  }
 }
 
 .label{
