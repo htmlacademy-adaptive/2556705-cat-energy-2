@@ -298,6 +298,12 @@
   width: 280px;
   color: #444444;
   background-color: #F2F2F2;
+  &:hover,
+  &:focus,
+  &:active{
+    background-color: #EBEBEB;
+    color: rgba($color: #444444, $alpha: 1.0);
+  }
   @media (min-width: $tablet-widht){
     max-width: 250px;
     height: 40px;

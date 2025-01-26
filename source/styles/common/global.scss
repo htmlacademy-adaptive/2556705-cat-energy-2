@@ -28,6 +28,7 @@ body{
   text-decoration: none;
   border: none;
   background-color: #68B738;
+  cursor: pointer;
   &:hover,
   &:focus,
   &:active{
@@ -58,6 +59,16 @@ body{
   font-size: 16px;
   line-height: 18px;
   text-transform: uppercase;
+  &:hover{
+    border:  1px solid #CDCDCD;
+  }
+  &:focus,
+  &:active{
+    border:  2px solid #444444;
+  }
+  &:invalid{
+    border:  2px solid #FF8282;
+  }
 }
 
 .weight-normal{
