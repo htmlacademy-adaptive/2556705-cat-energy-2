@@ -22,16 +22,23 @@
 .header__wrapper{
   display: flex;
   justify-content: space-between;
-  padding: 13px 20px;
+  margin: 13px 20px;
+  &:hover,
+  &:focus{
+    opacity: 80%;
+  }
+  &:active{
+    opacity: 60%;
+  }
   @media (min-width: $tablet-widht){
-    padding: 25px 33px 65px 30px;
+    margin: 25px 33px 65px 30px;
   }
   @media (min-width: $desktop-width) {
-    padding: 55px 110px 110px 55px;
+    margin: 55px 110px 110px 110px;
   }
 }
 
-.header__logo{
+.header__logo--text{
   margin: auto 0;
   @media (min-width: $tablet-widht){
     margin-left: 13px;

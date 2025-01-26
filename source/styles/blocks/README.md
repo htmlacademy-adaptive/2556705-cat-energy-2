@@ -4,6 +4,6 @@ _header.scss_
 
 ```css
 .header {}
-.header__logo {}
+.header__logo header__logo--text {}
 .header__nav {}
 ```
