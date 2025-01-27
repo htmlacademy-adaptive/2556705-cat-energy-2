@@ -2,7 +2,7 @@
 .example{
   max-width: 320px;
   margin: 0 auto;
-  padding: 25px 20px 40px 20px;
+  padding: 25px 20px 37px 20px;
   font-size: 14px;
   line-height: 18px;
   color: $basic-grey-font;
@@ -77,9 +77,9 @@
 .example__statistics-list{
   display: flex;
   flex-wrap: wrap;
-  gap: 12px;
+  gap: 32px;
   margin: 0;
-  margin-bottom: 20px;
+  margin-bottom: 19px;
   padding: 0;
   list-style-type: none;
   @media (min-width: $desktop-width) {
@@ -97,8 +97,8 @@
 .example__statistics-content{
   width: 124px;
   margin-top: 0;
-  padding-top: 15px;
-  padding-bottom: 18px;
+  padding-top: 14px;
+  padding-bottom: 16px;
   font-size: 24px;
   line-height: 24px;
   text-transform: uppercase;
@@ -113,10 +113,10 @@
 }
 
 .example__statistics-caption{
-  max-width: 100px;
+  max-width: 90px;
   margin: 0 auto;
-  margin-top: -30px;
-  padding: 0 14px;
+  margin-top: -33px;
+  padding: 0 10px;
   font-family: $secondary-font;
   font-size: 12px;
   line-height: 12px;
@@ -137,6 +137,9 @@
 
 .example__statistics-footer{
   display: flex;
+  max-width: 188px;
+  width: 188px;
+  justify-content: space-between;
   margin: 0 auto;
   line-height: 20px;
   text-transform: uppercase;
@@ -155,14 +158,18 @@
 }
 
 .example__statistics-footer-title{
+  margin-left: 1px;
   @media (min-width: $desktop-width) {
     max-width: 180px;
     margin-right: 63px;
   }
 }
+
+
 // ! example__demo
 .example__demo{
   position: relative;
+  z-index: 0;
   display: flex;
   max-width: 280px;
   @media (min-width: $tablet-widht) {
@@ -180,6 +187,8 @@
 }
 
 .example__cat-fat{
+  position: relative;
+  z-index: -2;
   width: 140px;
   object-fit: cover;
   object-position: left;
@@ -193,6 +202,8 @@
 }
 
 .example__cat-small{
+  position: relative;
+  z-index: -2;
   width: 140px;
   object-fit: cover;
   object-position: right;
@@ -258,18 +269,16 @@
 .example__tumbler::after{
   content: "";
   position: absolute;
+  z-index: -1;
   width: 4px;
   height: 256px;
   background-color: #666666;
   top: 0;
   left: 16px;
-  margin-top: -108px;
+  margin-top: -110px;
   @media (min-width: $tablet-widht) {
     height: 512px;
     margin-top: -236px;
-  }
-  @media (min-width: $desktop-width) {
-
   }
 }
 

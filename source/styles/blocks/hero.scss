@@ -23,10 +23,10 @@
 .hero::before{
   content: "";
   position: absolute;
-  width: 318px;
+  width: 320px;
   height: 302px;
   left: 0;
-  top: 0;
+  top: 1px;
   background: url('/images/green-patern-mobile.png') top center no-repeat,
   url('/images/cat-bg-mobile.png') top center no-repeat;
   z-index: -1;
@@ -48,9 +48,10 @@
 }
 
 .hero__title{
-  margin: 26px 0;
-  font-size: 26px;
-  line-height: 26px;
+  margin: 28px 0;
+  margin-bottom: 26px;
+  font-size: 36px;
+  line-height: 36px;
   @media (min-width: $tablet-widht){
     max-width: 416px;
     margin: 0 0 40px 90px;
@@ -65,6 +66,7 @@
 
 .hero__description{
   margin: 0;
+  margin-left: -2px;
   margin-bottom: 29px;
   font-size: 14px;
   line-height: 14px;
@@ -79,7 +81,7 @@
 
 .hero__image{
   margin: 0;
-  margin-top: 20px;
+  margin-left: -10px;
   text-align: center;
   @media (min-width: $tablet-widht){
     margin-top: -73px;
@@ -92,9 +94,11 @@
 
 .hero__button{
   max-width: 320px;
-  padding: 10px 20px;
   width: 280px;
   margin: 0 auto;
+  margin-top: -1.5px;
+  margin-left: -10px;
+  padding: 11px 20px 9px;
   order: 1;
   @media (min-width: $tablet-widht){
     z-index: 1;

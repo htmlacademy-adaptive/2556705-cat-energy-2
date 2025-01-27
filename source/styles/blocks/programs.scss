@@ -22,10 +22,11 @@
 
 .programs__item{
   position: relative;
-  max-width: 320px;
+  max-width: 280px;
   margin: 0 auto;
   margin-bottom: 20px;
   padding: 20px;
+  padding-bottom: 17.5px;
   background-color: #F2F2F2;
   &::before,
   &::after{
@@ -59,7 +60,7 @@
 
 .programs__item::before{
   top: 24px;
-  left: 20px;
+  left: 20.5px;
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -81,7 +82,7 @@
 
 .programs__item::after{
   left: 27px;
-  top: 21px;
+  top: 20px;
   width: 36px;
   height: 53px;
   background-image: url("/icons/cat-sit.svg");
@@ -123,7 +124,7 @@
 
 .programs__subtitle{
   max-width: 140px;
-  margin: 10px auto 30px 70px;
+  margin: 11px auto 29.5px 70.5px;
   font-size: 24px;
   line-height: 37px;
   text-transform: uppercase;
@@ -143,7 +144,7 @@
 
 .programs__description{
   position: relative;
-  max-width: 227px;
+  max-width: 240px;
   margin: 0;
   margin-bottom: 23px;
   font-family: $secondary-font;
@@ -166,7 +167,7 @@
     width: 100%;
     bottom: 0;
     left: 0;
-    margin-bottom: -23px;
+    margin-bottom: -22px;
     border-top: 1px solid #D9D9D9;
   }
 }
@@ -175,7 +176,8 @@
   position: relative;
   display: inline-block;
   max-width: 240px;
-  margin-top: 15px;
+  margin-top: 14px;
+  margin-left: 1px;
   padding: 4px 47px 4px 0;
   color: $basic-black;
   font-size: 16px;
@@ -212,8 +214,8 @@
   position: absolute;
   width: 24px;
   height: 12px;
-  right: 8px;
-  top: 14px;
+  right: 7px;
+  top: 6px;
   background-image: url("/icons/arrow.svg");
 }
 

@@ -32,6 +32,7 @@
 .instructions__title{
   margin: 0;
   margin-bottom: 40px;
+  margin-left: 1px;
   font-size: 36px;
   line-height: 40px;
   @media (min-width: $tablet-widht) {
@@ -102,10 +103,10 @@
 .instructions__item--leaf::after{
   content: "";
   position: absolute;
-  width: 30px;
-  height: 32px;
-  left: 15px;
-  top: 14px;
+  width: 25px;
+  height: 28px;
+  left: 18px;
+  top: 16px;
   background-image: url("/icons/leaf.svg");
   @media (min-width: $tablet-widht) {
     top: 25px;
@@ -118,8 +119,8 @@
   position: absolute;
   width: 26px;
   height: 29px;
-  left: 17px;
-  top: 16px;
+  left: 18px;
+  top: 17px;
   background-image: url("/icons/powder.svg");
   @media (min-width: $tablet-widht) {
     top: 26px;
@@ -159,6 +160,7 @@
   max-width: 200px;
   margin: 0;
   margin-left: 80px;
+  margin-top: 3px;
   font-family: $secondary-font;
   color: $basic-grey-font;
   @media (min-width: $tablet-widht) {

@@ -40,6 +40,7 @@
 
 .header__logo--text{
   margin: auto 0;
+  margin-left: -10px;
   @media (min-width: $tablet-widht){
     min-height: 50px;
     margin-left: 12px;
