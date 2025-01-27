@@ -54,7 +54,7 @@
   line-height: 36px;
   @media (min-width: $tablet-widht){
     max-width: 416px;
-    margin: 0 0 40px 90px;
+    margin: 0 0 40px 91px;
     font-size: 60px;
     line-height: 60px;
   }
@@ -73,7 +73,7 @@
   text-transform: uppercase;
   @media (min-width: $tablet-widht){
     margin-bottom: 50px;
-    margin-left: 90px;
+    margin-left: 91px;
     font-size: 20px;
     line-height: 20px;
   }
@@ -84,7 +84,8 @@
   margin-left: -10px;
   text-align: center;
   @media (min-width: $tablet-widht){
-    margin-top: -73px;
+    margin-top: -83px;
+    margin-left: 0;
   }
   @media (min-width: $desktop-width) {
     margin-top: -360px;
@@ -103,7 +104,7 @@
   @media (min-width: $tablet-widht){
     z-index: 1;
     width: auto;
-    margin-left: 90px;
+    margin-left: 91px;
     padding: 14px 26px;
     order: 0;
     font-size: 20px;

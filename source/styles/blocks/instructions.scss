@@ -8,7 +8,7 @@
   line-height: 18px;
   @media (min-width: $tablet-widht) {
     max-width: 768px;
-    padding: 0 110px 47px 30px;
+    padding: 0 110px 60px 31px;
     &::before{
       content: "";
       position: absolute;
@@ -42,6 +42,12 @@
   }
 }
 
+.instructions__title--word{
+  @media (min-width: $tablet-widht) {
+    margin-left: -2px;
+  }
+}
+
 .instructions__list{
   margin: 0;
   padding: 0;
@@ -69,6 +75,8 @@
     max-width: 250px;
     min-height: 280px;
     margin: 0;
+    margin-top: 40px;
+    margin-bottom: -3px;
   }
   @media (min-width: $desktop-width) {
     justify-self: end;
@@ -182,6 +190,12 @@
       line-height: 280px;
       color: #F2F2F2;
     }
+  }
+}
+
+.instructions__description--words{
+  @media (min-width: $tablet-widht) {
+    display: block;
   }
 }
 

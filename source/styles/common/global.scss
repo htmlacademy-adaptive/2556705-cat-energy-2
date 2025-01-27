@@ -77,7 +77,8 @@ margin: 0;
 }
 
 input[type=number]{
--moz-appearance: textfield;
+  appearance: none;
+  -moz-appearance: textfield;
 }
 
 .weight-normal{

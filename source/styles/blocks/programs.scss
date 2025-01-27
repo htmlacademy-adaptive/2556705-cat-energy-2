@@ -1,9 +1,10 @@
 .programs{
+  margin-top: -3px;
   padding: 20px;
   font-size: 14px;
   line-height: 18px;
   @media (min-width: $tablet-widht){
-    padding: 0 30px 45px;
+    padding: 0 30px 43px;
   }
   @media (min-width: $desktop-width) {
     padding: 0 110px;
@@ -34,9 +35,9 @@
   position: absolute;
   }
   @media (min-width: $tablet-widht){
-    max-width: 768px;
-    margin-bottom: 30px;
-    padding: 77px 45px 53px 52px;
+    max-width: 708px;
+    margin-bottom: 28px;
+    padding: 77px 45px 53px 53px;
   }
   @media (min-width: $desktop-width) {
     max-width: 570px;
@@ -67,7 +68,7 @@
   background-color: $basic-green-bg;
   @media (min-width: $tablet-widht){
     left: auto;
-    right: 63px;
+    right: 62px;
     top: 92px;
     width: 200px;
     height: 200px;
@@ -88,7 +89,7 @@
   background-image: url("/icons/cat-sit.svg");
   @media (min-width: $tablet-widht){
     left: auto;
-    right: 93px;
+    right: 92px;
     top: 81px;
     width: 140px;
     height: 194px;
@@ -109,7 +110,7 @@
   background-image: url("/icons/cat-go.svg");
   @media (min-width: $tablet-widht){
     left: auto;
-    right: 29px;
+    right: 27px;
     top: 135px;
     width: 270px;
     height: 112px;
@@ -193,7 +194,6 @@
     width: 32px;
     background-image: url("/icons/long-arrow.svg");
   }
-
   @media (min-width: $tablet-widht){
     max-width: 165px;
     width: 165px;
@@ -217,6 +217,16 @@
   right: 7px;
   top: 6px;
   background-image: url("/icons/arrow.svg");
+  @media (min-width: $tablet-widht){
+    top: 13px;
+    right: 8px;
+  }
+}
+
+.programs__link--pro{
+  @media (min-width: $tablet-widht){
+    width: 161px;
+  }
 }
 
 
