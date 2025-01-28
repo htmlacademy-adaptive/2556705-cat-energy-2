@@ -137,7 +137,7 @@
   }
   @media (min-width: $desktop-width) {
     max-width: 300px;
-    margin-top: 77px;
+    margin-top: 76px;
     margin-left: 214px;
     margin-bottom: 73px;
   }
@@ -157,6 +157,7 @@
   }
   @media (min-width: $desktop-width) {
     max-width: 457px;
+    margin-bottom: 22px;
     margin-left: 52px;
   }
 }
@@ -204,8 +205,9 @@
     line-height: 30px;
   }
   @media (min-width: $desktop-width) {
-    margin-left: 52px;
+    margin-left: 53.5px;
     margin-bottom: 55px;
+    word-spacing: 0.2px;
   }
 }
 
@@ -221,8 +223,11 @@
     top: 13px;
     right: 8px;
   }
+  @media (min-width: $desktop-width) {
+    top: 14px;
+    right: 9px;
+  }
 }
-
 .programs__link--pro{
   @media (min-width: $tablet-widht){
     width: 161px;

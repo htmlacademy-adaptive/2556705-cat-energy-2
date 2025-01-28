@@ -34,7 +34,7 @@
     margin: 25px 33px 64px 30px;
   }
   @media (min-width: $desktop-width) {
-    margin: 55px 110px 110px 110px;
+    margin: 55px 110px 105px 110px;
   }
 }
 
@@ -49,8 +49,16 @@
   }
   @media (min-width: $desktop-width) {
     min-height: 59px;
-    margin-left: 13px;
+    margin-left: 11px;
     padding: 19px 1px;
+  }
+}
+
+.header__logo-desktop--text{
+  @media (min-width: $desktop-width) {
+    height: 30px;
+    width: 121px;
+    margin-top: -3px;
   }
 }
 
@@ -90,7 +98,7 @@
     justify-content: flex-end;
   }
   @media (min-width: $desktop-width) {
-    margin: 55px 110px 110px 55px;
+    margin: 52px 110px 105px 55px;
     justify-content: flex-end;
     background: none;
   }
@@ -150,8 +158,10 @@
     line-height: 24px;
   }
   @media (min-width: $desktop-width) {
+    padding: 7px 1px;
     font-size: 20px;
     line-height: 30px;
+    word-spacing: 0.5px;
   }
 }
 
@@ -178,10 +188,10 @@
     &::before{
       content: "";
     position: absolute;
-    width: 100%;
+    width: calc(100% - 6px);
     height: 2px;
     bottom: 0;
-    left: 0;
+    left: 3px;
     background: $basic-white;
     }
   }

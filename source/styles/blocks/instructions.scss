@@ -22,7 +22,7 @@
   }
   @media (min-width: $desktop-width) {
     max-width: 1440px;
-    padding: 71px 106px 180px 110px;
+    padding: 70px 106px 165px 110.5px;
     &::before{
       display: none;
     }
@@ -39,6 +39,9 @@
     margin-bottom: 32px;
     font-size: 60px;
     line-height: 60px;
+  }
+  @media (min-width: $desktop-width) {
+    word-spacing: 0.5px;
   }
 }
 

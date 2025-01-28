@@ -77,6 +77,9 @@
     font-size: 20px;
     line-height: 20px;
   }
+  @media (min-width: $desktop-width) {
+    margin-bottom: 52px;
+  }
 }
 
 .hero__image{
@@ -88,8 +91,8 @@
     margin-left: 0;
   }
   @media (min-width: $desktop-width) {
-    margin-top: -360px;
-    margin-left: 455px;
+    margin-top: -367px;
+    margin-left: 456px;
   }
 }
 
@@ -109,6 +112,12 @@
     order: 0;
     font-size: 20px;
     line-height: 26px;
+  }
+  @media (min-width: $desktop-width) {
+    width: 244px;
+    margin-left: 90px;
+    padding-left: 27px;
+    word-spacing: 0.9px;
   }
 }
 
