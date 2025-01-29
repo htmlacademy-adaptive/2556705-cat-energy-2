@@ -21,7 +21,7 @@
 }
 
 .form__title{
-  margin: 27px 20px 37px;
+  margin: 28px 20px 37px;
   font-size: 36px;
   line-height: 36px;
   @media (min-width: $tablet-widht) {
@@ -57,7 +57,7 @@
   max-width: 280px;
   width: 280px;
   margin-left: 20px;
-  margin-bottom: 21px;
+  margin-bottom: 18px;
   @media (min-width: $tablet-widht) {
     max-width: 284px;
     width: 284px;
@@ -76,13 +76,15 @@
 
 .form__important{
   display: inline-block;
-  max-width: 280px;
-  width: 280px;
+  max-width: 320px;
+  width: 320px;
   margin: 0;
+  margin-left: 1px;
   font-family: $secondary-font;
   font-size: 14px;
   line-height: 16px;
   text-align: center;
+  word-spacing: 1.3px;
   @media (min-width: $tablet-widht) {
     max-width: 174px;
     width: 174px;

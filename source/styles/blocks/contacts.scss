@@ -1,5 +1,6 @@
 .contacts{
   max-width: 320px;
+  margin: 0;
   padding-left: 20px;
   padding-bottom: 24px;
   border: none;
@@ -41,8 +42,8 @@
 .contacts__container::before{
   flex-grow: 5;
   order: 1;
-  margin-left: 40px;
-  margin-top: -25px;
+  margin-left: 20px;
+  margin-top: -22px;
   @media (min-width: $tablet-widht){
     margin-top: 0;
   }
@@ -63,7 +64,7 @@
 
 .contacts__title{
   max-width: 187px;
-  margin: 26px 20px 35px 0;
+  margin: 26px 0 29px;
   font-size: 24px;
   line-height: 26px;
   @media (min-width: $tablet-widht){
@@ -129,7 +130,7 @@
   right: 14px;
   top: 16px;
   width: 17px;
-  height: 13px;
+  height: 14px;
   background-image: url("/icons/letter.svg");
   @media (min-width: $tablet-widht){
     top: 20px;
@@ -146,8 +147,8 @@
   position: absolute;
   right: 13px;
   top: 16px;
-  width: 17px;
-  height: 13px;
+  width: 19px;
+  height: 14px;
   background-image: url("/icons/phone.svg");
   @media (min-width: $tablet-widht){
     top: 19px;

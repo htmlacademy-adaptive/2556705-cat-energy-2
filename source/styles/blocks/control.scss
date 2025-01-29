@@ -13,12 +13,12 @@
 
 .control-mark{
   position: absolute;
-  top: 2px;
+  top: 0;
   left: 0;
   width: 30px;
   height: 30px;
   background-color: $basic-white;
-  border-radius: 4px;
+  border-radius: none;
   border: 1px solid #CDCDCD;
   @media (min-width: $tablet-widht) {
     width: 40px;
@@ -58,8 +58,8 @@
 
 .control-input[type="radio"]:checked + .control-mark::before{
   position: absolute;
-  top: 8px;
-  left: 8px;
+  top: 7px;
+  left: 7px;
   width: 13px;
   height: 13px;
   background-color: #68B738;
