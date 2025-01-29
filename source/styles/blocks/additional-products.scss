@@ -36,6 +36,7 @@
   @media (min-width: $desktop-width) {
     max-width: 1440px;
     width: 1440px;
+    margin-bottom: 78px;
     align-items:center
   }
 }
@@ -50,7 +51,7 @@
   }
   @media (min-width: $desktop-width) {
     flex-grow: 14;
-    margin-top: 0;
+    margin-top: -5px;
   }
 }
 
@@ -63,7 +64,8 @@
     margin-top: -2px;
   }
   @media (min-width: $desktop-width) {
-    margin-top: 0;
+    width: 4px;
+    margin-top: -5px;
   }
 }
 
@@ -127,7 +129,7 @@
     max-width: 896px;
     width: 896px;
     align-items: center;
-    padding: 15px 1px 17px 1px;
+    padding: 14px 1px 17px 1px;
     border: none;
     border-bottom: 1px solid #CDCDCD;
   }
@@ -174,6 +176,7 @@
   @media (min-width: $desktop-width) {
     max-width: none;
     margin: auto 0;
+    margin-top: 13px;
   }
 }
 
@@ -191,6 +194,9 @@
 .additional-products__measure--water{
   @media (min-width: $tablet-widht){
     margin-right: 10px;
+  }
+  @media (min-width: $desktop-width) {
+    margin-right: 44px;
   }
 }
 
@@ -217,7 +223,6 @@
     max-width: 633px;
     width: 633px;
     margin-left: -1px;
-
   }
   @media (min-width: $desktop-width) {
     max-width: 244px;
@@ -246,6 +251,7 @@ url("/images/cat-case-mobile@1x.png") top center/ 280px no-repeat;
     width: 245px;
     height: 288px;
     margin: 0;
+    margin-top: 1px;
     background: url('/images/green-patern-mobile.png') top center/ 245px  288px no-repeat,
     url("/images/cat-case-desktop@1x.png") top center/ 245px  288px no-repeat;
   }
@@ -290,7 +296,8 @@ url("/images/cat-case-mobile@1x.png") top center/ 280px no-repeat;
     left: 79px;
   }
   @media (min-width: $desktop-width) {
-    top: 59px;
+    top: 57px;
+    left: 83px;
   }
 }
 

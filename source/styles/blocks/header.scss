@@ -186,6 +186,9 @@
   @media (min-width: $tablet-widht) {
     bottom: 5px;
   }
+  @media (min-width: $desktop-width) {
+    bottom: 0;
+  }
 }
 
 
