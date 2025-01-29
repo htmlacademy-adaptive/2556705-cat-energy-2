@@ -54,9 +54,12 @@
   }
 }
 
-.header__logo-desktop--text{
+.header__logo-img--text{
   margin-bottom: -3px;
   height: 21px;
+  @media (min-width: $tablet-widht){
+    margin-bottom: -1px;
+  }
   @media (min-width: $desktop-width) {
     height: 30px;
     width: 121px;
@@ -115,7 +118,7 @@
   @media (min-width: $tablet-widht) {
     margin: 0;
     margin-top: 2px;
-    margin-left: -2px;
+    margin-left: -1.5px;
     margin-right: 33px;
     width: auto;
     min-height: 50px;
@@ -178,6 +181,13 @@
     background: #68B738;
   }
 }
+
+.header__item--catalog .header__link--current::before{
+  @media (min-width: $tablet-widht) {
+    bottom: 5px;
+  }
+}
+
 
 .header__link-index{
   @media (min-width: $desktop-width) {
