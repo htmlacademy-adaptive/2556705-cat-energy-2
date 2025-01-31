@@ -7,7 +7,7 @@
     max-width: 628px;
     margin: 0 auto;
     margin-bottom: 65px;
-    padding: 23px 27px 27px;
+    padding: 22px 27px 24px;
     border: 1px solid #E7E7E7;
   }
   @media (min-width: $desktop-width) {
@@ -28,6 +28,9 @@
   margin-bottom: 13px;
   &:last-of-type{
     margin-bottom: 0;
+  }
+  @media (min-width: $tablet-widht) {
+    margin-bottom: 11px;
   }
 }
 

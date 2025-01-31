@@ -9,7 +9,7 @@
     max-width: 768px;
     width: 768px;
     padding: 0;
-    padding-bottom: 65px;
+    padding-bottom: 58px;
   }
   @media (min-width: $desktop-width) {
     max-width: 1440px;
@@ -47,6 +47,10 @@
   margin-left: 21px;
   flex-grow: 16;
   order: 1;
+  @media (min-width: $tablet-widht){
+    margin-top: 10px;
+    margin-left: 41px;
+  }
   @media (min-width: $desktop-width) {
     flex-grow: 14;
   }
@@ -58,7 +62,7 @@
     order: -1;
     margin-left: 0;
     margin-right: 40px;
-    margin-top: 0;
+    margin-top: 10px;
   }
 }
 

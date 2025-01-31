@@ -30,7 +30,7 @@
   @media (min-width: $tablet-widht){
     max-width: 768px;
     width: 768px;
-    margin-bottom: 57px;
+    margin-bottom: 58px;
   }
   @media (min-width: $desktop-width) {
     max-width: 1440px;
@@ -45,6 +45,10 @@
   flex-grow: 15;
   order: 1;
   border-bottom: 2px solid #68B738;
+  @media (min-width: $tablet-widht){
+    margin-top: 12px;
+    margin-left: 40px;
+  }
 }
 
 .additional__container::after{
@@ -53,7 +57,7 @@
     order: -1;
     margin-left: 0;
     margin-right: 40px;
-    margin-top: 0;
+    margin-top: 12px;
   }
 }
 
@@ -76,6 +80,7 @@
   @media (min-width: $tablet-widht) {
     display: grid;
     grid-template-columns: repeat(2, 344px);
+    padding: 0 70px;
   }
   @media (min-width: $desktop-width) {
     grid-template-columns: repeat(4, 325px);
