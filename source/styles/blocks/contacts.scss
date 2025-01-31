@@ -50,6 +50,7 @@
   }
   @media (min-width: $desktop-width){
     flex-grow: 11;
+    margin-left: 38px;
   }
 }
 
@@ -74,7 +75,9 @@
     margin: 0;
     font-size: 36px;
     line-height: 36px;
-    
+  }
+  @media (min-width: $desktop-width){
+    word-spacing: -0.6px;
   }
 }
 
@@ -96,6 +99,7 @@
     max-width: 1440px;
     width: 1440px;
     margin-bottom: 70px;
+    margin-left: 110px;
   }
 }
 
@@ -122,7 +126,7 @@
 .contacts__item--email{
   position: relative;
   @media (min-width: $desktop-width){
-    margin-right: 81px;
+    margin-right: 78px;
   }
 }
 
@@ -137,6 +141,9 @@
   @media (min-width: $tablet-widht){
     top: 18.5px;
     right: 15px;
+  }
+  @media (min-width: $desktop-width){
+    right: 20px;
   }
 }
 
@@ -155,6 +162,9 @@
   @media (min-width: $tablet-widht){
     top: 19px;
     right: 14px;
+  }
+  @media (min-width: $desktop-width){
+    right: 18px;
   }
 }
 

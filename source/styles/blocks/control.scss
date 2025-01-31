@@ -50,6 +50,9 @@
     width: 24px;
     height: 19px;
   }
+  @media (min-width: $desktop-width) {
+    left: 6px;
+  }
 }
 
 .control-input[type="radio"] + .control-mark{

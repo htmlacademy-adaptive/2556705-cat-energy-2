@@ -120,6 +120,10 @@
     font-size: 30px;
     line-height: 37px;
   }
+  @media (min-width: $desktop-width) {
+
+    padding-top: 16px;
+  }
 }
 
 .example__statistics-caption{
@@ -141,7 +145,7 @@
     background-color: $basic-white;
   }
   @media (min-width: $desktop-width) {
-    background: none;
+    background-color: #F2F2F2;;
   }
 }
 

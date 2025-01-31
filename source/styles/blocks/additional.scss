@@ -49,6 +49,9 @@
     margin-top: 12px;
     margin-left: 40px;
   }
+  @media (min-width: $desktop-width) {
+    margin-top: 14px;
+  }
 }
 
 .additional__container::after{
@@ -58,6 +61,9 @@
     margin-left: 0;
     margin-right: 40px;
     margin-top: 12px;
+  }
+  @media (min-width: $desktop-width) {
+    margin-right: 38px;
   }
 }
 
@@ -84,7 +90,8 @@
   }
   @media (min-width: $desktop-width) {
     grid-template-columns: repeat(4, 325px);
-    margin: 0 110px ;
+    margin: 0 111px;
+    padding: 0;
   }
 }
 

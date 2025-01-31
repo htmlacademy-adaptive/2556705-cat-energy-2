@@ -191,6 +191,16 @@
   }
 }
 
+.header__item--form .header__link--current::before{
+  @media (min-width: $tablet-widht) {
+    bottom: 5px;
+  }
+  @media (min-width: $desktop-width) {
+    bottom: 0;
+  }
+}
+
+
 
 .header__link-index{
   @media (min-width: $desktop-width) {
