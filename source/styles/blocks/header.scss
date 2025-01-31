@@ -19,6 +19,7 @@
   }
 }
 
+
 .header__wrapper{
   display: flex;
   justify-content: space-between;
@@ -200,8 +201,6 @@
   }
 }
 
-
-
 .header__link-index{
   @media (min-width: $desktop-width) {
     color: $basic-white;
@@ -219,6 +218,12 @@
     left: 3px;
     background: $basic-white;
     }
+  }
+}
+
+.header--catalog .header__logo-img--text{
+  @media  (max-width: 767px){
+    margin-bottom: -3px;
   }
 }
 

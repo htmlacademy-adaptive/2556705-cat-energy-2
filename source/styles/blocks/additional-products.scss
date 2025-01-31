@@ -112,7 +112,9 @@
   padding-top: 13px;
   padding-bottom: 18px;
   border-bottom: 1px solid #CDCDCD;
-
+  &:first-of-type{
+    padding-bottom: 17px;
+  }
   @media (min-width: $tablet-widht){
     display: flex;
     flex-wrap: wrap;
