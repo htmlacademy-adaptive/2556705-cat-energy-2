@@ -1,17 +1,17 @@
-.control{
+.control {
   position: relative;
   display: block;
   max-width: 280px;
   padding-left: 45px;
   line-height: 24px;
   cursor: pointer;
-  @media (min-width: $tablet-widht) {
+  @media (min-width: $tablet-widht)  {
     max-width: 400px;
     padding-left: 59px;
   }
 }
 
-.control-mark{
+.control-mark {
   position: absolute;
   top: 0;
   left: 0;
@@ -20,22 +20,22 @@
   background-color: $basic-white;
   border-radius: none;
   border: 1px solid #CDCDCD;
-  @media (min-width: $tablet-widht) {
+  @media (min-width: $tablet-widht)  {
     width: 40px;
     height: 40px;
   }
 }
 
-.control-label{
+.control-label {
   padding: 6px 0;
-  @media (min-width: $tablet-widht) {
+  @media (min-width: $tablet-widht)  {
     font-size: 20px;
     line-height: 30px;
   }
 }
 
 .control-input[type="checkbox"]:checked + .control-mark::before,
-.control-input[type="checkbox"]:checked + .control-mark::after{
+.control-input[type="checkbox"]:checked + .control-mark::after {
   content: "";
   position: absolute;
   display: block;
@@ -44,22 +44,22 @@
   width: 18px;
   height: 14px;
   background-image: url("/icons/arrow-checkbox.svg");
-  @media (min-width: $tablet-widht) {
+  @media (min-width: $tablet-widht)  {
     top: 11px;
     left: 8px;
     width: 24px;
     height: 19px;
   }
-  @media (min-width: $desktop-width) {
+  @media (min-width: $desktop-width)  {
     left: 6px;
   }
 }
 
-.control-input[type="radio"] + .control-mark{
+.control-input[type="radio"] + .control-mark {
   border-radius: 50%;
 }
 
-.control-input[type="radio"]:checked + .control-mark::before{
+.control-input[type="radio"]:checked + .control-mark::before {
   position: absolute;
   top: 7px;
   left: 7px;
@@ -69,7 +69,7 @@
   border-radius: 50%;
   content: "";
   box-sizing: border-box;
-  @media (min-width: $tablet-widht) {
+  @media (min-width: $tablet-widht)  {
     top: 10px;
     left: 10px;
     width: 18px;

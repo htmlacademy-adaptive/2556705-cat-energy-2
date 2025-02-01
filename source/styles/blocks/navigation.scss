@@ -1,4 +1,4 @@
-.header{
+.header {
   display: flex;
   flex-direction: column;
   max-width: 320px;
@@ -7,90 +7,90 @@
   text-align: center;
   font-size: 20px;
   text-transform: uppercase;
-  @media (min-width: $tablet-widht) {
+  @media (min-width: $tablet-widht)  {
     min-width: $tablet-widht;
     flex-direction: row;
     }
   }
 
-.header__wrapper{
+.header__wrapper {
   display: flex;
   justify-content: space-between;
   padding: 13px 20px;
-  @media (min-width: $tablet-widht){
+  @media (min-width: $tablet-widht) {
     padding: 25px 33px 65px 30px;
   }
 }
 
-.header__logo-text{
+.header__logo-text {
   margin: auto 0;
-  @media (min-width: $tablet-widht){
+  @media (min-width: $tablet-widht) {
     margin-left: 13px;
   }
 }
 
-.header__menu-button{
+.header__menu-button {
   margin: auto 0;
   width: 24px;
   height: 24px;
   border: none;
   background-color: $basic-white;
   background-image: url("/icons/burger.svg") ;
-  @media (min-width: $tablet-widht) {
+  @media (min-width: $tablet-widht)  {
     display: none;
   }
 }
 
-.header__menu-button--close{
+.header__menu-button--close {
   background-image: url("/icons/cross.svg");
 }
 
-.header__list{
+.header__list {
   padding: 0;
   margin: 0;
   display: flex;
   flex-direction: column;
   list-style-type: none;
-  @media (min-width: $tablet-widht) {
+  @media (min-width: $tablet-widht)  {
     flex-direction: row;
     margin: 25px 33px 65px auto;
   }
 }
 
-.header__item{
+.header__item {
   position: relative;
   align-self: center;
   margin-top: 22px;
   margin-bottom: 24px;
   width: 100%;
-  @media (min-width: $tablet-widht) {
+  @media (min-width: $tablet-widht)  {
     margin: 0;
     margin-right: 33px;
     width: auto;
   }
 }
 
-.header__item:last-of-type{
-  @media (min-width: $tablet-widht) {
+.header__item:last-of-type {
+  @media (min-width: $tablet-widht)  {
     margin-right: 0;
   }
 }
 
-.header__item::before{
+.header__item::before {
   content: "";
   position: absolute;
   width: 100%;
   bottom: 42px;
   left: 0;
   border-top: 1px solid #E6E6E6;
-  @media (min-width: $tablet-widht)  {
+  @media (min-width: $tablet-widht)   {
     display: none;
   }
 }
 
 
-@media (min-width: $tablet-widht) {
-  .header__link--current::before{
+@media (min-width: $tablet-widht)  {
+  .header__link--current::before {
     content: "";
     position: absolute;
     width: 100%;
@@ -101,11 +101,11 @@
 }
 }
 
-.header__link{
+.header__link {
   color: $basic-black;
   text-decoration: none;
   margin: 0 auto;
-  @media (min-width: $tablet-widht) {
+  @media (min-width: $tablet-widht)  {
     position: relative;
     font-size: 18px;
     line-height: 24px;

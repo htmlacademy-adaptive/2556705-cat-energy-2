@@ -1,14 +1,14 @@
-.additional-products {
+.additional-products  {
   max-width: 320px;
   width: 320px;
   margin: 0 auto;
   padding-top: 25px;
-  @media (min-width: $tablet-widht){
+  @media (min-width: $tablet-widht) {
     max-width: 768px;
     width: 768px;
     padding-top: 14px;
   }
-  @media (min-width: $desktop-width) {
+  @media (min-width: $desktop-width)  {
     display: flex;
     flex-wrap: wrap;
     max-width: 1440px;
@@ -16,24 +16,24 @@
   }
 }
 
-.additional-products__container{
+.additional-products__container {
   display: flex;
   align-items:flex-start;
   margin-left: 20px;
   margin-bottom: 35px;
   &::before,
-  &::after{
+  &::after {
     content: "";
     border-bottom: 2px solid #68B738;
   }
-  @media (min-width: $tablet-widht){
+  @media (min-width: $tablet-widht) {
     max-width: 768px;
     width: 768px;
     align-items: center;
     margin-left: 0;
     margin-bottom: 80px;
   }
-  @media (min-width: $desktop-width) {
+  @media (min-width: $desktop-width)  {
     max-width: 1440px;
     width: 1440px;
     margin-bottom: 78px;
@@ -41,58 +41,58 @@
   }
 }
 
-.additional-products__container::before{
+.additional-products__container::before {
   flex-grow: 12;
   order: 1;
   margin-left: 40px;
   margin-top: 10px;
-  @media (min-width: $tablet-widht){
+  @media (min-width: $tablet-widht) {
     margin-top: -2px;
   }
-  @media (min-width: $desktop-width) {
+  @media (min-width: $desktop-width)  {
     flex-grow: 14;
     margin-top: -5px;
   }
 }
 
-.additional-products__container::after{
-  @media (min-width: $tablet-widht){
+.additional-products__container::after {
+  @media (min-width: $tablet-widht) {
     flex-grow: 1;
     order: -1;
     margin-left: 0;
     margin-right: 40px;
     margin-top: -2px;
   }
-  @media (min-width: $desktop-width) {
+  @media (min-width: $desktop-width)  {
     width: 4px;
     margin-top: -5px;
   }
 }
 
-.additional-products__title{
+.additional-products__title {
   margin: 0;
   padding: 0;
   font-size: 24px;
   line-height: 24px;
-  @media (min-width: $tablet-widht){
+  @media (min-width: $tablet-widht) {
     margin: 0;
     font-size: 32px;
     line-height: 32px;
   }
-  @media (min-width: $desktop-width) {
+  @media (min-width: $desktop-width)  {
     font-size: 40px;
     line-height: 40px;
   }
 }
 
-.additional-products__list{
+.additional-products__list {
   width: 280px;
   margin: 0 20px;
   margin-bottom: 35px;
   padding: 0;
   list-style-type: none;
   border-top: 1px solid #CDCDCD;
-  @media (min-width: $tablet-widht){
+  @media (min-width: $tablet-widht) {
     max-width: 708px;
     width: 708px;
     padding: 0;
@@ -100,7 +100,7 @@
     margin-bottom: 69px;
     border: none;
   }
-  @media (min-width: $desktop-width) {
+  @media (min-width: $desktop-width)  {
     max-width: 896px;
     width: 896px;
     margin: 0 80px 0 110px;
@@ -108,14 +108,14 @@
   }
 }
 
-.additional-products__item{
+.additional-products__item {
   padding-top: 13px;
   padding-bottom: 18px;
   border-bottom: 1px solid #CDCDCD;
-  &:first-of-type{
+  &:first-of-type {
     padding-bottom: 17px;
   }
-  @media (min-width: $tablet-widht){
+  @media (min-width: $tablet-widht) {
     display: flex;
     flex-wrap: wrap;
     max-width: 708px;
@@ -123,27 +123,27 @@
     padding: 26px 37px 28px 38px;
     border: 1px solid #CDCDCD;
     border-bottom: none;
-    &:last-of-type{
+    &:last-of-type {
       border-bottom: 1px solid #CDCDCD;
     }
-    &:first-of-type{
+    &:first-of-type {
       padding-bottom: 27.5px;
     }
   }
-  @media (min-width: $desktop-width) {
+  @media (min-width: $desktop-width)  {
     max-width: 896px;
     width: 896px;
     align-items: center;
     padding: 14px 1px 17px 1px;
     border: none;
     border-bottom: 1px solid #CDCDCD;
-    &:first-of-type{
+    &:first-of-type {
       padding-bottom: 17px;
     }
   }
 }
 
-.additional-products__subtitle{
+.additional-products__subtitle {
   margin: 0;
   margin-bottom: 11px;
   margin-left: 0.5px;
@@ -152,14 +152,14 @@
   font-weight: 400;
   text-transform: uppercase;
   color: #222222;
-  @media (min-width: $tablet-widht){
+  @media (min-width: $tablet-widht) {
     max-width: 200px;
     margin-right: auto;
     margin-bottom: 24px;
     font-size: 20px;
     line-height: 20px;
   }
-  @media (min-width: $desktop-width) {
+  @media (min-width: $desktop-width)  {
     max-width: 275px;
     width: 275px;
     margin: 0;
@@ -167,7 +167,7 @@
   }
 }
 
-.additional-products__content{
+.additional-products__content {
   display: flex;
   justify-content: space-between;
   margin-bottom: 11px;
@@ -175,48 +175,48 @@
   font-family: $secondary-font;
   font-size: 14px;
   color: #444444;
-  @media (min-width: $tablet-widht){
+  @media (min-width: $tablet-widht) {
     max-width: 225px;
     margin-top: 2px;
     margin-right: 2px;
     font-size: 16px;
   }
-  @media (min-width: $desktop-width) {
+  @media (min-width: $desktop-width)  {
     max-width: none;
     margin: auto 0;
     margin-top: 13px;
   }
 }
 
-.additional-products__measure{
-  @media (min-width: $tablet-widht){
+.additional-products__measure {
+  @media (min-width: $tablet-widht) {
     margin-right: 2px;
   }
-  @media (min-width: $desktop-width) {
+  @media (min-width: $desktop-width)  {
     max-width: 200px;
     width: 200px;
     margin-right: 43px;
   }
 }
 
-.additional-products__measure--water{
-  @media (min-width: $tablet-widht){
+.additional-products__measure--water {
+  @media (min-width: $tablet-widht) {
     margin-right: 10px;
   }
-  @media (min-width: $desktop-width) {
+  @media (min-width: $desktop-width)  {
     margin-right: 44px;
   }
 }
 
-.additional-products__value{
+.additional-products__value {
   margin-top: 2px;
   line-height: 14px;
-  @media (min-width: $tablet-widht){
+  @media (min-width: $tablet-widht) {
     margin-left: 49px;
     margin-top: -2px;
     line-height: 20px;
   }
-  @media (min-width: $desktop-width) {
+  @media (min-width: $desktop-width)  {
     max-width: 42px;
     width: 42px;
     margin: 0;
@@ -224,15 +224,15 @@
   }
 }
 
-.additional-products__button{
+.additional-products__button {
   max-width: 280px;
   width: 280px;
-  @media (min-width: $tablet-widht){
+  @media (min-width: $tablet-widht) {
     max-width: 633px;
     width: 633px;
     margin-left: -1px;
   }
-  @media (min-width: $desktop-width) {
+  @media (min-width: $desktop-width)  {
     max-width: 244px;
     width: 244px;
     margin-left: auto;
@@ -241,14 +241,14 @@
 
 
 // ! Additional-products__image
-.additional-products__image{
+.additional-products__image {
   position: relative;
   width: 280px;
   height: 290px;
   margin: 0 20px;
   background: url('/images/green-patern-mobile.png') top center no-repeat,
 url("/images/cat-case-mobile@1x.png") top center/ 280px no-repeat;
-  @media (min-width: $tablet-widht){
+  @media (min-width: $tablet-widht) {
     width: 707px;
     height: 200px;
     margin: 0 30px;
@@ -256,7 +256,7 @@ url("/images/cat-case-mobile@1x.png") top center/ 280px no-repeat;
     background: url('/images/green-patern-mobile.png') top center/ 707px  200px no-repeat,
     url("/images/cat-case-tablet@1x.png") top center/ 707px  200px no-repeat;
   }
-  @media (min-width: $desktop-width) {
+  @media (min-width: $desktop-width)  {
     width: 245px;
     height: 288px;
     margin: 0;
@@ -266,7 +266,7 @@ url("/images/cat-case-mobile@1x.png") top center/ 280px no-repeat;
   }
 }
 
-.additional-products__image-description{
+.additional-products__image-description {
   max-width: 161px;
   width: 161px;
   margin: 0 auto;
@@ -275,14 +275,14 @@ url("/images/cat-case-mobile@1x.png") top center/ 280px no-repeat;
   font-family: $secondary-font;
   text-align: center;
   color: $basic-white;
-  @media (min-width: $tablet-widht){
+  @media (min-width: $tablet-widht) {
     margin: 0;
     padding: 0;
     padding-top: 71px;
     margin-left: 421px;
     text-align: start;
   }
-  @media (min-width: $desktop-width) {
+  @media (min-width: $desktop-width)  {
     max-width: 161px;
     width: 161px;
     margin: 0 auto;
@@ -292,7 +292,7 @@ url("/images/cat-case-mobile@1x.png") top center/ 280px no-repeat;
   }
 }
 
-.additional-products__image::before{
+.additional-products__image::before {
   content: "";
   position: absolute;
   width: 78px;
@@ -300,11 +300,11 @@ url("/images/cat-case-mobile@1x.png") top center/ 280px no-repeat;
   left: 101px;
   top: 58px;
   background-image:  url('/icons/gift.svg');
-  @media (min-width: $tablet-widht){
+  @media (min-width: $tablet-widht) {
     top: 57px;
     left: 79px;
   }
-  @media (min-width: $desktop-width) {
+  @media (min-width: $desktop-width)  {
     top: 57px;
     left: 83px;
   }

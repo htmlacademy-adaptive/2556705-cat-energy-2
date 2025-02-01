@@ -1,36 +1,36 @@
-.subscription{
+.subscription {
   max-width: 320px;
   width: 320px;
   margin: 0 auto;
   padding: 40px 0;
-  @media (min-width: $tablet-widht){
+  @media (min-width: $tablet-widht) {
     max-width: 768px;
     width: 768px;
     padding-top: 80px;
     padding-bottom: 80px;
   }
-  @media (min-width: $desktop-width) {
+  @media (min-width: $desktop-width)  {
     max-width: 1440px;
     width: 1440px;
     padding-top: 95px;
   }
 }
 
-.subscription__container{
+.subscription__container {
   display: flex;
   align-items:flex-start;
   margin-left: 20px;
   margin-bottom: 32px;
   &::before,
-  &::after{
+  &::after {
     content: "";
     border-bottom: 2px solid #68B738;
   }
-  @media (min-width: $tablet-widht){
+  @media (min-width: $tablet-widht) {
     margin-left: 0;
     margin-bottom: 65px;
   }
-  @media (min-width: $desktop-width) {
+  @media (min-width: $desktop-width)  {
     max-width: 1440px;
     width: 1440px;
     margin-bottom: 73px;
@@ -38,22 +38,22 @@
   }
 }
 
-.subscription__container::before{
+.subscription__container::before {
   flex-grow: 12;
   order: 1;
   margin-left: 40px;
   margin-top: 10px;
-  @media (min-width: $tablet-widht){
+  @media (min-width: $tablet-widht) {
     margin-top: 14px;
   }
-  @media (min-width: $desktop-width) {
+  @media (min-width: $desktop-width)  {
     flex-grow: 14;
     margin-top: 0;
   }
 }
 
-.subscription__container::after{
-  @media (min-width: $tablet-widht){
+.subscription__container::after {
+  @media (min-width: $tablet-widht) {
     max-width: 31px;
     flex-grow: 1;
     order: -1;
@@ -61,39 +61,39 @@
     margin-right: 40px;
     margin-top: 14px;
   }
-  @media (min-width: $desktop-width) {
+  @media (min-width: $desktop-width)  {
     max-width: 70px;
     margin-top: 0;
   }
 }
 
-.subscription__title{
+.subscription__title {
   margin: 0;
   padding: 0;
   font-size: 24px;
   line-height: 24px;
-  @media (min-width: $tablet-widht){
+  @media (min-width: $tablet-widht) {
     font-size: 32px;
     line-height: 32px;
   }
-  @media (min-width: $desktop-width) {
+  @media (min-width: $desktop-width)  {
     font-size: 40px;
     line-height: 40px;
   }
 }
 
-.subscription__description{
+.subscription__description {
   line-height: 24px;
   margin: 0 20px;
   margin-bottom: 24px;
   text-align: center;
-  @media (min-width: $tablet-widht){
+  @media (min-width: $tablet-widht) {
     max-width: 632px;
     margin: 0 68px 24px;
     font-size: 24px;
     line-height: 32px;
   }
-  @media (min-width: $desktop-width) {
+  @media (min-width: $desktop-width)  {
     max-width: 1360px;
     width: 1360px;
     margin: 0 auto;
@@ -101,14 +101,14 @@
   }
 }
 
-.subscription__form{
-  @media (min-width: $tablet-widht){
+.subscription__form {
+  @media (min-width: $tablet-widht) {
     display: flex;
     justify-content: center;
   }
 }
 
-.subscription__input{
+.subscription__input {
   max-width: 280px;
   width: 280px;
   padding: 13px;
@@ -122,37 +122,37 @@
   color: #444444;
   &:hover,
   &:focus,
-  &:active{
+  &:active {
     border:  2px solid #444444;
   }
-  &:invalid{
+  &:invalid {
     border:  2px solid #FF8282;
   }
-  @media (min-width: $tablet-widht){
+  @media (min-width: $tablet-widht) {
     display: flex;
     max-width: 376px;
     width: 376px;
     margin: 0;
   }
-  @media (min-width: $desktop-width) {
+  @media (min-width: $desktop-width)  {
     max-width: 496px;
     width: 496px;
   }
 }
 
-.subscription__input::placeholder{
+.subscription__input::placeholder {
   text-transform: uppercase;
   color: #444444;
 }
 
-.subscription__button{
+.subscription__button {
   max-width: 280px;
   width: 280px;
   margin: 0 20px;
   padding: 15px;
   font-size: 20px;
   line-height: 26px;
-  @media (min-width: $tablet-widht){
+  @media (min-width: $tablet-widht) {
     max-width: 256px;
     width: 256px;
     margin: 0;

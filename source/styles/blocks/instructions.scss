@@ -1,15 +1,15 @@
 //  Instructions
-.instructions{
+.instructions {
   position: relative;
   max-width: 320px;
   margin: 0 auto;
   padding: 0 20px 50px 20px;
   font-size: 14px;
   line-height: 18px;
-  @media (min-width: $tablet-widht) {
+  @media (min-width: $tablet-widht)  {
     max-width: 768px;
     padding: 0 110px 60px 31px;
-    &::before{
+    &::before {
       content: "";
       position: absolute;
       width: 100%;
@@ -20,60 +20,60 @@
       background-color:  #E6E6E6;
     }
   }
-  @media (min-width: $desktop-width) {
+  @media (min-width: $desktop-width)  {
     max-width: 1440px;
     padding: 70px 106px 165px 110.5px;
-    &::before{
+    &::before {
       display: none;
     }
   }
 }
 
-.instructions__title{
+.instructions__title {
   margin: 0;
   margin-bottom: 40px;
   margin-left: 1px;
   font-size: 36px;
   line-height: 40px;
-  @media (min-width: $tablet-widht) {
+  @media (min-width: $tablet-widht)  {
     margin-bottom: 32px;
     font-size: 60px;
     line-height: 60px;
   }
-  @media (min-width: $desktop-width) {
+  @media (min-width: $desktop-width)  {
     word-spacing: 0.5px;
   }
 }
 
-.instructions__title-word{
-  @media (min-width: $tablet-widht) {
+.instructions__title-word {
+  @media (min-width: $tablet-widht)  {
     margin-left: -2px;
   }
 }
 
-.instructions__list{
+.instructions__list {
   margin: 0;
   padding: 0;
   list-style-type: none;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  @media (min-width: $tablet-widht) {
+  @media (min-width: $tablet-widht)  {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-  @media (min-width: $desktop-width) {
+  @media (min-width: $desktop-width)  {
     grid-template-columns: repeat(4, 325px);
     margin-left: -80px;
   }
 }
 
-.instructions__item{
+.instructions__item {
   position: relative;
   min-height: 60px;
   min-width: 320px;
   margin-bottom: 20px;
-  @media (min-width: $tablet-widht) {
+  @media (min-width: $tablet-widht)  {
     min-width: 200px;
     max-width: 250px;
     min-height: 280px;
@@ -81,23 +81,23 @@
     margin-top: 40px;
     margin-bottom: -3px;
   }
-  @media (min-width: $desktop-width) {
+  @media (min-width: $desktop-width)  {
     justify-self: end;
   }
 }
 
-.instructions__item:last-of-type{
+.instructions__item:last-of-type {
   margin-bottom: 0;
 }
 
-@media (min-width: $tablet-widht){
-  .instructions__item:nth-of-type(2n){
+@media (min-width: $tablet-widht) {
+  .instructions__item:nth-of-type(2n) {
     margin-left: auto;
   }
 }
 
 
-.instructions__item::before{
+.instructions__item::before {
   content: "";
   position: absolute;
   width: 60px;
@@ -105,13 +105,13 @@
   left: 0;
   top: 0;
   background-color: $basic-green-bg;
-  @media (min-width: $tablet-widht) {
+  @media (min-width: $tablet-widht)  {
     width: 80px;
     height: 80px;
   }
 }
 
-.instructions__item--leaf::after{
+.instructions__item--leaf::after {
   content: "";
   position: absolute;
   width: 25px;
@@ -119,13 +119,13 @@
   left: 18px;
   top: 16px;
   background-image: url("/icons/leaf.svg");
-  @media (min-width: $tablet-widht) {
+  @media (min-width: $tablet-widht)  {
     top: 25px;
     left: 24px;
   }
 }
 
-.instructions__item--powder::after{
+.instructions__item--powder::after {
   content: "";
   position: absolute;
   width: 26px;
@@ -133,13 +133,13 @@
   left: 18px;
   top: 17px;
   background-image: url("/icons/powder.svg");
-  @media (min-width: $tablet-widht) {
+  @media (min-width: $tablet-widht)  {
     top: 26px;
     left: 27px;
   }
 }
 
-.instructions__item--fork-spoon::after{
+.instructions__item--fork-spoon::after {
   content: "";
   position: absolute;
   width: 25px;
@@ -147,13 +147,13 @@
   left: 18px;
   top: 15px;
   background-image: url("/icons/fork-spoon.svg");
-  @media (min-width: $tablet-widht) {
+  @media (min-width: $tablet-widht)  {
     top: 25px;
     left: 28px;
   }
 }
 
-.instructions__item--clock::after{
+.instructions__item--clock::after {
   content: "";
   position: absolute;
   width: 26px;
@@ -161,26 +161,26 @@
   left: 18px;
   top: 15px;
   background-image: url("/icons/clock.svg");
-  @media (min-width: $tablet-widht) {
+  @media (min-width: $tablet-widht)  {
     top: 24px;
     left: 27px;
   }
 }
 
-.instructions__description{
+.instructions__description {
   max-width: 200px;
   margin: 0;
   margin-left: 80px;
   margin-top: 3px;
   font-family: $secondary-font;
   color: $basic-grey-font;
-  @media (min-width: $tablet-widht) {
+  @media (min-width: $tablet-widht)  {
     max-width: 245px;
     margin: 0;
     margin-top: 111px;
     font-size: 16px;
     line-height: 24px;
-    &::after{
+    &::after {
       content: "1";
       position: absolute;
       left: 0;
@@ -196,25 +196,25 @@
   }
 }
 
-.instructions__description-words{
-  @media (min-width: $tablet-widht) {
+.instructions__description-words {
+  @media (min-width: $tablet-widht)  {
     display: block;
   }
 }
 
 
-@media (min-width: $tablet-widht) {
-  .instructions__item:nth-of-type(2) .instructions__description::after{
+@media (min-width: $tablet-widht)  {
+  .instructions__item:nth-of-type(2) .instructions__description::after {
     content: "2";
     margin-left: 112px
   }
 
-  .instructions__item:nth-of-type(3) .instructions__description::after{
+  .instructions__item:nth-of-type(3) .instructions__description::after {
     content: "3";
     margin-left: 113px
   }
 
-  .instructions__item:nth-of-type(4) .instructions__description::after{
+  .instructions__item:nth-of-type(4) .instructions__description::after {
     content: "4";
     margin-left: 113px
   }

@@ -1,27 +1,27 @@
-.address  {
+.address   {
   display: flex;
   max-width: 320px;
   margin: 0 auto;
   padding: 26px 20px;
   color: #111111;
   font-style: normal;
-  @media (min-width: $tablet-widht)  {
+  @media (min-width: $tablet-widht)   {
     max-width: 768px;
     padding: 60px 70px;
   }
-  @media (min-width: $desktop-width)  {
+  @media (min-width: $desktop-width)   {
     max-width: 565px;
     padding: 60px 80px;
     background-color: $basic-white;
   }
 }
 
-.address__title {
+.address__title  {
   max-width: 140px;
   margin: 0;
   font-size: 16px;
   text-transform: uppercase;
-  @media (min-width: $tablet-widht)  {
+  @media (min-width: $tablet-widht)   {
     max-width: 164px;
     margin-top: 1.5px;
     font-size: 20px;
@@ -30,21 +30,21 @@
   }
 }
 
-.address__wrapper {
+.address__wrapper  {
   display: flex;
   flex-direction: column;
   max-width: 140px;
   font-family: $secondary-font;
   font-size: 14px;
   color: $basic-grey-font;
-  @media (min-width: $tablet-widht)  {
+  @media (min-width: $tablet-widht)   {
     max-width: 157px;
     margin-left: auto;
     justify-content: space-between;
     font-size: 16px;
     text-align: end;
   }
-  @media (min-width: $desktop-width)  {
+  @media (min-width: $desktop-width)   {
     text-align: start;
   }
 }

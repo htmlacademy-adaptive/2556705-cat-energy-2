@@ -1,5 +1,5 @@
 // ! example!!!
-.example{
+.example {
   max-width: 320px;
   margin: 0 auto;
   padding: 25px 20px 37px 20px;
@@ -7,13 +7,13 @@
   line-height: 18px;
   color: $basic-grey-font;
   background-color: #EAEAEA;
-  @media (min-width: $tablet-widht) {
+  @media (min-width: $tablet-widht)  {
     max-width: 768px;
     width: 768px;
     padding: 0 30px 3px;
     background-color: $basic-white;
   }
-  @media (min-width: $desktop-width) {
+  @media (min-width: $desktop-width)  {
     max-width: 1440px;
     width: 1440px;
     padding-top: 135px;
@@ -24,64 +24,64 @@
 }
 
 // ! example-introduce
-.example__introduce{
+.example__introduce {
   padding-bottom: 20px;
-  @media (min-width: $tablet-widht) {
+  @media (min-width: $tablet-widht)  {
     margin-left: 1px;
     margin-top: -8px;
     padding-bottom: 55px;
   }
-  @media (min-width: $desktop-width) {
+  @media (min-width: $desktop-width)  {
     padding-bottom: 69px;
   }
 }
 
-.example__introduce-title{
+.example__introduce-title {
   margin-bottom: 40px;
   margin-top: 0;
   font-size: 36px;
   line-height: 40px;
   color: $basic-black;
-  @media (min-width: $tablet-widht) {
+  @media (min-width: $tablet-widht)  {
     margin-bottom: 60px;
     font-size: 60px;
     line-height: 60px;
   }
-  @media (min-width: $desktop-width) {
+  @media (min-width: $desktop-width)  {
     margin-top: -272px;
     margin-bottom: 146px;
   }
 }
 
-.example__introduce-description{
+.example__introduce-description {
   margin: 0;
   font-family: $secondary-font;
-  @media (min-width: $tablet-widht) {
+  @media (min-width: $tablet-widht)  {
     font-size: 16px;
     line-height: 24px;
   }
-  @media (min-width: $desktop-width) {
+  @media (min-width: $desktop-width)  {
     max-width: 433px;
   }
 }
 
 // ! example__statistics
-.example__statistics{
+.example__statistics {
   display: flex;
   flex-direction: column;
   padding-bottom: 20px;
-  @media (min-width: $tablet-widht) {
+  @media (min-width: $tablet-widht)  {
     padding-bottom: 229px;
     flex-direction: row;
     align-items: center;
   }
-  @media (min-width: $desktop-width) {
+  @media (min-width: $desktop-width)  {
     flex-direction: column;
     align-items: flex-start;
   }
 }
 
-.example__statistics-list{
+.example__statistics-list {
   display: flex;
   flex-wrap: wrap;
   gap: 32px;
@@ -89,22 +89,22 @@
   margin-bottom: 19px;
   padding: 0;
   list-style-type: none;
-  @media (min-width: $tablet-widht) {
+  @media (min-width: $tablet-widht)  {
     gap: 43px;
   }
-  @media (min-width: $desktop-width) {
+  @media (min-width: $desktop-width)  {
     margin-bottom: 55px;
   }
 }
 
-.example__statistics-item{
+.example__statistics-item {
   display: flex;
   flex-direction: column;
   min-width: 124px;
   text-align: center;
 }
 
-.example__statistics-content{
+.example__statistics-content {
   width: 124px;
   margin-top: 0;
   padding-top: 12px;
@@ -114,19 +114,19 @@
   text-transform: uppercase;
   border: 1px solid #cdcdcd;
   color: $basic-black;
-  @media (min-width: $tablet-widht) {
+  @media (min-width: $tablet-widht)  {
     width: 162px;
     padding-bottom: 20px;
     font-size: 30px;
     line-height: 37px;
   }
-  @media (min-width: $desktop-width) {
+  @media (min-width: $desktop-width)  {
 
     padding-top: 16px;
   }
 }
 
-.example__statistics-caption{
+.example__statistics-caption {
   max-width: 90px;
   margin: 0 auto;
   margin-top: -33px;
@@ -136,7 +136,7 @@
   line-height: 12px;
   text-align: center;
   background-color: #EAEAEA;
-  @media (min-width: $tablet-widht) {
+  @media (min-width: $tablet-widht)  {
     max-width: 150px;
     padding: 0 10px;
     margin-top: -40px;
@@ -144,12 +144,12 @@
     line-height: 14px;
     background-color: $basic-white;
   }
-  @media (min-width: $desktop-width) {
+  @media (min-width: $desktop-width)  {
     background-color: #F2F2F2;;
   }
 }
 
-.example__statistics-footer{
+.example__statistics-footer {
   display: flex;
   max-width: 188px;
   width: 188px;
@@ -158,7 +158,7 @@
   line-height: 20px;
   text-transform: uppercase;
   color: $basic-black;
-  @media (min-width: $tablet-widht) {
+  @media (min-width: $tablet-widht)  {
     flex-direction: column;
     justify-content: space-between;
     min-height: 48px;
@@ -167,7 +167,7 @@
     font-size: 20px;
     text-align: right;
   }
-  @media (min-width: $desktop-width) {
+  @media (min-width: $desktop-width)  {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -178,12 +178,12 @@
   }
 }
 
-.example__statistics-footer-title{
+.example__statistics-footer-title {
   margin-left: 1px;
-  @media (min-width: $tablet-widht) {
+  @media (min-width: $tablet-widht)  {
     letter-spacing: 0.1px;
   }
-  @media (min-width: $desktop-width) {
+  @media (min-width: $desktop-width)  {
     max-width: 174px;
     width: 174px;
     margin-right: 64px;
@@ -191,12 +191,12 @@
 }
 
 // ! example__demo
-.example__demo{
+.example__demo {
   position: relative;
   z-index: 0;
   display: flex;
   max-width: 280px;
-  @media (min-width: $tablet-widht) {
+  @media (min-width: $tablet-widht)  {
     justify-content: center;
     max-width: 768px;
     width: 768px;
@@ -204,7 +204,7 @@
     margin-left: -30px;
     background-color: #EAEAEA;
   }
-  @media (min-width: $desktop-width) {
+  @media (min-width: $desktop-width)  {
     height: 512px;
     margin-top: -780px;
     margin-left: 556px;
@@ -212,37 +212,37 @@
   }
 }
 
-.example__cat-fat{
+.example__cat-fat {
   position: relative;
   z-index: -2;
   width: 140px;
   object-fit: cover;
   object-position: left;
-  @media (min-width: $tablet-widht) {
+  @media (min-width: $tablet-widht)  {
     width: 280px;
     margin-top: -149px;
   }
-  @media (min-width: $desktop-width) {
+  @media (min-width: $desktop-width)  {
     margin-top: 1px;
   }
 }
 
-.example__cat-small{
+.example__cat-small {
   position: relative;
   z-index: -2;
   width: 140px;
   object-fit: cover;
   object-position: right;
-  @media (min-width: $tablet-widht) {
+  @media (min-width: $tablet-widht)  {
     width: 280px;
     margin-top: -149px;
   }
-  @media (min-width: $desktop-width) {
+  @media (min-width: $desktop-width)  {
     margin-top: 1px;
   }
 }
 
-.example__tumbler{
+.example__tumbler {
   position: absolute;
   display: inline-block;
   top: 108px;
@@ -253,35 +253,35 @@
   border: 2px solid #666666;
   background-color: $basic-white;
   &:hover,
-  &:focus{
+  &:focus {
   border: 2px solid #68B738;
   }
   &:hover::before,
   &:focus::before,
   &:hover::after,
-  &:focus::after{
+  &:focus::after {
     background-color: #68B738;
   }
-  &:active{
+  &:active {
   border: 2px solid rgba($color: #5EAA2F, $alpha: 0.6);
   }
   &:active::before,
-  &:active::after{
+  &:active::after {
     background-color: rgba($color: #5EAA2F, $alpha: 0.6);
   }
-  @media (min-width: $tablet-widht) {
+  @media (min-width: $tablet-widht)  {
     top: 236px;
     left: 334px;
     margin-top: -150px;
     margin-left: 30px;
   }
-  @media (min-width: $desktop-width) {
+  @media (min-width: $desktop-width)  {
     margin-top: 0;
     left: 334px;
   }
 }
 
-.example__tumbler::before{
+.example__tumbler::before {
   content: "";
   position: absolute;
   width: 24px;
@@ -292,7 +292,7 @@
   background-color: #666666;
 }
 
-.example__tumbler::after{
+.example__tumbler::after {
   content: "";
   position: absolute;
   z-index: -1;
@@ -302,11 +302,11 @@
   top: 0;
   left: 16px;
   margin-top: -110px;
-  @media (min-width: $tablet-widht) {
+  @media (min-width: $tablet-widht)  {
     height: 512px;
     margin-top: -236px;
   }
-  @media (min-width: $desktop-width) {
+  @media (min-width: $desktop-width)  {
     margin-top: -237px;
   }
 }

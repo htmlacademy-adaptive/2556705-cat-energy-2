@@ -1,4 +1,4 @@
-.hero {
+.hero  {
   position: relative;
   max-width: 320px;
   margin: 0 auto;
@@ -8,20 +8,20 @@
   color: #ffffff;
   display: flex;
   flex-direction: column;
-@media (min-width: $tablet-widht) {
+@media (min-width: $tablet-widht)  {
     max-width: 768px;
     color: $basic-black;
     text-align: start;
   }
-  @media (min-width: $desktop-width) {
+  @media (min-width: $desktop-width)  {
     max-width: 1440px;
     width: 1440px;
-    padding-bottom: 131px;
+    padding-bottom: 133px;
     padding-left: 100px;
   }
 }
 
-.hero::before{
+.hero::before {
   content: "";
   position: absolute;
   width: 320px;
@@ -31,10 +31,10 @@
   background: url('/images/green-patern-mobile.png') top center no-repeat,
   url('/images/cat-bg-mobile.png') top center no-repeat;
   z-index: -1;
-  @media (min-width: $tablet-widht){
+  @media (min-width: $tablet-widht) {
     display: none;
   }
-  @media (min-width: $desktop-width){
+  @media (min-width: $desktop-width) {
     display:block;
     left: auto;
     right: 0;
@@ -48,19 +48,19 @@
   }
 }
 
-.hero__title{
+.hero__title {
   margin: 28px 0;
   margin-bottom: 26px;
   font-size: 36px;
   line-height: 36px;
-  @media (min-width: $tablet-widht){
+  @media (min-width: $tablet-widht) {
     max-width: 416px;
     margin: 0 0 40px 91px;
     font-size: 60px;
     line-height: 60px;
     word-spacing: -1.5px;
   }
-  @media (min-width: $desktop-width) {
+  @media (min-width: $desktop-width)  {
     margin-top: 1px;
     font-size: 60px;
     line-height: 60px;
@@ -68,39 +68,39 @@
   }
 }
 
-.hero__description{
+.hero__description {
   margin: 0;
   margin-left: -2px;
   margin-bottom: 29px;
   font-size: 14px;
   line-height: 14px;
   text-transform: uppercase;
-  @media (min-width: $tablet-widht){
+  @media (min-width: $tablet-widht) {
     margin-bottom: 50px;
     margin-left: 91px;
     font-size: 20px;
     line-height: 20px;
   }
-  @media (min-width: $desktop-width) {
+  @media (min-width: $desktop-width)  {
     margin-bottom: 53px;
   }
 }
 
-.hero__image{
+.hero__image {
   margin: 0;
   margin-left: -10px;
   text-align: center;
-  @media (min-width: $tablet-widht){
+  @media (min-width: $tablet-widht) {
     margin-top: -83px;
     margin-left: 0;
   }
-  @media (min-width: $desktop-width) {
+  @media (min-width: $desktop-width)  {
     margin-top: -367px;
     margin-left: 456px;
   }
 }
 
-.hero__button{
+.hero__button {
   max-width: 320px;
   width: 280px;
   margin: 0 auto;
@@ -108,7 +108,7 @@
   margin-left: -10px;
   padding: 11px 20px 9px;
   order: 1;
-  @media (min-width: $tablet-widht){
+  @media (min-width: $tablet-widht) {
     z-index: 1;
     width: auto;
     margin-left: 91px;
@@ -117,7 +117,7 @@
     font-size: 20px;
     line-height: 26px;
   }
-  @media (min-width: $desktop-width) {
+  @media (min-width: $desktop-width)  {
     width: 244px;
     margin-left: 90px;
     padding-left: 27px;
