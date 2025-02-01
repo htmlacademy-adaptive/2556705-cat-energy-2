@@ -16,7 +16,7 @@
   @media (min-width: $desktop-width) {
     max-width: 1440px;
     width: 1440px;
-    padding-bottom: 135px;
+    padding-bottom: 131px;
     padding-left: 100px;
   }
 }
@@ -40,10 +40,10 @@
     right: 0;
     top: 0;
     width: 720px;
-    height: 694px;
+    height: 696px;
     margin-top: -225px;;
     background-size: 1040px 694px;
-    background: url('/images/green-patern-mobile.png') top center/720px 694px no-repeat,
+    background: url('/images/green-patern-mobile.png') top center/720px 696px no-repeat,
     url('/images/cat-bg-desktop.png') top left no-repeat;
   }
 }
@@ -58,10 +58,13 @@
     margin: 0 0 40px 91px;
     font-size: 60px;
     line-height: 60px;
+    word-spacing: -1.5px;
   }
   @media (min-width: $desktop-width) {
+    margin-top: 1px;
     font-size: 60px;
     line-height: 60px;
+    word-spacing: -1px;
   }
 }
 

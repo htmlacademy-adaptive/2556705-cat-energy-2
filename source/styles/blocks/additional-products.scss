@@ -97,7 +97,7 @@
     width: 708px;
     padding: 0;
     margin: 0 30px;
-    margin-bottom: 70px;
+    margin-bottom: 69px;
     border: none;
   }
   @media (min-width: $desktop-width) {
@@ -126,6 +126,9 @@
     &:last-of-type{
       border-bottom: 1px solid #CDCDCD;
     }
+    &:first-of-type{
+      padding-bottom: 27.5px;
+    }
   }
   @media (min-width: $desktop-width) {
     max-width: 896px;
@@ -134,6 +137,9 @@
     padding: 14px 1px 17px 1px;
     border: none;
     border-bottom: 1px solid #CDCDCD;
+    &:first-of-type{
+      padding-bottom: 17px;
+    }
   }
 }
 
@@ -246,6 +252,7 @@ url("/images/cat-case-mobile@1x.png") top center/ 280px no-repeat;
     width: 707px;
     height: 200px;
     margin: 0 30px;
+    margin-left: 31px;
     background: url('/images/green-patern-mobile.png') top center/ 707px  200px no-repeat,
     url("/images/cat-case-tablet@1x.png") top center/ 707px  200px no-repeat;
   }
