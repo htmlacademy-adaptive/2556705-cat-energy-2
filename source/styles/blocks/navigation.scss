@@ -7,7 +7,7 @@
   text-align: center;
   font-size: 20px;
   text-transform: uppercase;
-  @media (min-width: $tablet-widht)  {
+  @media (min-width: $tablet-widht) {
     min-width: $tablet-widht;
     flex-direction: row;
     }
@@ -35,8 +35,8 @@
   height: 24px;
   border: none;
   background-color: $basic-white;
-  background-image: url("/icons/burger.svg") ;
-  @media (min-width: $tablet-widht)  {
+  background-image: url("/icons/burger.svg");
+  @media (min-width: $tablet-widht) {
     display: none;
   }
 }
@@ -51,7 +51,7 @@
   display: flex;
   flex-direction: column;
   list-style-type: none;
-  @media (min-width: $tablet-widht)  {
+  @media (min-width: $tablet-widht) {
     flex-direction: row;
     margin: 25px 33px 65px auto;
   }
@@ -63,7 +63,7 @@
   margin-top: 22px;
   margin-bottom: 24px;
   width: 100%;
-  @media (min-width: $tablet-widht)  {
+  @media (min-width: $tablet-widht) {
     margin: 0;
     margin-right: 33px;
     width: auto;
@@ -71,7 +71,7 @@
 }
 
 .header__item:last-of-type {
-  @media (min-width: $tablet-widht)  {
+  @media (min-width: $tablet-widht) {
     margin-right: 0;
   }
 }
@@ -82,14 +82,14 @@
   width: 100%;
   bottom: 42px;
   left: 0;
-  border-top: 1px solid #E6E6E6;
+  border-top: 1px solid #e6e6e6;
   @media (min-width: $tablet-widht)   {
     display: none;
   }
 }
 
 
-@media (min-width: $tablet-widht)  {
+@media (min-width: $tablet-widht) {
   .header__link--current::before {
     content: "";
     position: absolute;
@@ -97,7 +97,7 @@
     height: 2px;
     top: 34px;
     left: 0;
-    background: #68B738;
+    background: #68b738;
 }
 }
 
@@ -105,12 +105,9 @@
   color: $basic-black;
   text-decoration: none;
   margin: 0 auto;
-  @media (min-width: $tablet-widht)  {
+  @media (min-width: $tablet-widht) {
     position: relative;
     font-size: 18px;
     line-height: 24px;
   }
 }
-
-
-

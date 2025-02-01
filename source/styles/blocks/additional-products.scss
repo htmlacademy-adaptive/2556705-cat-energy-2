@@ -8,7 +8,7 @@
     width: 768px;
     padding-top: 14px;
   }
-  @media (min-width: $desktop-width)  {
+  @media (min-width: $desktop-width) {
     display: flex;
     flex-wrap: wrap;
     max-width: 1440px;
@@ -24,7 +24,7 @@
   &::before,
   &::after {
     content: "";
-    border-bottom: 2px solid #68B738;
+    border-bottom: 2px solid #68b738;
   }
   @media (min-width: $tablet-widht) {
     max-width: 768px;
@@ -33,7 +33,7 @@
     margin-left: 0;
     margin-bottom: 80px;
   }
-  @media (min-width: $desktop-width)  {
+  @media (min-width: $desktop-width) {
     max-width: 1440px;
     width: 1440px;
     margin-bottom: 78px;
@@ -49,7 +49,7 @@
   @media (min-width: $tablet-widht) {
     margin-top: -2px;
   }
-  @media (min-width: $desktop-width)  {
+  @media (min-width: $desktop-width) {
     flex-grow: 14;
     margin-top: -5px;
   }
@@ -63,7 +63,7 @@
     margin-right: 40px;
     margin-top: -2px;
   }
-  @media (min-width: $desktop-width)  {
+  @media (min-width: $desktop-width) {
     width: 4px;
     margin-top: -5px;
   }
@@ -79,7 +79,7 @@
     font-size: 32px;
     line-height: 32px;
   }
-  @media (min-width: $desktop-width)  {
+  @media (min-width: $desktop-width) {
     font-size: 40px;
     line-height: 40px;
   }
@@ -91,7 +91,7 @@
   margin-bottom: 35px;
   padding: 0;
   list-style-type: none;
-  border-top: 1px solid #CDCDCD;
+  border-top: 1px solid #cdcdcd;
   @media (min-width: $tablet-widht) {
     max-width: 708px;
     width: 708px;
@@ -100,18 +100,18 @@
     margin-bottom: 69px;
     border: none;
   }
-  @media (min-width: $desktop-width)  {
+  @media (min-width: $desktop-width) {
     max-width: 896px;
     width: 896px;
     margin: 0 80px 0 110px;
-    border-top: 1px solid #CDCDCD;
+    border-top: 1px solid #cdcdcd;
   }
 }
 
 .additional-products__item {
   padding-top: 13px;
   padding-bottom: 18px;
-  border-bottom: 1px solid #CDCDCD;
+  border-bottom: 1px solid #cdcdcd;
   &:first-of-type {
     padding-bottom: 17px;
   }
@@ -121,22 +121,22 @@
     max-width: 708px;
     width: 708px;
     padding: 26px 37px 28px 38px;
-    border: 1px solid #CDCDCD;
+    border: 1px solid #cdcdcd;
     border-bottom: none;
     &:last-of-type {
-      border-bottom: 1px solid #CDCDCD;
+      border-bottom: 1px solid #cdcdcd;
     }
     &:first-of-type {
       padding-bottom: 27.5px;
     }
   }
-  @media (min-width: $desktop-width)  {
+  @media (min-width: $desktop-width) {
     max-width: 896px;
     width: 896px;
     align-items: center;
     padding: 14px 1px 17px 1px;
     border: none;
-    border-bottom: 1px solid #CDCDCD;
+    border-bottom: 1px solid #cdcdcd;
     &:first-of-type {
       padding-bottom: 17px;
     }
@@ -159,7 +159,7 @@
     font-size: 20px;
     line-height: 20px;
   }
-  @media (min-width: $desktop-width)  {
+  @media (min-width: $desktop-width) {
     max-width: 275px;
     width: 275px;
     margin: 0;
@@ -181,7 +181,7 @@
     margin-right: 2px;
     font-size: 16px;
   }
-  @media (min-width: $desktop-width)  {
+  @media (min-width: $desktop-width) {
     max-width: none;
     margin: auto 0;
     margin-top: 13px;
@@ -192,7 +192,7 @@
   @media (min-width: $tablet-widht) {
     margin-right: 2px;
   }
-  @media (min-width: $desktop-width)  {
+  @media (min-width: $desktop-width) {
     max-width: 200px;
     width: 200px;
     margin-right: 43px;
@@ -203,7 +203,7 @@
   @media (min-width: $tablet-widht) {
     margin-right: 10px;
   }
-  @media (min-width: $desktop-width)  {
+  @media (min-width: $desktop-width) {
     margin-right: 44px;
   }
 }
@@ -216,7 +216,7 @@
     margin-top: -2px;
     line-height: 20px;
   }
-  @media (min-width: $desktop-width)  {
+  @media (min-width: $desktop-width) {
     max-width: 42px;
     width: 42px;
     margin: 0;
@@ -232,7 +232,7 @@
     width: 633px;
     margin-left: -1px;
   }
-  @media (min-width: $desktop-width)  {
+  @media (min-width: $desktop-width) {
     max-width: 244px;
     width: 244px;
     margin-left: auto;
@@ -246,22 +246,25 @@
   width: 280px;
   height: 290px;
   margin: 0 20px;
-  background: url('/images/green-patern-mobile.png') top center no-repeat,
-url("/images/cat-case-mobile@1x.png") top center/ 280px no-repeat;
+  background:
+  url("/images/green-patern-mobile.png") top center no-repeat,
+  url("/images/cat-case-mobile@1x.png") top center/ 280px no-repeat;
   @media (min-width: $tablet-widht) {
     width: 707px;
     height: 200px;
     margin: 0 30px;
     margin-left: 31px;
-    background: url('/images/green-patern-mobile.png') top center/ 707px  200px no-repeat,
+    background:
+    url("/images/green-patern-mobile.png") top center/ 707px  200px no-repeat,
     url("/images/cat-case-tablet@1x.png") top center/ 707px  200px no-repeat;
   }
-  @media (min-width: $desktop-width)  {
+  @media (min-width: $desktop-width) {
     width: 245px;
     height: 288px;
     margin: 0;
     margin-top: 1px;
-    background: url('/images/green-patern-mobile.png') top center/ 245px  288px no-repeat,
+    background:
+    url("/images/green-patern-mobile.png") top center/ 245px  288px no-repeat,
     url("/images/cat-case-desktop@1x.png") top center/ 245px  288px no-repeat;
   }
 }
@@ -282,7 +285,7 @@ url("/images/cat-case-mobile@1x.png") top center/ 280px no-repeat;
     margin-left: 421px;
     text-align: start;
   }
-  @media (min-width: $desktop-width)  {
+  @media (min-width: $desktop-width) {
     max-width: 161px;
     width: 161px;
     margin: 0 auto;
@@ -299,23 +302,13 @@ url("/images/cat-case-mobile@1x.png") top center/ 280px no-repeat;
   height: 80px;
   left: 101px;
   top: 58px;
-  background-image:  url('/icons/gift.svg');
+  background-image: url("/icons/gift.svg");
   @media (min-width: $tablet-widht) {
     top: 57px;
     left: 79px;
   }
-  @media (min-width: $desktop-width)  {
+  @media (min-width: $desktop-width) {
     top: 57px;
     left: 83px;
   }
 }
-
-
-
-
-
-
-
-
-
-

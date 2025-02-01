@@ -4,14 +4,14 @@
   margin: 0 auto;
   padding-bottom: 32px;
   line-height: 18px;
-  @media (min-width: $tablet-widht)  {
+  @media (min-width: $tablet-widht) {
     max-width: 768px;
     width: 768px;
     padding-bottom: 42px;
     font-size: 20px;
     line-height: 30px;
   }
-  @media (min-width: $desktop-width)  {
+  @media (min-width: $desktop-width) {
     display: flex;
     flex-wrap: wrap;
     max-width: 1440px;
@@ -25,12 +25,12 @@
   margin: 28px 20px 37px;
   font-size: 36px;
   line-height: 36px;
-  @media (min-width: $tablet-widht)  {
+  @media (min-width: $tablet-widht) {
     margin: 0 70px 54px;
     font-size: 60px;
     line-height: 60px;
   }
-  @media (min-width: $desktop-width)  {
+  @media (min-width: $desktop-width) {
     max-width: 1440px;
     width: 1400px;
     margin: 0 110px 55px 110.5px;
@@ -44,13 +44,13 @@
   margin: 0 20px 39px;
   font-size: 14px;
   text-transform: uppercase;
-  @media (min-width: $tablet-widht)  {
+  @media (min-width: $tablet-widht) {
     max-width: 323px;
     width: 323px;
     margin: 0 70px 66px;
     font-size: 20px;
   }
-  @media (min-width: $desktop-width)  {
+  @media (min-width: $desktop-width) {
     margin: 0 800px 66px 110px;
     word-spacing: 0.3px;
   }
@@ -61,7 +61,7 @@
   width: 280px;
   margin-left: 20px;
   margin-bottom: 18px;
-  @media (min-width: $tablet-widht)  {
+  @media (min-width: $tablet-widht) {
     max-width: 284px;
     width: 284px;
     padding: 14px;
@@ -70,7 +70,7 @@
     font-size: 20px;
     line-height: 26px;
   }
-  @media (min-width: $desktop-width)  {
+  @media (min-width: $desktop-width) {
     max-width: 570px;
     width: 570px;
     margin-left: 110px;
@@ -89,22 +89,16 @@
   line-height: 16px;
   text-align: center;
   word-spacing: 1.3px;
-  @media (min-width: $tablet-widht)  {
+  @media (min-width: $tablet-widht) {
     max-width: 180px;
     width: 180px;
     margin: 0;
     margin-top: -10px;
     font-size: 16px;
-    text-align:center;
+    text-align: center;
   }
-  @media (min-width: $desktop-width)  {
+  @media (min-width: $desktop-width) {
     margin-top: 18px;
     word-spacing: 1.5px;
   }
 }
-
-
-
-
-
-

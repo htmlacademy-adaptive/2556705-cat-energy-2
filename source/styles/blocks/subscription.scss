@@ -9,7 +9,7 @@
     padding-top: 80px;
     padding-bottom: 80px;
   }
-  @media (min-width: $desktop-width)  {
+  @media (min-width: $desktop-width) {
     max-width: 1440px;
     width: 1440px;
     padding-top: 95px;
@@ -18,23 +18,23 @@
 
 .subscription__container {
   display: flex;
-  align-items:flex-start;
+  align-items: flex-start;
   margin-left: 20px;
   margin-bottom: 32px;
   &::before,
   &::after {
     content: "";
-    border-bottom: 2px solid #68B738;
+    border-bottom: 2px solid #68b738;
   }
   @media (min-width: $tablet-widht) {
     margin-left: 0;
     margin-bottom: 65px;
   }
-  @media (min-width: $desktop-width)  {
+  @media (min-width: $desktop-width) {
     max-width: 1440px;
     width: 1440px;
     margin-bottom: 73px;
-    align-items:center
+    align-items: center;
   }
 }
 
@@ -46,7 +46,7 @@
   @media (min-width: $tablet-widht) {
     margin-top: 14px;
   }
-  @media (min-width: $desktop-width)  {
+  @media (min-width: $desktop-width) {
     flex-grow: 14;
     margin-top: 0;
   }
@@ -61,7 +61,7 @@
     margin-right: 40px;
     margin-top: 14px;
   }
-  @media (min-width: $desktop-width)  {
+  @media (min-width: $desktop-width) {
     max-width: 70px;
     margin-top: 0;
   }
@@ -76,7 +76,7 @@
     font-size: 32px;
     line-height: 32px;
   }
-  @media (min-width: $desktop-width)  {
+  @media (min-width: $desktop-width) {
     font-size: 40px;
     line-height: 40px;
   }
@@ -93,7 +93,7 @@
     font-size: 24px;
     line-height: 32px;
   }
-  @media (min-width: $desktop-width)  {
+  @media (min-width: $desktop-width) {
     max-width: 1360px;
     width: 1360px;
     margin: 0 auto;
@@ -113,7 +113,7 @@
   width: 280px;
   padding: 13px;
   padding-bottom: 11px;
-  border: 1px solid #CDCDCD;
+  border: 1px solid #cdcdcd;
   margin: 0 20px;
   margin-bottom: 16px;
   font-family: $primary-font;
@@ -123,10 +123,10 @@
   &:hover,
   &:focus,
   &:active {
-    border:  2px solid #444444;
+    border: 2px solid #444444;
   }
   &:invalid {
-    border:  2px solid #FF8282;
+    border: 2px solid #ff8282;
   }
   @media (min-width: $tablet-widht) {
     display: flex;
@@ -134,7 +134,7 @@
     width: 376px;
     margin: 0;
   }
-  @media (min-width: $desktop-width)  {
+  @media (min-width: $desktop-width) {
     max-width: 496px;
     width: 496px;
   }

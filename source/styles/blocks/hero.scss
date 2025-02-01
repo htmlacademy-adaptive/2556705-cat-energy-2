@@ -1,4 +1,4 @@
-.hero  {
+.hero {
   position: relative;
   max-width: 320px;
   margin: 0 auto;
@@ -8,12 +8,12 @@
   color: #ffffff;
   display: flex;
   flex-direction: column;
-@media (min-width: $tablet-widht)  {
+@media (min-width: $tablet-widht) {
     max-width: 768px;
     color: $basic-black;
     text-align: start;
   }
-  @media (min-width: $desktop-width)  {
+  @media (min-width: $desktop-width) {
     max-width: 1440px;
     width: 1440px;
     padding-bottom: 133px;
@@ -28,23 +28,24 @@
   height: 302px;
   left: 0;
   top: 1px;
-  background: url('/images/green-patern-mobile.png') top center no-repeat,
-  url('/images/cat-bg-mobile.png') top center no-repeat;
+  background:
+  url("/images/green-patern-mobile.png") top center no-repeat,
+  url("/images/cat-bg-mobile.png") top center no-repeat;
   z-index: -1;
   @media (min-width: $tablet-widht) {
     display: none;
   }
   @media (min-width: $desktop-width) {
-    display:block;
+    display: block;
     left: auto;
     right: 0;
     top: 0;
     width: 720px;
     height: 696px;
-    margin-top: -225px;;
+    margin-top: -225px;
+    background: url("/images/green-patern-mobile.png") top center/720px 696px no-repeat,
+    url("/images/cat-bg-desktop.png") top left no-repeat;
     background-size: 1040px 694px;
-    background: url('/images/green-patern-mobile.png') top center/720px 696px no-repeat,
-    url('/images/cat-bg-desktop.png') top left no-repeat;
   }
 }
 
@@ -60,7 +61,7 @@
     line-height: 60px;
     word-spacing: -1.5px;
   }
-  @media (min-width: $desktop-width)  {
+  @media (min-width: $desktop-width) {
     margin-top: 1px;
     font-size: 60px;
     line-height: 60px;
@@ -81,7 +82,7 @@
     font-size: 20px;
     line-height: 20px;
   }
-  @media (min-width: $desktop-width)  {
+  @media (min-width: $desktop-width) {
     margin-bottom: 53px;
   }
 }
@@ -94,7 +95,7 @@
     margin-top: -83px;
     margin-left: 0;
   }
-  @media (min-width: $desktop-width)  {
+  @media (min-width: $desktop-width) {
     margin-top: -367px;
     margin-left: 456px;
   }
@@ -117,14 +118,10 @@
     font-size: 20px;
     line-height: 26px;
   }
-  @media (min-width: $desktop-width)  {
+  @media (min-width: $desktop-width) {
     width: 244px;
     margin-left: 90px;
     padding-left: 27px;
     word-spacing: 0.9px;
   }
 }
-
-
-
-
