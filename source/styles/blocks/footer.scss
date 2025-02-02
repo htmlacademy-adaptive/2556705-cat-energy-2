@@ -16,7 +16,7 @@
   }
   @media (min-width: $desktop-width) {
     max-width: 1440px;
-    padding: 66px 110px;
+    padding: 66px 109px ;
   }
 }
 
@@ -75,10 +75,22 @@
   min-width: 28px;
   min-height: 22px;
   margin-right: 24px;
+  @media (min-width: $tablet-widht) {
+    margin-right: 21px;
+  }
+  @media (min-width: $desktop-width) {
+    margin-right: 22px;
+  }
 }
 
 .footer__social-item:first-of-type {
   margin-left: 74px;
+  @media (min-width: $tablet-widht) {
+    margin-left: 57px;
+  }
+  @media (min-width: $desktop-width) {
+    margin-left: 55px;
+  }
 }
 
 .footer__social-link {
@@ -136,8 +148,10 @@
     mask-image: url("/icons/telegram.svg");
     mask-size: 20px 17px;
     mask-repeat: no-repeat;
-
     mask-position: center;
+  }
+  @media (min-width: $desktop-width) {
+    margin-top: 1px;
   }
 }
 
@@ -158,7 +172,12 @@
     opacity: 30%;
   }
   @media (min-width: $tablet-widht) {
+    margin-top: -2px;
+    margin-right: -1px;
     padding: 0;
+  }
+  @media (min-width: $desktop-width) {
+    margin: 0;
   }
 }
 
@@ -181,3 +200,24 @@
     margin-right: 23px;
   }
 }
+
+.footer--catalog .footer__social-item:first-of-type,
+.footer--form .footer__social-item:first-of-type{
+  @media (min-width: $tablet-widht) and (max-width: 1439px){
+    margin-left: 52px;
+  }
+}
+
+.footer--catalog .footer__social-link--telegram,
+.footer--form .footer__social-link--telegram{
+  margin-top: 1px;
+  margin-right: -3px;
+}
+
+.footer--catalog .footer__social-link--youtube,
+.footer--form .footer__social-link--youtube{
+  margin-top: 1px;
+  margin-right: 1px;
+}
+
+

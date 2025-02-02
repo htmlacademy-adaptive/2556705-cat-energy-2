@@ -1,16 +1,32 @@
-.address   {
-  display: flex;
+.address {
   max-width: 320px;
   margin: 0 auto;
+  @media (min-width: $tablet-widht) {
+    max-width: 768px;
+  }
+  @media (min-width: $desktop-width) {
+    position: relative;
+    max-width: 1440px;
+  }
+}
+
+.address__content{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 320px;
   padding: 26px 20px;
   color: #111111;
   font-style: normal;
-  @media (min-width: $tablet-widht)   {
+  @media (min-width: $tablet-widht) {
     max-width: 768px;
-    padding: 60px 70px;
+    padding: 59px 70px 60px;
   }
-  @media (min-width: $desktop-width)   {
-    max-width: 565px;
+  @media (min-width: $desktop-width) {
+    position: absolute;
+    top: 95px;
+    left: 110px;
+    max-width: 566px;
+    width: 566px;
     padding: 60px 80px;
     background-color: $basic-white;
   }
@@ -45,6 +61,28 @@
     text-align: end;
   }
   @media (min-width: $desktop-width)   {
+    margin-left: 85px;
     text-align: start;
   }
 }
+
+.address iframe{
+  display: block;
+  border: none;
+  @media (min-width: $tablet-widht) {
+    width: 768px;
+    height: 400px;
+  }
+  @media (min-width: $desktop-width) {
+    width: 1440px;
+  }
+}
+
+.address--catalog,
+.address--form{
+  @media (max-width: 1439px){
+    background-color: #f2f2f2;
+  }
+}
+
+
