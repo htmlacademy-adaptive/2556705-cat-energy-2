@@ -47,6 +47,8 @@ body {
   color: #444444;
 }
 
+
+
 .input-mobile {
   max-height: 45px;
   height: 45px;
@@ -79,6 +81,10 @@ input::-webkit-inner-spin-button {
 input[type="number"] {
   appearance: none;
   -moz-appearance: textfield;
+}
+
+.input-mobile:placeholder-shown {
+  border: 1px solid #e7e7e7;
 }
 
 .weight-normal {

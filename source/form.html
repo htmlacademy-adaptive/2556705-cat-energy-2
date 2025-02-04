@@ -12,10 +12,9 @@
   <link rel="manifest" href="manifest.webmanifest">
   <script src="scripts/index.js" defer></script>
 </head>
-
 <body class="page__body">
   <!-- ! Header -->
-  <header class="header header--form">
+  <header class="header header--form header--opened header--nojs">
     <div class="header__wrapper">
       <a class="header__logo" href="index.html">
         <picture>
@@ -77,13 +76,13 @@
             <label class="personalise-label label" for="name">
               Имя:*
             </label>
-            <input class="personalise-input input-mobile" id="name" type="text" name="name" placeholder="барсик">
+            <input class="personalise-input input-mobile" id="name" type="text" name="name" placeholder="барсик" required>
           </li>
           <li class="personalise-item">
             <label class="personalise-label label" for="weight">
               Вес (кг):*
             </label>
-            <input class="personalise-input input-mobile" id="weight" type="number" name="weight" placeholder="7">
+            <input class="personalise-input input-mobile" id="weight" type="number" name="weight" placeholder="7" required>
           </li>
           <li class="personalise-item">
             <label class="personalise-label label" for="age">
@@ -143,14 +142,14 @@
               E-mail:*
             </label>
             <input class="contacts__input input-mobile" id="email" type="email" name="email"
-              placeholder="kuklachev@gmail.com">
+              placeholder="kuklachev@gmail.com" required>
           </li>
           <li class="contacts__item contacts__item--tel">
             <label class="contacts__label label" for="telephone">
               Телефон:*
             </label>
             <input class="contacts__input input-mobile" id="telephone" type="number" name="telephone"
-              placeholder="8 (960) 900-60-90">
+              placeholder="8 (960) 900-60-90" required>
           </li>
         </ul>
       </fieldset>
