@@ -13,7 +13,7 @@ navToggle.addEventListener('click', function () {
     navMain.classList.remove('header--opened');
   }
 });
-
+/*
 function getTextNodesIn(elem, opt_fnFilter) {
   var textNodes = [];
   if (elem) {
@@ -24,7 +24,6 @@ function getTextNodesIn(elem, opt_fnFilter) {
         if (!opt_fnFilter || opt_fnFilter(node, elem)) {
           if (node.data.trim() !== '') {
             textNodes.push(node.data.trim() !== '' ? node : '');
-
           }
         }
       } else if (nodeType == 1 || nodeType == 9 || nodeType == 11) {
@@ -36,4 +35,4 @@ function getTextNodesIn(elem, opt_fnFilter) {
 }
 
 getTextNodesIn(document.body).forEach((item) => { item.textContent = "У меня есть несколько клиентов, которые записались ко мне на стрижку, не успев даже зайти в салон." })
-
+*/
