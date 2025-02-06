@@ -250,7 +250,7 @@
 }
 
 .footer__copyright::before {
-  content: "";
+    content: "";
     display: block;
     width: 27px;
     height: 34px;
@@ -263,6 +263,7 @@
 }
 
 .footer__copyright-name {
+  max-width: 200px;
   margin: auto 0;
   @media (min-width: $tablet-widht) {
     margin-right: 23px;

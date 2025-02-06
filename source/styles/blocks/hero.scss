@@ -1,13 +1,14 @@
 .hero {
   position: relative;
+  display: flex;
+  flex-direction: column;
   max-width: 320px;
+
   margin: 0 auto;
   margin-top: -1px;
   padding: 0 30px;
   text-align: center;
   color: #ffffff;
-  display: flex;
-  flex-direction: column;
 @media (min-width: $tablet-widht) {
     max-width: 768px;
     color: $basic-black;
@@ -25,13 +26,14 @@
   content: "";
   position: absolute;
   width: 320px;
-  height: 302px;
+  height: calc(100% - 178px);
   left: 0;
   top: 1px;
   background:
-  url("/images/green-patern-mobile.png") top center no-repeat,
+  url("/images/green-patern-mobile.png") top center/ 320px 100% no-repeat,
   url("/images/cat-bg-mobile.png") top center no-repeat;
   z-index: -1;
+  flex-grow: 1;
   @media (min-width: $tablet-widht) {
     display: none;
   }
@@ -41,9 +43,9 @@
     right: 0;
     top: 0;
     width: 720px;
-    height: 696px;
-    margin-top: -225px;
-    background: url("/images/green-patern-mobile.png") top center/720px 696px no-repeat,
+    height: calc(100% + 223px);
+    margin-top: -223px;
+    background: url("/images/green-patern-mobile.png") top center/720px 100% no-repeat,
     url("/images/cat-bg-desktop.png") top left no-repeat;
     background-size: 1040px 694px;
   }
@@ -83,6 +85,7 @@
     line-height: 20px;
   }
   @media (min-width: $desktop-width) {
+    max-width: 416px;
     margin-bottom: 53px;
   }
 }

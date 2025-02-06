@@ -196,11 +196,10 @@
     background-image: url("/icons/long-arrow.svg");
   }
   @media (min-width: $tablet-widht) {
-    max-width: 165px;
-    width: 165px;
     min-height: 30px;
     margin: 0;
     padding: 5px 0;
+    padding-right: 57px;
     font-size: 20px;
     line-height: 30px;
   }
@@ -216,11 +215,11 @@
   position: absolute;
   width: 24px;
   height: 12px;
-  right: 7px;
+  right: 6px;
   top: 6px;
   background-image: url("/icons/arrow.svg");
   @media (min-width: $tablet-widht) {
-    top: 13px;
+    top: 12px;
     right: 8px;
   }
   @media (min-width: $desktop-width) {
@@ -230,6 +229,6 @@
 }
 .programs__link--pro {
   @media (min-width: $tablet-widht) {
-    width: 161px;
+    min-width: 161px;
   }
 }

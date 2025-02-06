@@ -15,7 +15,6 @@
   flex-wrap: wrap;
   max-width: 320px;
   padding: 28px 20px 25px;
-
   color: #111111;
   font-style: normal;
   @media (min-width: $tablet-widht) {
@@ -27,6 +26,7 @@
     top: 95px;
     left: 110px;
     max-width: 566px;
+    max-height: 305px;
     width: 566px;
     padding: 60px 80px;
     background-color: $basic-white;
@@ -38,12 +38,16 @@
   margin: 0;
   font-size: 16px;
   text-transform: uppercase;
-  @media (min-width: $tablet-widht)   {
+  @media (min-width: $tablet-widht) {
     max-width: 164px;
     margin-top: 1.5px;
     font-size: 20px;
     line-height: 26px;
     word-spacing: -0.5px;
+  }
+  @media (min-width: $desktop-width) {
+    max-height: 185px;
+    overflow: hidden;
   }
 }
 
@@ -54,14 +58,16 @@
   font-family: $secondary-font;
   font-size: 14px;
   color: $basic-grey-font;
-  @media (min-width: $tablet-widht)   {
+  @media (min-width: $tablet-widht) {
     max-width: 157px;
     margin-left: auto;
     justify-content: space-between;
     font-size: 16px;
     text-align: end;
   }
-  @media (min-width: $desktop-width)   {
+  @media (min-width: $desktop-width) {
+    overflow: hidden;
+    max-height: 185px;
     margin-left: 85px;
     text-align: start;
   }
