@@ -15,13 +15,13 @@
   }
 }
 
-.personalise-list {
+.personalise__list {
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
 
-.personalise-item {
+.personalise__item {
   display: flex;
   width: 280px;
   margin-bottom: 14px;
@@ -45,7 +45,7 @@
   }
 }
 
-.personalise-label {
+.personalise__label {
   margin: auto 0;
 
   @media (min-width: $tablet-widht) {

@@ -67,10 +67,12 @@ body {
 
   &:focus,
   &:active {
+    padding: 13px 13px 12px 14px;
     border: 2px solid #444444;
   }
 
   &:invalid {
+    padding: 13px 13px 12px 14px;
     border: 2px solid #ff8282;
   }
 
@@ -84,6 +86,11 @@ input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   appearance: none;
   margin: 0;
+}
+
+input[type="number"] {
+  appearance: textfield;
+  -moz-appearance: textfield;
 }
 
 .input-mobile:placeholder-shown {
