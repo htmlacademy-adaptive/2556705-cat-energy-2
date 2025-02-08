@@ -6,9 +6,11 @@
   padding: 0 20px 50px;
   font-size: 14px;
   line-height: 18px;
+
   @media (min-width: $tablet-widht) {
     max-width: 768px;
     padding: 0 110px 60px 31px;
+
     &::before {
       content: "";
       position: absolute;
@@ -20,9 +22,11 @@
       background-color: #e6e6e6;
     }
   }
+
   @media (min-width: $desktop-width) {
     max-width: 1440px;
     padding: 70px 106px 165px 110.5px;
+
     &::before {
       display: none;
     }
@@ -35,11 +39,13 @@
   margin-left: 1px;
   font-size: 36px;
   line-height: 40px;
+
   @media (min-width: $tablet-widht) {
     margin-bottom: 32px;
     font-size: 60px;
     line-height: 60px;
   }
+
   @media (min-width: $desktop-width) {
     word-spacing: 0.5px;
   }
@@ -56,12 +62,13 @@
   padding: 0;
   list-style-type: none;
   display: flex;
-  flex-direction: row;
   flex-flow: wrap;
+
   @media (min-width: $tablet-widht) {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+
   @media (min-width: $desktop-width) {
     grid-template-columns: repeat(4, 325px);
     margin-left: -80px;
@@ -73,6 +80,7 @@
   min-height: 60px;
   min-width: 320px;
   margin-bottom: 20px;
+
   @media (min-width: $tablet-widht) {
     min-width: 200px;
     max-width: 250px;
@@ -81,6 +89,7 @@
     margin-top: 40px;
     margin-bottom: -3px;
   }
+
   @media (min-width: $desktop-width) {
     justify-self: end;
   }
@@ -105,6 +114,7 @@
   left: 0;
   top: 0;
   background-color: $basic-green-bg;
+
   @media (min-width: $tablet-widht) {
     width: 80px;
     height: 80px;
@@ -119,6 +129,7 @@
   left: 18px;
   top: 16px;
   background-image: url("/icons/leaf.svg");
+
   @media (min-width: $tablet-widht) {
     top: 25px;
     left: 24px;
@@ -133,6 +144,7 @@
   left: 18px;
   top: 17px;
   background-image: url("/icons/powder.svg");
+
   @media (min-width: $tablet-widht) {
     top: 26px;
     left: 27px;
@@ -147,6 +159,7 @@
   left: 18px;
   top: 15px;
   background-image: url("/icons/fork-spoon.svg");
+
   @media (min-width: $tablet-widht) {
     top: 25px;
     left: 28px;
@@ -161,6 +174,7 @@
   left: 18px;
   top: 15px;
   background-image: url("/icons/clock.svg");
+
   @media (min-width: $tablet-widht) {
     top: 24px;
     left: 27px;
@@ -174,12 +188,14 @@
   margin-top: 3px;
   font-family: $secondary-font;
   color: $basic-grey-font;
+
   @media (min-width: $tablet-widht) {
     max-width: 245px;
     margin: 0;
     margin-top: 111px;
     font-size: 16px;
     line-height: 24px;
+
     &::after {
       content: "1";
       position: absolute;

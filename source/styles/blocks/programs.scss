@@ -2,10 +2,12 @@
   padding: 20px;
   font-size: 14px;
   line-height: 18px;
+
   @media (min-width: $tablet-widht) {
     margin-top: -1px;
     padding: 0 30px 43px;
   }
+
   @media (min-width: $desktop-width) {
     padding: 0 110px;
   }
@@ -15,6 +17,7 @@
   margin: 0;
   padding: 0;
   list-style-type: none;
+
   @media (min-width: $desktop-width) {
     display: flex;
     justify-content: center;
@@ -29,16 +32,19 @@
   padding: 20px;
   padding-bottom: 17.5px;
   background-color: #f2f2f2;
+
   &::before,
   &::after {
-  content: "";
-  position: absolute;
+    content: "";
+    position: absolute;
   }
+
   @media (min-width: $tablet-widht) {
     max-width: 708px;
     margin-bottom: 28px;
     padding: 77px 45px 53px 53px;
   }
+
   @media (min-width: $desktop-width) {
     max-width: 570px;
     width: 570px;
@@ -66,6 +72,7 @@
   height: 50px;
   border-radius: 50%;
   background-color: $basic-green-bg;
+
   @media (min-width: $tablet-widht) {
     left: auto;
     right: 62px;
@@ -73,6 +80,7 @@
     width: 200px;
     height: 200px;
   }
+
   @media (min-width: $desktop-width) {
     width: 100px;
     height: 100px;
@@ -87,6 +95,7 @@
   width: 36px;
   height: 53px;
   background-image: url("/icons/cat-sit.svg");
+
   @media (min-width: $tablet-widht) {
     left: auto;
     right: 92px;
@@ -94,6 +103,7 @@
     width: 140px;
     height: 194px;
   }
+
   @media (min-width: $desktop-width) {
     width: 70px;
     height: 97px;
@@ -108,20 +118,23 @@
   left: 13px;
   top: 35px;
   background-image: url("/icons/cat-go.svg");
+
   @media (min-width: $tablet-widht) {
     left: auto;
     right: 27px;
     top: 135px;
     width: 270px;
     height: 112px;
-    @media (min-width: $desktop-width) {
-      width: 134px;
-      height: 56px;
-      left: 33px;
-      top: 67px;
-    }
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 134px;
+    height: 56px;
+    left: 33px;
+    top: 67px;
   }
 }
+
 
 .programs__subtitle {
   max-width: 140px;
@@ -129,12 +142,14 @@
   font-size: 24px;
   line-height: 37px;
   text-transform: uppercase;
+
   @media (min-width: $tablet-widht) {
     max-width: 340px;
     margin: 0 0 24px;
     font-size: 36px;
     line-height: 36px;
   }
+
   @media (min-width: $desktop-width) {
     max-width: 300px;
     margin-top: 76px;
@@ -149,12 +164,14 @@
   margin: 0;
   margin-bottom: 23px;
   font-family: $secondary-font;
+
   @media (min-width: $tablet-widht) {
     max-width: 340px;
     margin-bottom: 48px;
     font-size: 16px;
     line-height: 24px;
   }
+
   @media (min-width: $desktop-width) {
     max-width: 457px;
     margin-bottom: 22px;
@@ -186,15 +203,18 @@
   line-height: 16px;
   text-transform: uppercase;
   text-decoration: none;
+
   &:active {
     opacity: 30%;
   }
+
   &:hover::before,
   &:focus::before,
   &:active::before {
     width: 32px;
     background-image: url("/icons/long-arrow.svg");
   }
+
   @media (min-width: $tablet-widht) {
     min-height: 30px;
     margin: 0;
@@ -203,6 +223,7 @@
     font-size: 20px;
     line-height: 30px;
   }
+
   @media (min-width: $desktop-width) {
     margin-left: 53.5px;
     margin-bottom: 55px;
@@ -218,15 +239,18 @@
   right: 6px;
   top: 6px;
   background-image: url("/icons/arrow.svg");
+
   @media (min-width: $tablet-widht) {
     top: 12px;
     right: 8px;
   }
+
   @media (min-width: $desktop-width) {
     top: 14px;
     right: 9px;
   }
 }
+
 .programs__link--pro {
   @media (min-width: $tablet-widht) {
     min-width: 161px;

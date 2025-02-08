@@ -28,11 +28,13 @@ body {
   border: none;
   background-color: #68b738;
   cursor: pointer;
+
   &:hover,
   &:focus,
   &:active {
     background-color: #5eaa2f;
   }
+
   &:active {
     color: rgba(255, 255, 255, 0.3);
   }
@@ -47,8 +49,6 @@ body {
   color: #444444;
 }
 
-
-
 .input-mobile {
   max-height: 45px;
   height: 45px;
@@ -60,15 +60,23 @@ body {
   font-size: 16px;
   line-height: 18px;
   text-transform: uppercase;
+
   &:hover {
     border: 1px solid #cdcdcd;
   }
+
   &:focus,
   &:active {
     border: 2px solid #444444;
   }
+
   &:invalid {
     border: 2px solid #ff8282;
+  }
+
+  &:disabled {
+    background-color: #e5e5e5;
+    color: #ffffff;
   }
 }
 
@@ -76,11 +84,6 @@ input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   appearance: none;
   margin: 0;
-}
-
-input[type="number"] {
-  appearance: none;
-  -moz-appearance: textfield;
 }
 
 .input-mobile:placeholder-shown {

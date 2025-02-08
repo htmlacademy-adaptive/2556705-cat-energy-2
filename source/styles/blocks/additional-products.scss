@@ -1,13 +1,15 @@
-.additional-products  {
+.additional-products {
   max-width: 320px;
   width: 320px;
   margin: 0 auto;
   padding-top: 25px;
+
   @media (min-width: $tablet-widht) {
     max-width: 768px;
     width: 768px;
     padding-top: 14px;
   }
+
   @media (min-width: $desktop-width) {
     display: flex;
     flex-wrap: wrap;
@@ -18,14 +20,16 @@
 
 .additional-products__container {
   display: flex;
-  align-items:flex-start;
+  align-items: flex-start;
   margin-left: 20px;
   margin-bottom: 35px;
+
   &::before,
   &::after {
     content: "";
     border-bottom: 2px solid #68b738;
   }
+
   @media (min-width: $tablet-widht) {
     max-width: 768px;
     width: 768px;
@@ -33,11 +37,12 @@
     margin-left: 0;
     margin-bottom: 80px;
   }
+
   @media (min-width: $desktop-width) {
     max-width: 1440px;
     width: 1440px;
     margin-bottom: 78px;
-    align-items:center
+    align-items: center;
   }
 }
 
@@ -46,9 +51,11 @@
   order: 1;
   margin-left: 40px;
   margin-top: 10px;
+
   @media (min-width: $tablet-widht) {
     margin-top: -2px;
   }
+
   @media (min-width: $desktop-width) {
     flex-grow: 14;
     margin-top: -5px;
@@ -63,6 +70,7 @@
     margin-right: 40px;
     margin-top: -2px;
   }
+
   @media (min-width: $desktop-width) {
     width: 4px;
     margin-top: -5px;
@@ -74,11 +82,13 @@
   padding: 0;
   font-size: 24px;
   line-height: 24px;
+
   @media (min-width: $tablet-widht) {
     margin: 0;
     font-size: 32px;
     line-height: 32px;
   }
+
   @media (min-width: $desktop-width) {
     font-size: 40px;
     line-height: 40px;
@@ -92,6 +102,7 @@
   padding: 0;
   list-style-type: none;
   border-top: 1px solid #cdcdcd;
+
   @media (min-width: $tablet-widht) {
     max-width: 708px;
     width: 708px;
@@ -100,6 +111,7 @@
     margin-bottom: 69px;
     border: none;
   }
+
   @media (min-width: $desktop-width) {
     max-width: 896px;
     width: 896px;
@@ -112,9 +124,11 @@
   padding-top: 13px;
   padding-bottom: 18px;
   border-bottom: 1px solid #cdcdcd;
+
   &:first-of-type {
     padding-bottom: 17px;
   }
+
   @media (min-width: $tablet-widht) {
     display: flex;
     flex-wrap: wrap;
@@ -123,20 +137,24 @@
     padding: 26px 37px 28px 38px;
     border: 1px solid #cdcdcd;
     border-bottom: none;
+
     &:last-of-type {
       border-bottom: 1px solid #cdcdcd;
     }
+
     &:first-of-type {
       padding-bottom: 27.5px;
     }
   }
+
   @media (min-width: $desktop-width) {
     max-width: 896px;
     width: 896px;
     align-items: center;
-    padding: 14px 1px 17px 1px;
+    padding: 14px 1px 17px;
     border: none;
     border-bottom: 1px solid #cdcdcd;
+
     &:first-of-type {
       padding-bottom: 17px;
     }
@@ -152,6 +170,7 @@
   font-weight: 400;
   text-transform: uppercase;
   color: #222222;
+
   @media (min-width: $tablet-widht) {
     max-width: 200px;
     margin-right: auto;
@@ -159,6 +178,7 @@
     font-size: 20px;
     line-height: 20px;
   }
+
   @media (min-width: $desktop-width) {
     max-width: 275px;
     width: 275px;
@@ -175,12 +195,14 @@
   font-family: $secondary-font;
   font-size: 14px;
   color: #444444;
+
   @media (min-width: $tablet-widht) {
     max-width: 225px;
     margin-top: 2px;
     margin-right: 2px;
     font-size: 16px;
   }
+
   @media (min-width: $desktop-width) {
     max-width: none;
     margin: auto 0;
@@ -192,6 +214,7 @@
   @media (min-width: $tablet-widht) {
     margin-right: 2px;
   }
+
   @media (min-width: $desktop-width) {
     max-width: 200px;
     width: 200px;
@@ -203,6 +226,7 @@
   @media (min-width: $tablet-widht) {
     margin-right: 10px;
   }
+
   @media (min-width: $desktop-width) {
     margin-right: 44px;
   }
@@ -211,11 +235,13 @@
 .additional-products__value {
   margin-top: 2px;
   line-height: 14px;
+
   @media (min-width: $tablet-widht) {
     margin-left: 49px;
     margin-top: -2px;
     line-height: 20px;
   }
+
   @media (min-width: $desktop-width) {
     max-width: 77px;
     width: 77px;
@@ -228,11 +254,13 @@
 .additional-products__button {
   max-width: 280px;
   width: 280px;
+
   @media (min-width: $tablet-widht) {
     max-width: 633px;
     width: 633px;
     margin-left: -1px;
   }
+
   @media (min-width: $desktop-width) {
     max-width: 244px;
     width: 244px;
@@ -256,6 +284,7 @@
   color: $basic-white;
   box-sizing: border-box;
   z-index: 3;
+
   @media (min-width: $tablet-widht) {
     max-width: 707px;
     min-height: 200px;
@@ -267,6 +296,7 @@
     padding-right: 125px;
     text-align: start;
   }
+
   @media (min-width: $desktop-width) {
     max-width: 245px;
     width: 245px;
@@ -288,22 +318,24 @@
   width: 100%;
   height: 100%;
   background:
-  url("/images/green-patern-mobile.png") top center/ 100% 100%  no-repeat,
-  url("/images/cat-case-mobile@1x.png") top center/ 100% 100% no-repeat;
+    url("/images/green-patern-mobile.png") top center/ 100% 100%  no-repeat,
+    url("/images/cat-case-mobile@1x.png") top center/ 100% 100% no-repeat;
   z-index: -1;
+
   @media (min-width: $tablet-widht) {
     width: 100%;
     height: 100%;
     background:
-    url("/images/green-patern-mobile.png") top center/ 100% 100% no-repeat,
-    url("/images/cat-case-tablet@1x.png") top center/ 100% 100% no-repeat;
+      url("/images/green-patern-mobile.png") top center/ 100% 100% no-repeat,
+      url("/images/cat-case-tablet@1x.png") top center/ 100% 100% no-repeat;
   }
+
   @media (min-width: $desktop-width) {
     width: 100%;
     height: 100%;
     background:
-    url("/images/green-patern-mobile.png") top center/ 100% 100% no-repeat,
-    url("/images/cat-case-desktop@1x.png") top center/ 100% 100% no-repeat;
+      url("/images/green-patern-mobile.png") top center/ 100% 100% no-repeat,
+      url("/images/cat-case-desktop@1x.png") top center/ 100% 100% no-repeat;
   }
 }
 
@@ -315,10 +347,12 @@
   left: 101px;
   top: 58px;
   background-image: url("/icons/gift.svg");
+
   @media (min-width: $tablet-widht) {
     top: 57px;
     left: 79px;
   }
+
   @media (min-width: $desktop-width) {
     top: 57px;
     left: 83px;

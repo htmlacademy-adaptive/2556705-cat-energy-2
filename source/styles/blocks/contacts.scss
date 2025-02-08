@@ -1,14 +1,16 @@
-.contacts  {
+.contacts {
   max-width: 320px;
   margin: 0;
   padding-left: 20px;
   padding-bottom: 24px;
   border: none;
+
   @media (min-width: $tablet-widht) {
     max-width: 768px;
     width: 768px;
     padding: 0;
   }
+
   @media (min-width: $desktop-width) {
     max-width: 1440px;
     width: 1440px;
@@ -20,11 +22,13 @@
   display: flex;
   padding: 0;
   align-items: center;
+
   &::before,
   &::after {
     content: "";
     border-bottom: 2px solid #68b738;
   }
+
   @media (min-width: $tablet-widht) {
     max-width: 768px;
     width: 768px;
@@ -32,6 +36,7 @@
     margin-left: 0;
     margin-bottom: 76px;
   }
+
   @media (min-width: $desktop-width) {
     max-width: 1440px;
     width: 1440px;
@@ -43,10 +48,12 @@
   order: 1;
   margin-left: 20px;
   margin-top: -22px;
+
   @media (min-width: $tablet-widht) {
     margin-top: 10px;
     margin-left: 40px;
   }
+
   @media (min-width: $desktop-width) {
     flex-grow: 11;
     margin-left: 38px;
@@ -68,6 +75,7 @@
   margin: 26px 0 29px;
   font-size: 24px;
   line-height: 26px;
+
   @media (min-width: $tablet-widht) {
     max-width: 514px;
     width: 514px;
@@ -75,6 +83,7 @@
     font-size: 36px;
     line-height: 36px;
   }
+
   @media (min-width: $desktop-width) {
     word-spacing: -0.6px;
   }
@@ -85,6 +94,7 @@
   margin-right: 20px;
   padding: 0;
   list-style-type: none;
+
   @media (min-width: $tablet-widht) {
     max-width: 514px;
     width: 514px;
@@ -92,6 +102,7 @@
     font-size: 36px;
     line-height: 36px;
   }
+
   @media (min-width: $desktop-width) {
     display: flex;
     flex-wrap: wrap;
@@ -105,17 +116,21 @@
 .contacts__item {
   display: flex;
   margin-bottom: 14px;
+
   &:last-of-type {
     margin-bottom: 0;
   }
+
   @media (min-width: $tablet-widht) {
     max-width: 628px;
     width: 628px;
     margin-bottom: 20px;
+
     &:last-of-type {
       margin-bottom: 0;
     }
   }
+
   @media (min-width: $desktop-width) {
     max-width: 572px;
     margin-bottom: 0;
@@ -124,6 +139,7 @@
 
 .contacts__item--email {
   position: relative;
+
   @media (min-width: $desktop-width) {
     margin-right: 78px;
   }
@@ -137,10 +153,12 @@
   width: 17px;
   height: 14px;
   background-image: url("/icons/letter.svg");
+
   @media (min-width: $tablet-widht) {
     top: 18.5px;
     right: 15px;
   }
+
   @media (min-width: $desktop-width) {
     right: 20px;
   }
@@ -158,10 +176,12 @@
   width: 19px;
   height: 14px;
   background-image: url("/icons/phone.svg");
+
   @media (min-width: $tablet-widht) {
     top: 19px;
     right: 14px;
   }
+
   @media (min-width: $desktop-width) {
     right: 18px;
   }
@@ -169,10 +189,12 @@
 
 .contacts__label {
   margin: auto 0;
+
   @media (min-width: $tablet-widht) {
     font-size: 20px;
     line-height: 30px;
   }
+
   @media (min-width: $desktop-width) {
     margin-top: 10px;
   }

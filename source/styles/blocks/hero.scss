@@ -8,11 +8,13 @@
   padding: 0 30px;
   text-align: center;
   color: #ffffff;
-@media (min-width: $tablet-widht) {
+
+  @media (min-width: $tablet-widht) {
     max-width: 768px;
     color: $basic-black;
     text-align: start;
   }
+
   @media (min-width: $desktop-width) {
     max-width: 1440px;
     width: 1440px;
@@ -29,13 +31,15 @@
   left: 0;
   top: 1px;
   background:
-  url("/images/green-patern-mobile.png") top center/ 320px 100% no-repeat,
-  url("/images/cat-bg-mobile.png") top center no-repeat;
+    url("/images/green-patern-mobile.png") top center/ 320px 100% no-repeat,
+    url("/images/cat-bg-mobile.png") top center no-repeat;
   z-index: -1;
   flex-grow: 1;
+
   @media (min-width: $tablet-widht) {
     display: none;
   }
+
   @media (min-width: $desktop-width) {
     display: block;
     left: auto;
@@ -44,8 +48,9 @@
     width: 720px;
     height: calc(100% + 223px);
     margin-top: -223px;
-    background: url("/images/green-patern-mobile.png") top center/720px 100% no-repeat,
-    url("/images/cat-bg-desktop.png") top left no-repeat;
+    background:
+      url("/images/green-patern-mobile.png") top center/720px 100% no-repeat,
+      url("/images/cat-bg-desktop.png") top left no-repeat;
     background-size: 1040px 694px;
   }
 }
@@ -55,6 +60,7 @@
   margin-bottom: 26px;
   font-size: 36px;
   line-height: 36px;
+
   @media (min-width: $tablet-widht) {
     max-width: 416px;
     margin: 0 0 40px 91px;
@@ -62,6 +68,7 @@
     line-height: 60px;
     word-spacing: -1.5px;
   }
+
   @media (min-width: $desktop-width) {
     margin-top: 1px;
     font-size: 60px;
@@ -77,12 +84,14 @@
   font-size: 14px;
   line-height: 14px;
   text-transform: uppercase;
+
   @media (min-width: $tablet-widht) {
     margin-bottom: 50px;
     margin-left: 91px;
     font-size: 20px;
     line-height: 20px;
   }
+
   @media (min-width: $desktop-width) {
     max-width: 416px;
     margin-bottom: 53px;
@@ -93,10 +102,12 @@
   margin: 0;
   margin-left: -10px;
   text-align: center;
+
   @media (min-width: $tablet-widht) {
     margin-top: -83px;
     margin-left: 0;
   }
+
   @media (min-width: $desktop-width) {
     margin-top: -367px;
     margin-left: 456px;
@@ -111,6 +122,7 @@
   margin-left: -10px;
   padding: 11px 20px 9px;
   order: 1;
+
   @media (min-width: $tablet-widht) {
     z-index: 1;
     width: auto;
@@ -120,6 +132,7 @@
     font-size: 20px;
     line-height: 26px;
   }
+
   @media (min-width: $desktop-width) {
     width: 244px;
     margin-left: 90px;

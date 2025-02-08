@@ -5,6 +5,7 @@
   padding-left: 45px;
   line-height: 24px;
   cursor: pointer;
+
   @media (min-width: $tablet-widht) {
     max-width: 400px;
     padding-left: 60px;
@@ -20,6 +21,7 @@
   background-color: $basic-white;
   border-radius: none;
   border: 1px solid #cdcdcd;
+
   @media (min-width: $tablet-widht) {
     width: 40px;
     height: 40px;
@@ -28,6 +30,7 @@
 
 .control-label {
   padding: 6px 0;
+
   @media (min-width: $tablet-widht) {
     font-size: 20px;
     line-height: 30px;
@@ -44,12 +47,14 @@
   width: 18px;
   height: 14px;
   background-image: url("/icons/arrow-checkbox.svg");
+
   @media (min-width: $tablet-widht) {
     top: 11px;
     left: 7px;
     width: 24px;
     height: 19px;
   }
+
   @media (min-width: $desktop-width) {
     left: 6px;
   }
@@ -69,6 +74,7 @@
   border-radius: 50%;
   content: "";
   box-sizing: border-box;
+
   @media (min-width: $tablet-widht) {
     top: 10px;
     left: 10px;
