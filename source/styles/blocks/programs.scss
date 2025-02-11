@@ -1,14 +1,19 @@
 .programs {
+  max-width: 320px;
+  margin: 0 auto;
   padding: 20px;
   font-size: 14px;
   line-height: 18px;
+  background-color: $basic-white;
 
   @media (min-width: $tablet-widht) {
+    max-width: 768px;
     margin-top: -1px;
     padding: 0 30px 43px;
   }
 
   @media (min-width: $desktop-width) {
+    max-width: 1440px;
     padding: 0 110px;
   }
 }

@@ -1,14 +1,16 @@
 .catalog {
   max-width: 320px;
   margin: 0 auto;
+  background-color: $basic-white;
 
   @media (min-width: $tablet-widht) {
     max-width: 768px;
   }
 
   @media (min-width: $desktop-width) {
+    padding-top: 50px;
     max-width: 1440px;
-    margin-bottom: 57px;
+    padding-bottom: 57px;
   }
 }
 
@@ -81,7 +83,7 @@
       width: 100%;
       height: calc(100% - 81px);
       background-color: #f2f2f2;
-      z-index: -1;
+      z-index: 1;
     }
   }
 
@@ -105,6 +107,7 @@
     display: block;
     max-height: 210px;
     margin-bottom: 22px;
+    z-index: 1;
   }
 
   @media (min-width: $desktop-width) {
@@ -116,10 +119,12 @@
   max-width: 140px;
   margin-bottom: 20px;
 
+
   @media (min-width: $tablet-widht) {
     max-width: 250px;
     width: 250px;
     margin-bottom: 0;
+    z-index: 1;
   }
 
   @media (min-width: $desktop-width) {
@@ -232,6 +237,7 @@
   @media (min-width: $tablet-widht) {
     max-width: 250px;
     width: 250px;
+    z-index: 1;
   }
 
   @media (min-width: $desktop-width) {

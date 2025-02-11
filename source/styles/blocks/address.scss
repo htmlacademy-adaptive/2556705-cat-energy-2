@@ -1,6 +1,7 @@
 .address {
   max-width: 320px;
   margin: 0 auto;
+  background-color: $basic-white;
 
   @media (min-width: $tablet-widht) {
     max-width: 768px;

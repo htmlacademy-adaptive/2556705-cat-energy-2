@@ -8,6 +8,8 @@
   padding: 0 30px;
   text-align: center;
   color: #ffffff;
+  background-color: $basic-white;
+  z-index: -2;
 
   @media (min-width: $tablet-widht) {
     max-width: 768px;
@@ -20,6 +22,7 @@
     width: 1440px;
     padding-bottom: 133px;
     padding-left: 100px;
+    z-index: 1;
   }
 }
 
