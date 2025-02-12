@@ -321,24 +321,24 @@
   width: 100%;
   height: 100%;
   background:
-    url("/images/green-patern-mobile.png") top center/ 100% 100%  no-repeat,
-    url("/images/cat-case-mobile@1x.png") top center/ 100% 100% no-repeat;
+  #68B738 url("/images/green-patern-mobile.png") top center/ 100% 100%  no-repeat,
+  #68B738 url("/images/cat-case-mobile@1x.png") top center/ 100% 100% no-repeat;
   z-index: -1;
 
   @media (min-width: $tablet-widht) {
     width: 100%;
     height: 100%;
     background:
-      url("/images/green-patern-mobile.png") top center/ 100% 100% no-repeat,
-      url("/images/cat-case-tablet@1x.png") top center/ 100% 100% no-repeat;
+    #68B738 url("/images/green-patern-mobile.png") top center/ 100% 100% no-repeat,
+    #68B738 url("/images/cat-case-tablet@1x.png") top center/ 100% 100% no-repeat;
   }
 
   @media (min-width: $desktop-width) {
     width: 100%;
     height: 100%;
     background:
-      url("/images/green-patern-mobile.png") top center/ 100% 100% no-repeat,
-      url("/images/cat-case-desktop@1x.png") top center/ 100% 100% no-repeat;
+    #68B738 url("/images/green-patern-mobile.png") top center/ 100% 100% no-repeat,
+    #68B738 url("/images/cat-case-desktop@1x.png") top center/ 100% 100% no-repeat;
   }
 }
 

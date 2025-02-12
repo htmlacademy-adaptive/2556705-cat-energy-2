@@ -1,4 +1,6 @@
 .personalise {
+  display: flex;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0 23px 23px 20px;
   border: none;
@@ -23,6 +25,7 @@
 
 .personalise__item {
   display: flex;
+  flex-wrap: wrap;
   width: 280px;
   margin-bottom: 14px;
 
@@ -70,5 +73,10 @@
     padding: 11px 20px;
     font-size: 20px;
     line-height: 30px;
+
+    &:focus,
+    &:active {
+      padding-left: 19px;
+    }
   }
 }

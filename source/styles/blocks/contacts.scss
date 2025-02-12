@@ -115,6 +115,7 @@
 
 .contacts__item {
   display: flex;
+  flex-wrap: wrap;
   margin-bottom: 14px;
 
   &:last-of-type {
@@ -215,6 +216,11 @@
     padding: 11px 20px;
     font-size: 20px;
     line-height: 30px;
+
+    &:focus,
+    &:active {
+      padding-left: 19px;
+    }
   }
 
   @media (min-width: $desktop-width) {

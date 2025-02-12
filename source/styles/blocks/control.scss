@@ -1,4 +1,6 @@
 .control {
+  display: flex;
+  flex-wrap: wrap;
   position: relative;
   display: block;
   max-width: 280px;
@@ -6,8 +8,8 @@
   line-height: 24px;
   cursor: pointer;
 
-  &:hover {
-    opacity: 60%;
+  &:hover .control__mark{
+    border: 1px solid #bababa;
   }
 
   &:focus .control__mark {
@@ -32,7 +34,6 @@
   width: 30px;
   height: 30px;
   background-color: $basic-white;
-  border-radius: none;
   border: 1px solid #cdcdcd;
 
   @media (min-width: $tablet-widht) {
@@ -96,7 +97,12 @@
   }
 }
 
-.control__input:disabled + .control__mark,
+.control__input:disabled + .control__mark {
+  opacity: 30%;
+  border: 1px solid #bababa;
+}
+
 .control__input:disabled ~ .control__label {
   opacity: 30%;
 }
+

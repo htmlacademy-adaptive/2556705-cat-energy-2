@@ -56,10 +56,19 @@ body {
   padding: 14px 14px 13px 15px;
   flex-grow: 1;
   border: 1px solid #e7e7e7;
+  
   font-family: $primary-font;
   font-size: 16px;
   line-height: 18px;
   text-transform: uppercase;
+
+  &:invalid {
+    border: 2px solid #ff8282;
+  }
+
+  &:placeholder-shown {
+    border: 1px solid #e7e7e7;
+  }
 
   &:hover {
     border: 1px solid #cdcdcd;
@@ -68,10 +77,6 @@ body {
   &:focus,
   &:active {
     border: 2px solid #444444;
-  }
-
-  &:invalid {
-    border: 2px solid #ff8282;
   }
 
   &:disabled {
@@ -85,11 +90,11 @@ input::-webkit-inner-spin-button {
   appearance: none;
   margin: 0;
 }
-
+/*
 .input:placeholder-shown {
   border: 1px solid #e7e7e7;
 }
-
+*/
 .weight-normal {
   font-weight: 400; //атомарный класс
 }
