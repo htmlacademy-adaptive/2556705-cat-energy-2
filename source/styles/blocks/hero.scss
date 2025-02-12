@@ -34,10 +34,16 @@
   left: 0;
   top: 1px;
   background:
-  #68B738 url("/images/green-patern-mobile.png") top center/ 320px 100% no-repeat,
-  #68B738 url("/images/cat-bg-mobile.png") top center no-repeat;
+  #68B738 url("/images/green-patern@1x.png") top center/ 320px 100% no-repeat,
+  #68B738 url("/images/cat-bg-mobile@1x.png") top center/ 320px 100%  no-repeat;
   z-index: -1;
   flex-grow: 1;
+
+  @media (min-resolution: 2dppx) and (max-width: 767px) {
+    background:
+    #68B738 url("/images/green-patern@2x.png") top center/ 320px 100% no-repeat,
+    #68B738 url("/images/cat-bg-mobile@2x.png") top center/ 320px 100% no-repeat;
+  }
 
   @media (min-width: $tablet-widht) {
     display: none;
@@ -52,9 +58,15 @@
     height: calc(100% + 223px);
     margin-top: -223px;
     background:
-    #68B738  url("/images/green-patern-mobile.png") top center/720px 100% no-repeat,
-    #68B738  url("/images/cat-bg-desktop.png") top left no-repeat;
+      url("/images/green-patern@1x.png") top center/720px 100% no-repeat,
+      url("/images/cat-bg-desktop@1x.png") top left no-repeat;
     background-size: 1040px 694px;
+  }
+
+  @media (min-resolution: 2dppx) and (min-width: $desktop-width) {
+    background:
+      url("/images/green-patern@2x.png") top center/720px 100% no-repeat,
+      url("/images/cat-bg-desktop@2x.png") top left no-repeat;
   }
 }
 
