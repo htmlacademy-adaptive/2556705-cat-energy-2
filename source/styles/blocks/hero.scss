@@ -28,7 +28,7 @@
     width: 1440px;
     padding-bottom: 133px;
     padding-left: 100px;
-    z-index: 1;
+
   }
 }
 
@@ -39,34 +39,14 @@
     left: 0;
     top: 1px;
     background:
-    #68B738 url("/images/green-patern@1x.png") top center/ 320px 100% no-repeat,
-    #68B738 url("/images/cat-bg-mobile@1x.png") top center/ 320px 100%  no-repeat;
+      url("/images/cat-bg-mobile@1x.png") top center/ 320px 100%  no-repeat;
     z-index: -1;
     flex-grow: 1;
   }
 
   @media (min-resolution: 2dppx) and (max-width: 767px) {
     background:
-    #68B738 url("/images/green-patern@2x.png") top center/ 320px 100% no-repeat,
-    #68B738 url("/images/cat-bg-mobile@2x.png") top center/ 320px 100% no-repeat;
-  }
-
-  @media (min-width: $desktop-width) {
-    left: auto;
-    right: 0;
-    top: 0;
-    width: 720px;
-    height: calc(100% + 223px);
-    margin-top: -223px;
-    background:
-      url("/images/cat-bg-desktop@1x.png") top left no-repeat;
-    background-size: 1040px 694px;
-    z-index: -1;
-  }
-
-  @media (min-resolution: 2dppx) and (min-width: $desktop-width) {
-    background:
-      url("/images/cat-bg-desktop@2x.png") top left no-repeat;
+      url("/images/cat-bg-mobile@2x.png") top center/ 320px 100% no-repeat;
   }
 }
 
@@ -76,17 +56,6 @@
     height: calc(100% - 178px);
     left: 0;
     top: 1px;
-    background-color: #68B738;
-    opacity: 85%;
-    z-index: -1;
-  }
-  @media (min-width: $desktop-width) {
-    left: auto;
-    right: 0;
-    top: 0;
-    width: 720px;
-    height: calc(100% + 140px);
-    margin-top: -223px;
     background-color: #68B738;
     opacity: 85%;
     z-index: -1;
