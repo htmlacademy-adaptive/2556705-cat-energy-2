@@ -41,12 +41,14 @@
     background:
       url("/images/cat-bg-mobile@1x.png") top center/ 320px 100%  no-repeat;
     z-index: -1;
+    background-size: cover;
     flex-grow: 1;
   }
 
   @media (min-resolution: 2dppx) and (max-width: 767px) {
     background:
       url("/images/cat-bg-mobile@2x.png") top center/ 320px 100% no-repeat;
+      background-size: cover;
   }
 }
 

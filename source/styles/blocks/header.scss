@@ -95,8 +95,7 @@
   }
 }
 
-.header--opened .header__menu-button,
-.header--nojs .header__menu-button {
+.header--opened .header__menu-button {
   @media (max-width: 767px) {
     margin: auto 0;
     width: 24px;
@@ -164,6 +163,25 @@
     background: none;
   }
 }
+
+.header--nojs .header__menu-button {
+  display: none;
+}
+
+.header--nojs .header__wrapper {
+  @media (max-width: 767px) {
+    justify-content: flex-start;
+  }
+}
+
+.header--nojs .header__logo-img-text {
+  @media (max-width: 767px) {
+    margin-left: 66px;
+  }
+}
+
+
+.header--nojs
 
 .header__item {
   position: relative;

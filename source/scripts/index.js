@@ -1,4 +1,5 @@
 /* в этот файл добавляет скрипты*/
+/*
 let navMain = document.querySelector('.header');
 let navToggle = document.querySelector('.header__menu-button');
 
@@ -13,6 +14,7 @@ navToggle.addEventListener('click', function () {
     navMain.classList.remove('header--opened');
   }
 });
+*/
 /*
 function getTextNodesIn(elem, opt_fnFilter) {
   var textNodes = [];
