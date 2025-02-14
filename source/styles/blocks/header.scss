@@ -164,6 +164,12 @@
   }
 }
 
+.header--nojs .header__list {
+  @media (max-width: 767px) {
+    position: static;
+  }
+}
+
 .header--nojs .header__menu-button {
   display: none;
 }
@@ -179,9 +185,6 @@
     margin-left: 66px;
   }
 }
-
-
-.header--nojs
 
 .header__item {
   position: relative;
