@@ -71,6 +71,13 @@
       </button>
       <picture>
         <source media="(min-width: 1440px)"
+          srcset="images/cat-food-desktop@1x.webp 1x, images/cat-food-desktop@2x.webp 2x" width="552" height="499"
+          type="image/webp">
+        <source media="(min-width: 768px)" srcset="images/cat-food-tablet@1x.webp 1x, images/cat-food-tablet@2x.webp 2x"
+          width="709" height="609" type="image/webp">
+        <img class="hero__image" src="images/cat-food-mobile@1x.webp" srcset="images/cat-food-mobile@2x.webp 2x"
+          width="280" height="270" alt="Полезное питание для котов">
+        <source media="(min-width: 1440px)"
           srcset="images/cat-food-desktop@1x.png 1x, images/cat-food-desktop@2x.png 2x" width="552" height="499"
           type="image/png">
         <source media="(min-width: 768px)" srcset="images/cat-food-tablet@1x.png 1x, images/cat-food-tablet@2x.png 2x"
@@ -186,12 +193,20 @@
         <!-- ! Cat-picturies -->
         <div class="example__demo">
           <picture>
+            <source media="(min-width: 768px)" srcset="images/cat-fat-tablet@1x.webp 1x, images/cat-fat-tablet@2x.webp 2x"
+              width="560" height="512" type="image/webp">
+            <img class="example__cat-fat" src="images/cat-fat-mobile@1x.webp" srcset="images/cat-fat-mobile@2x.webp 2x"
+              width="280" height="256" alt="Упитанная кошка">
             <source media="(min-width: 768px)" srcset="images/cat-fat-tablet@1x.png 1x, images/cat-fat-tablet@2x.png 2x"
               width="560" height="512" type="image/png">
             <img class="example__cat-fat" src="images/cat-fat-mobile@1x.png" srcset="images/cat-fat-mobile@2x.png 2x"
               width="280" height="256" alt="Упитанная кошка">
           </picture>
           <picture>
+            <source media="(min-width: 768px)" srcset="images/cat-thin-tablet@1x.webp 1x, images/cat-thin-tablet@2x.webp 2x"
+              width="560" height="512" type="image/webp">
+            <img class="example__cat-small" src="images/cat-thin-mobile@1x.webp" srcset="images/cat-thin-mobile@2x.webp 2x"
+              width="280" height="256" alt="Худая кошка">
             <source media="(min-width: 768px)" srcset="images/cat-thin-tablet@1x.png 1x, images/cat-thin-tablet@2x.png 2x"
               width="560" height="512" type="image/png">
             <img class="example__cat-small" src="images/cat-thin-mobile@1x.png" srcset="images/cat-thin-mobile@2x.png 2x"
@@ -221,10 +236,26 @@
       </div>
     </address>
     <div class="map">
+      <picture>
+        <source media="(min-width: 1440px)"
+          srcset="images/map-desktop@1x.webp 1x, images/map-desktop@2x.webp 2x" width="1440" height="400"
+          type="image/webp">
+        <source media="(min-width: 768px)" srcset="images/map-tablet@1x.webp 1x, images/map-tablet@2x.webp 2x"
+          width="768" height="400" type="image/webp">
+        <img class="map__image" src="images/map-mobile@1x.webp" srcset="images/map-mobile@2x.webp 2x"
+          width="360" height="362" alt="Адрес Html Academy">
+        <source media="(min-width: 1440px)"
+          srcset="images/map-desktop@1x.png 1x, images/map-desktop@2x.png 2x" width="1440" height="400"
+          type="image/png">
+        <source media="(min-width: 768px)" srcset="images/map-tablet@1x.png 1x, images/map-tablet@2x.png 2x"
+          width="768" height="400" type="image/png">
+        <img class="map__image" src="images/map-mobile@1x.png" srcset="images/map-mobile@2x.png 2x"
+          width="360" height="362" alt="Адрес Html Academy">
+      </picture>
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1996.8226088327244!2d30.314833977619585!3d59.968265974930056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5afc31%3A0x5f2ac55f567b2400!2sHTML%20Academy!5e0!3m2!1sru!2sru!4v1738492796544!5m2!1sru!2sru"
-          loading="lazy" allowfullscreen aria-label="Местоположение Html Academy">
-        </iframe>
+        width="360" height="362"  loading="lazy" allowfullscreen aria-label="Местоположение Html Academy">
+      </iframe>
     </div>
   </main>
   <!-- ! Footer -->
