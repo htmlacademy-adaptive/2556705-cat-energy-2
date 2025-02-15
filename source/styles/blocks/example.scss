@@ -1,5 +1,22 @@
 // ! example!!!
 .example {
+  @media (max-width: 767px) {
+    background-color: #eaeaea;
+  }
+  @media (min-width: $tablet-widht) and (max-width: 1439px) {
+    position: relative;
+    &::before {
+      content: "";
+      position: absolute;
+      bottom: 3px;
+      width: 100%;
+      height: 464px;
+      background-color: #eaeaea;
+    }
+  }
+}
+
+.example__container {
   max-width: 320px;
   margin: 0 auto;
   padding: 25px 20px 37px;
