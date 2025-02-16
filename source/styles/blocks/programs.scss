@@ -140,7 +140,6 @@
   }
 }
 
-
 .programs__subtitle {
   max-width: 140px;
   margin: 10px auto 29.5px 70.5px;
@@ -218,6 +217,15 @@
   &:active::before {
     width: 32px;
     background-image: url("/icons/long-arrow.svg");
+    right: 0;
+
+    @media (max-width: 767px) {
+      margin-right: -2px;
+    }
+
+    @media (min-width: $desktop-width) {
+      right: 1px;
+    }
   }
 
   @media (min-width: $tablet-widht) {
