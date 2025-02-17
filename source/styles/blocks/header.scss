@@ -11,18 +11,17 @@
   background-color: $basic-white;
 
   @media (min-width: $tablet-widht) {
-    max-width: $tablet-widht;
+    min-width: 768px;
+    max-width: 768px;
     flex-direction: row;
   }
 
   @media (min-width: $desktop-width) {
+    min-width: 1440px;
     max-width: 1440px;
     flex-direction: row;
-    justify-content: space-between;
-
   }
 }
-
 
 .header__wrapper {
   display: flex;
@@ -122,17 +121,21 @@
 
   @media (min-width: $tablet-widht) {
     display: flex;
-    width: 768px;
+    flex-wrap: wrap;
+    min-width: 436px;
     padding: 0;
-    margin: 25px 33px 64px auto;
-    justify-content: flex-end;
+    margin: 25px 33px 64px 61px;
     list-style-type: none;
   }
 
   @media (min-width: $desktop-width) {
-    margin: 52px 110px 105px 55px;
-    justify-content: flex-end;
-    background: none;
+    position: relative;
+    max-width: 720px;
+    width: 720px;
+    top: 0;
+    margin: 0;
+    margin-left: 319px;
+    padding: 53px 109px 105px 111px;
   }
 }
 
@@ -151,18 +154,27 @@
 
   @media (min-width: $tablet-widht) {
     position: static;
-    width: 768px;
+    min-width: 436px;
     flex-direction: row;
-    margin: 25px 33px 64px auto;
-    justify-content: flex-end;
-  }
-
-  @media (min-width: $desktop-width) {
-    margin: 52px 110px 105px 55px;
-    justify-content: flex-end;
-    background: none;
+    flex-wrap: wrap;
+    margin: 25px 33px 64px 61px;
   }
 }
+
+.header--opened .header__list,
+.header--nojs .header__list,
+.header--closed .header__list {
+  @media (min-width: $desktop-width) {
+    position: relative;
+    max-width: 720px;
+    width: 720px;
+    top: 0;
+    margin: 0;
+    margin-left: 319px;
+    padding: 53px 109px 0 111px;
+  }
+}
+
 
 .header--nojs .header__list {
   @media (max-width: 767px) {
@@ -271,12 +283,8 @@
 
 .header--index .header__list {
   @media (min-width: $desktop-width) {
-    position: relative;
-    max-width: 720px;
-    width: 720px;
-    top: 0;
-    margin: 0;
-    padding: 55px 110px 105px;
+    margin-left: 319px;
+    padding: 53px 109px 105px 111px;
 
     &::before {
       content: "";

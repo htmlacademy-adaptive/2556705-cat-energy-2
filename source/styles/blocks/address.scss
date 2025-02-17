@@ -1,9 +1,11 @@
 .address {
   @media (min-width: $desktop-width) {
-    min-width: 565px;
-    max-width: 1000px;
+    position: relative;
+    min-width: 1440px;
+    max-width: 1440px;
     height: 0;
     max-height: 305px;
+    margin: 0 auto;
   }
 }
 
@@ -31,19 +33,24 @@
   background-color: $basic-white;
 
   @media (min-width: $tablet-widht) {
+    min-width: 768px;
     max-width: 768px;
     padding: 59px 70px 60px;
+    justify-content: space-between;
   }
 
   @media (min-width: $desktop-width) {
-    position: relative;
-    top: 95px;
-    left: 101px;
+    content: "";
+    position: absolute;
+    top: 96px;
+    left: 110px;
     min-width: 565px;
     max-width: 1000px;
     max-height: 305px;
     width: fit-content;
-    padding: 60px 80px;
+    padding: 55px 80px;
+    padding-right: 0;
+    justify-content: flex-start;
     background-color: $basic-white;
     z-index: 2;
   }
@@ -53,12 +60,13 @@
   max-width: 140px;
   width: 125px;
   margin: 0;
-  margin-right: 10px;
+  margin-right: 13px;
   font-size: 16px;
   text-transform: uppercase;
 
   @media (min-width: $tablet-widht) {
     max-width: 164px;
+    width: 163px;
     margin-top: 1.5px;
     font-size: 20px;
     line-height: 26px;
@@ -67,7 +75,9 @@
 
   @media (min-width: $desktop-width) {
     max-height: 185px;
-    margin-right: 5px;
+    margin-top: 6.5px;
+    margin-right: 87px;
+    margin-bottom: 5px;
     overflow: hidden;
   }
 }
@@ -75,15 +85,15 @@
 .address__wrapper {
   display: flex;
   flex-direction: column;
-  max-width: 140px;
-  margin-left: 5px;
+  max-width: 138px;
+  margin-left: 2px;
   font-family: $secondary-font;
   font-size: 14px;
   color: $basic-grey-font;
 
   @media (min-width: $tablet-widht) {
     max-width: 157px;
-    margin-left: auto;
+
     justify-content: space-between;
     font-size: 16px;
     text-align: end;
@@ -92,7 +102,9 @@
   @media (min-width: $desktop-width) {
     overflow: hidden;
     max-height: 185px;
-    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     text-align: start;
   }
 }

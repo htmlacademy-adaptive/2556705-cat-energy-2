@@ -40,7 +40,7 @@ getTextNodesIn(document.body).forEach((item) => { item.textContent = "У мен�
 */
 
 // Недополнение
-
+/*
 function getTextNodesIn(elem, opt_fnFilter) {
   var textNodes = [];
   if (elem) {
@@ -63,4 +63,4 @@ function getTextNodesIn(elem, opt_fnFilter) {
 }
 
 getTextNodesIn(document.body).forEach((item) => { item.textContent = "Тст" })
-
+*/

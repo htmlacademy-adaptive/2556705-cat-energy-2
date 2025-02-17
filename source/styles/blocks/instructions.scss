@@ -10,6 +10,7 @@
   z-index: -1;
 
   @media (min-width: $tablet-widht) {
+    min-width: 768px;
     max-width: 768px;
     padding: 0 110px 60px 31px;
 

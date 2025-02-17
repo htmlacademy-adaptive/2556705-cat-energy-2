@@ -26,7 +26,7 @@
   @media (min-width: $desktop-width) {
     max-width: 1440px;
     width: 1440px;
-    padding-bottom: 133px;
+    padding-bottom: 137px;
     padding-left: 100px;
 
   }
@@ -35,7 +35,7 @@
 .hero::before {
   @media (max-width: 767px) {
     width: 320px;
-    height: calc(100% - 178px);
+    height: calc(100% - 183px);
     left: 0;
     top: 1px;
     background:
@@ -54,7 +54,7 @@
 .hero::after {
   @media (max-width: 767px) {
     width: 320px;
-    height: calc(100% - 178px);
+    height: calc(100% - 183px);
     left: 0;
     top: 1px;
     background-color: #68B738;
@@ -120,7 +120,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    margin-top: -367px;
+    margin-top: -370px;
     margin-left: 456px;
     z-index: 2;
   }
@@ -133,6 +133,7 @@
   margin: 0 auto;
   margin-top: -1.5px;
   margin-left: -10px;
+  margin-bottom: 4px;
   padding: 11px 20px 9px;
   order: 1;
   z-index: 2;
