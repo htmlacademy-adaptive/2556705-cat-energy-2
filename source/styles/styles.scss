@@ -1,6 +1,5 @@
 /* GLOBAL */
 @import "./common/variables.scss";
-@import "./common/mixins.scss";
 @import "./common/fonts.scss";
 @import "./common/global.scss";
 @import "./common/visually-hidden.scss";
@@ -19,11 +18,3 @@
 @import "./blocks/catalog.scss";
 @import "./blocks/additional-products.scss";
 @import "./blocks/subscription.scss";
-// ! Form
-@import "./blocks/form.scss";
-@import "./blocks/personalise.scss";
-@import "./blocks/goal.scss";
-@import "./blocks/control.scss";
-@import "./blocks/contacts.scss";
-@import "./blocks/comments.scss";
-@import "./blocks/additional.scss";
