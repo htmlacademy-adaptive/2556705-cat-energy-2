@@ -1,0 +1,231 @@
+//  ! footer
+.footer {
+  background-color: #f2f2f2;
+}
+
+.footer__wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 320px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+
+  @media (min-width: $tablet-widht) {
+    @include row-wrap;
+    min-width: 768px;
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 33px 30px;
+    padding-bottom: 30px;
+    align-items: center;
+  }
+
+  @media (min-width: $desktop-width) {
+    min-width: 1440px;
+    max-width: 1440px;
+    padding: 46px 109px;
+    padding-bottom: 42px;
+  }
+}
+
+.footer__logo {
+  display: block;
+  padding-bottom: 20px;
+
+  &:hover,
+  &:focus {
+    opacity: 80%;
+  }
+
+  &:active {
+    opacity: 60%;
+  }
+
+  @media (min-width: $tablet-widht) {
+    min-height: 37px;
+    padding: 6.5px 1px;
+  }
+}
+
+.footer__social-list {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 280px;
+  margin: 0;
+  margin-top: -4px;
+  padding: 20px 0 19px 25px;
+  list-style-type: none;
+
+  @media (min-width: $tablet-widht) {
+    max-width: 400px;
+    width: 400px;
+    justify-content: flex-start;
+    margin-top: 1.5px;
+    padding-left: 147px;
+    margin-right: 16px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-top: 0;
+    margin-right: 272px;
+    margin-left: 257px;
+  }
+}
+
+.footer__social-list::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  border-top: 1px solid #d9d9d9;
+
+  @media (min-width: $tablet-widht) {
+    display: none;
+  }
+}
+
+.footer__social-list::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  border-bottom: 1px solid #d9d9d9;
+
+  @media (min-width: $tablet-widht) {
+    display: none;
+  }
+}
+
+.footer__social-item {
+  min-width: 52px;
+  min-height: 22px;
+  margin: 1px 0;
+}
+
+.footer__social-link {
+  &::before {
+    background-color: #666666;
+  }
+
+  &:hover::before,
+  &:focus::before,
+  &:active::before {
+    background-color: #68b738;
+  }
+
+  &:active::before {
+    opacity: 30%;
+  }
+
+  @media (min-width: $tablet-widht) {
+    display: inline-block;
+    min-height: 37px;
+    height: 37px;
+    padding: 8px 1px 7px;
+  }
+}
+
+.footer__social-link--vk {
+  &::before {
+    content: "";
+    display: block;
+    width: 28px;
+    height: 22px;
+    mask-image: url("/icons/vk.svg");
+    mask-size: 27px 17px;
+    mask-repeat: no-repeat;
+    mask-position: center;
+  }
+}
+
+.footer__social-link--youtube {
+  &::before {
+    content: "";
+    display: block;
+    width: 28px;
+    height: 22px;
+    mask-image: url("/icons/youtube.svg");
+    mask-size: 24px 19px;
+    mask-repeat: no-repeat;
+    mask-position: center;
+  }
+}
+
+.footer__social-link--telegram {
+  &::before {
+    content: "";
+    display: block;
+    width: 28px;
+    height: 22px;
+    mask-image: url("/icons/telegram.svg");
+    mask-size: 20px 17px;
+    mask-repeat: no-repeat;
+    mask-position: center;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-top: 1px;
+  }
+}
+
+.footer__copyright {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+
+  font-family: $secondary-font;
+  font-size: 16px;
+  text-decoration: none;
+  color: #444444;
+
+  &:hover::before,
+  &:focus::before,
+  &:active::before {
+    background-color: #68b738;
+  }
+
+  &:active {
+    opacity: 30%;
+  }
+
+  @media (min-width: $tablet-widht) {
+    min-width: 118px;
+    margin-top: -2px;
+    margin-right: -1px;
+    margin-left: auto;
+    padding: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin: 0;
+    margin-left: auto;
+    margin-top: -3px;
+  }
+}
+
+.footer__copyright::before {
+  content: "";
+  display: block;
+  width: 27px;
+  height: 34px;
+  right: 2px;
+  mask-image: url("/icons/html-academy.svg");
+  mask-size: 27px 34px;
+  mask-repeat: no-repeat;
+  background-color: #666666;
+  order: 2;
+}
+
+.footer__copyright-name {
+  max-width: 200px;
+  margin: auto 0;
+
+  @media (min-width: $tablet-widht) {
+    margin-right: 23px;
+  }
+}
