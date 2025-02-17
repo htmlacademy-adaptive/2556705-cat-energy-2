@@ -155,8 +155,7 @@
   @media (min-width: $tablet-widht) {
     position: static;
     min-width: 436px;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     margin: 25px 33px 64px 61px;
   }
 }
@@ -295,7 +294,7 @@
       width: 720px;
       height: 694px;
       background:
-        linear-gradient(to top, rgba($color: #68B738, $alpha: 0.85) 0 100% ),
+        linear-gradient(to top, rgba($color: #68b738, $alpha: 0.85) 0 100%),
         url("/images/cat-bg-desktop@1x.png") top left no-repeat;
       background-size: 1040px 694px;
     }
@@ -304,9 +303,9 @@
   @media (min-resolution: 2dppx) and (min-width: $desktop-width) {
     &::before {
       background:
-      linear-gradient(to top, rgba($color: #68B738, $alpha: 0.85) 0 100% ),
-      url("/images/cat-bg-desktop@2x.png") top left no-repeat;
-    background-size: 1040px 694px;
+        linear-gradient(to top, rgba($color: #68b738, $alpha: 0.85) 0 100%),
+        url("/images/cat-bg-desktop@2x.png") top left no-repeat;
+      background-size: 1040px 694px;
     }
   }
 }

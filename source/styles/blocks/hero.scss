@@ -28,7 +28,6 @@
     width: 1440px;
     padding-bottom: 137px;
     padding-left: 100px;
-
   }
 }
 
@@ -38,16 +37,14 @@
     height: calc(100% - 183px);
     left: 0;
     top: 1px;
-    background:
-      url("/images/cat-bg-mobile@1x.png") top center/ 320px 100%  no-repeat;
+    background: url("/images/cat-bg-mobile@1x.png") top center/ 320px 100%  no-repeat;
     background-size: cover;
     flex-grow: 1;
   }
 
   @media (min-resolution: 2dppx) and (max-width: 767px) {
-    background:
-      url("/images/cat-bg-mobile@2x.png") top center/ 320px 100% no-repeat;
-      background-size: cover;
+    background: url("/images/cat-bg-mobile@2x.png") top center/ 320px 100% no-repeat;
+    background-size: cover;
   }
 }
 
@@ -57,7 +54,7 @@
     height: calc(100% - 183px);
     left: 0;
     top: 1px;
-    background-color: #68B738;
+    background-color: #68b738;
     opacity: 85%;
   }
 }

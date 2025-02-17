@@ -256,8 +256,7 @@
 // ! Show-all
 .catalog__show-all-item {
   position: relative;
-  flex-wrap: wrap;
-  flex-direction: column;
+  flex-flow: column wrap;
   align-items: center;
   padding: 78px 20px 18px;
   display: flex;

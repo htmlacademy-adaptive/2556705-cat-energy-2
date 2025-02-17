@@ -2,13 +2,12 @@
   display: flex;
   flex-wrap: wrap;
   position: relative;
-  display: block;
   max-width: 280px;
   padding-left: 45px;
   line-height: 24px;
   cursor: pointer;
 
-  &:hover .control__mark{
+  &:hover .control__mark {
     border: 1px solid #bababa;
   }
 
@@ -105,4 +104,3 @@
 .control__input:disabled ~ .control__label {
   opacity: 30%;
 }
-
