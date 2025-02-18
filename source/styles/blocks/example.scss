@@ -243,7 +243,23 @@
     position: absolute;
     top: 0;
     margin-top: -136px;
-    left: 874px;
+    left: 46.2%
+  }
+
+  @media (min-width: 1500px) {
+    left: 46.6%;
+  }
+
+  @media (min-width: 1650px) {
+    left: 46.9%;
+  }
+
+  @media (min-width: 1800px) {
+    left: 47.1%;
+  }
+
+  @media (min-width: 1950px) {
+    left: 47.3%;
   }
 }
 
