@@ -27,8 +27,7 @@
   list-style-type: none;
 
   @media (min-width: $desktop-width) {
-    display: flex;
-    justify-content: center;
+    @include row-wrap;
   }
 }
 
@@ -54,17 +53,22 @@
   }
 
   @media (min-width: $desktop-width) {
+    display: flex;
+    flex-direction: column;
     max-width: 570px;
     width: 570px;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    margin-bottom: 5px;
     margin-right: 80px;
   }
 }
 
 .programs__item:last-of-type {
-  margin-bottom: 0;
+  @media (max-width: 1439px) {
+    margin-bottom: 0;
+  }
 }
 
 .programs__item:nth-of-type(2n) {
@@ -241,6 +245,10 @@
   }
 
   @media (min-width: $desktop-width) {
+    flex-grow: 1;
+    align-self: flex-start;
+    display: grid;
+    align-items: end;
     margin-left: 53.5px;
     margin-bottom: 55px;
     word-spacing: 0.2px;
@@ -262,7 +270,8 @@
   }
 
   @media (min-width: $desktop-width) {
-    top: 14px;
+    top: auto;
+    bottom: 14px;
     right: 9px;
   }
 }
