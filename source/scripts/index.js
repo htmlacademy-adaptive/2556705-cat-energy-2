@@ -14,6 +14,7 @@ navToggle.addEventListener('click', function () {
     navMain.classList.remove('header--opened');
   }
 });
+
 // Переполнение
 /*
 function getTextNodesIn(elem, opt_fnFilter) {

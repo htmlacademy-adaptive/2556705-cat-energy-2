@@ -16,31 +16,3 @@ body {
   background-color: $basic-white;
   overflow-x: hidden;
 }
-
-.button {
-  padding: 10px;
-  font-family: $primary-font;
-  font-size: 16px;
-  line-height: 20px;
-  color: $basic-white;
-  text-align: center;
-  text-transform: uppercase;
-  text-decoration: none;
-  border: none;
-  background-color: #68b738;
-  cursor: pointer;
-
-  &:hover,
-  &:focus,
-  &:active {
-    background-color: #5eaa2f;
-  }
-
-  &:active {
-    color: rgba(255, 255, 255, 0.3);
-  }
-}
-
-.weight-normal {
-  font-weight: 400; //атомарный класс
-}
