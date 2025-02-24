@@ -352,6 +352,15 @@
   color: #111111;
   text-decoration: none;
 
+  &:hover,
+  &:focus {
+    opacity: 60%;
+  }
+
+  &:active {
+    opacity: 30%;
+  }
+
   @media (min-width: $tablet-widht) {
     display: flex;
     width: 324px;
