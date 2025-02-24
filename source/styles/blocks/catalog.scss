@@ -112,6 +112,15 @@
 .catalog__big-item-link {
   max-height: 107px;
 
+  &:hover,
+  &:focus {
+    opacity: 60%;
+  }
+
+  &:active {
+    opacity: 30%;
+  }
+
   @media (min-width: $tablet-widht) {
     display: block;
     max-height: 210px;
@@ -149,6 +158,15 @@
   text-transform: uppercase;
   text-decoration: none;
   color: #222222;
+
+  &:hover,
+  &:focus {
+    opacity: 60%;
+  }
+
+  &:active {
+    opacity: 30%;
+  }
 }
 
 .catalog__content-title {
@@ -333,6 +351,15 @@
   text-transform: uppercase;
   color: #111111;
   text-decoration: none;
+
+  &:hover,
+  &:focus {
+    opacity: 60%;
+  }
+
+  &:active {
+    opacity: 30%;
+  }
 
   @media (min-width: $tablet-widht) {
     display: flex;
